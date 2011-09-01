@@ -1,0 +1,97 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="">
+  <meta http-equiv="X-UA-Compatible" content="">
+
+  <title>Mashing up flickr in the client with jQuery</title>
+  <meta name="description" content="Creating an animated slideshow with flickr and jQuery. No Flash required.
+">
+  <meta name="author" content="Phil Hawksworth">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="">
+
+    <!-- Place favicon.ico & apple-touch-icon.png
+        in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+    <link rel="stylesheet" href="/media/css/base.css">
+  <link rel="stylesheet" href="/media/css/syntax.css">
+  
+</head>
+<body class="blog">
+    <div class="header">
+        <h1>hawksworx</h1>
+        <h2>noodlings about the web, technology and whatnot</h2>
+        <ul class="nav" role="navigtion">
+            <li><a href="/" class="home">home</a></li>
+            <li><a href="/blog" class="blog">blog</a></li>
+            <li><a href="/feed" class="feed">feed</a></li>
+        </ul>
+    </div>
+    <div class="content">
+            <article class="post">
+    <h1>Mashing up flickr in the client with jQuery</h1>
+    <div class="meta">
+        <time datetime="2009-02-15">
+            posted on 15 Feb 2009
+        </time> 
+                 with the tags 
+        <ul class="tags">
+                    <li><a href="/blog/tags/javascript">javascript</a></li>
+                    <li><a href="/blog/tags/jquery">jquery</a></li>
+                    <li><a href="/blog/tags/mash-ups">mash-ups</a></li>
+                    <li> and <a href="/blog/tags/development">development</a></li>
+                </ul>
+                <span class="permalink"><a href="/blog/mashing-up-flickr-in-the-client-with-jquery">permalink</a><span></span></span>
+    </div>
+
+    <p><img src="http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg" alt="Include Beer" />
+<p class="excerpt">
+    Recently I saw Tim Stevens <a href="http://twitter.com/san1t1/status/1193906661">post on Twitter</a> about a slide show he had built using his <a href="http://www.liveloom.com/">Liveloom</a> application. His slide show grabs some photos from Flickr tagged with &#8216;Osmosoft&#8217; and then renders them with all manner of visual effects using Flex.  While the visual effects available via Tim&#8217;s app are impressive, I&#8217;m a big advocate of open web standards and enjoy making things from <span class="caps">HTML</span> and Javascript, rather than using tools like&nbsp;Flex.
+</p>
+<p>
+    My first encounter with the slide show made by Liveloom was on an iPhone where it couldn&#8217;t run. The temptation to cobble together a simple Flickr mashup which could operate in any Javascript capable browser was too much to resist.  Let&#8217;s not pretend, that there aren&#8217;t already slide show mashups galore, or that I was going to be able to rival some of the advanced visual effects that Liveloom can offer, but making a simple, attractive slide show which could run on lots of devices seemed like a fun and valuable exercise.  I was also keen to see just how quickly and easily I could produce this using jQuery.  I&#8217;m forever going on about how good jQuery is at manipulating the <span class="caps">DOM</span>, so this seemed like a good chance to demonstrate that.  I shared the result my efforts as the &#8216;Poloaroiderizer&#8217; and after getting some great feedback, promoted it to its very own&nbsp;domain.
+</p>
+<p>
+    Check it out over at <a href="http://polaroiderizer.com">polaroiderizer.com</a> As it turns out, the task was incredibly simple and took just a few hours one evening. The interface is rendered with <span class="caps">HTML</span> and <span class="caps">CSS</span>. As such, it will work in any modern browser.  I used jQuery to request <a href="http://ajaxian.com/archives/jsonp-json-with-padding"><span class="caps">JSONP</span></a> from the Flickr <span class="caps">API</span>. <span class="caps">JSPONP</span> gets you around the cross domain scripting restrictions and delivers <span class="caps">JSON</span> to the browser which is a snap to parse and render.  There is no logic on the server. All of my code is run in the browser.  The animations are provided by <span class="caps">CSS</span> and <span class="caps">DOM</span> manipulation, made simple by <a href="http://docs.jquery.com/Effects/animate">jQuery&#8217;s animation functions</a>.  The display needs Javascript to render, so without it Polaroiderizer is a bit toothless, but that doesn&#8217;t mean we can forget about those without Javascript. If you submit a flickr tag while you don&#8217;t have Javascript capabilities, the form will submit your tag to the standard flickr interface and you&#8217;ll find yourself at the flickr search results page.  This is another example of progressive enhancement. A topic close to my heart that I tried to demonstrate recently on <a href="http://unobtrusify.com">Unobtrusify</a>.
+</p>
+<p>
+    Another little bonus of building this slide show app this way, is that it is super-easy to share the results. I made sure that the tag entered was echoed into the address of the page as the page fragment identifier. Manipulating and interrogating the frag id can be useful in Ajax applications as my colleague <a href="http://softwareas.com/fun-with-fragment-identifiers">Michael Mahemoff explained recently</a>.  When the page loads, it looks for a tag stored in the frag id as its starting point. That means you can bookmark slide shows and share them as easily as email a <span class="caps">URI</span>. Here are a&nbsp;few:
+</p>
+<ul>
+    <li><a href="http://polaroiderizer.com/#PhilHawksworth">http://polaroiderizer.com/#PhilHawksworth</a></li>
+    <li><a href="http://polaroiderizer.com/#TheWebIsAgreement">http://polaroiderizer.com/#TheWebIsAgreement</a></li>
+    <li><a href="http://polaroiderizer.com/#TED2009">http://polaroiderizer.com/#<span class="caps">TED2009</span></a></li>
+</ul></p>    
+    
+    <ul class="blog-nav">
+        <!-- <a href="/blog">Back to the blog listing</a> -->
+                <li>
+            <a href="/blog/leveraging-jquery-and-jquery-plugins-in-tiddlyWiki" title="Leveraging jQuery and jQuery plugins in TiddlyWiki">More recent post</a>
+            <p>Leveraging jQuery and jQuery plugins in TiddlyWiki</p>
+        </li>
+                        <li>
+            <a href="/blog/unobtrusify-your-javascript" title="Unobtrusify your Javascript">Earlier post</a>
+            <p>Unobtrusify your Javascript</p>
+        </li>
+            </ul>
+    
+    
+    
+    
+</article>    </div>
+    <div class="footer">
+        <h1>hawksworx</h1>
+        <h2>noodlings about the web, technology and whatnot</h2>
+        <ul class="nav" role="navigtion">
+            <li><a href="/" class="home">home</a></li>
+            <li><a href="/blog" class="blog">blog</a></li>
+            <li><a href="/feed" class="feed">feed</a></li>
+        </ul>
+    </div>
+            </body>
+</html>

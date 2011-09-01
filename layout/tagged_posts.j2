@@ -1,0 +1,13 @@
+{% extends "base.j2" %}
+{% from "macros.j2" import render_post_title with context  %}
+{% from "macros.j2" import render_post_meta with context  %}
+
+{% block main %}
+
+<h1 class="tag title">Blog posts tagged <i>{{ tag.name }}</i>:</h1>
+<div class="archive">
+{% for resource in walker() -%}
+  {{ render_post_meta(resource) }}
+{%- endfor %}
+</div>
+{% endblock %}

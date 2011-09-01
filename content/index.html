@@ -1,0 +1,38 @@
+---
+extends: base.j2
+default_block: content
+title: Hawksworx - The blog of Phil Hawksworth
+description: Noodlings about the web and whatnot by Phil Hawksworth
+section: home
+---
+
+<p>Latest from the hawksworx blog:</p>
+
+{% from "macros.j2" import render_post_meta with context %}
+{% set latest = site.content.walk_resources_sorted_by_time()|first %}
+{% if latest -%}
+    {{ render_post_meta(latest) }}
+{%- endif %}
+
+<h1>About me</h1>
+<h2>Hi. I'm Phil Hawksworth. Thanks for popping by!</h2>
+<p>I'm a web developer working in London at an agency called <a href="http://theteam.co.uk" rel="me org uri">The Team</a> where I work among a talented group of developers as Technical Director.</p>
+<p>This site is the place where I post whatever feels important to me, mostly techie posts about web development and technology, but occasionally about fun family or food.</p>
+<p>I'm a geek for all things to do with The Web and I crop up from time to time on other sites around and about. Find me on, among others, these sites:</p>
+<ul>
+    <li><a href="http://twitter.com/philhawksworth" rel="me">http://twitter.com/philhawksworth</a></li>
+    <li><a href="http://flickr.com/people/philhawksworth" rel="me">http://flickr.com/people/philhawksworth</a></li>
+    <li><a href="http://lanyrd.com/philhawksworth" rel="me">http://lanyrd.com/philhawksworth</a></li>
+    <li><a href="http://www.slideshare.net/philhawksworth" rel="me">http://www.slideshare.net/philhawksworth</a></li>
+    <li><a href="http://www.linkedin.com/in/philhawksworth" rel="me">http://linkedin.com/in/philhawksworth</a></li>
+    <li><a href="http://huffduffer.com/philhawkswort" rel="me">http://huffduffer.com/philhawksworth</a> </li>
+    <li><a href="http://www.quora.com/phil-hawksworth" rel="me">http://www.quora.com/phil-hawksworth</a> </li>
+    <li><a href="http://www.last.fm/user/phawksworth/" rel="me">http://www.last.fm/user/phawksworth</a> </li>
+    <li><a href="http://upcoming.yahoo.com/user/195539/" rel="me">http://upcoming.yahoo.com/user/195539</a> </li>
+    <li><a href="http://dopplr.com/traveller/philhawksworth" rel="me">http://dopplr.com/traveller/philhawksworth</a> </li>
+    <li><a href="http://www.vimeo.com/philhawksworth" rel="me">http://vimeo.com/philhawksworth</a> </li>
+    <li><a href="http://del.icio.us/philhawksworth" rel="me">http://del.icio.us/philhawksworth</a> </li>
+    <li><a href="http://friendfeed.com/philhawksworth" rel="me">http://friendfeed.com/philhawksworth</a> </li>
+</ul>
+
+

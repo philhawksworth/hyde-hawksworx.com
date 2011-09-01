@@ -1,0 +1,59 @@
+{% macro render_excerpt(res, class=None) %}
+{% refer to res.url as post %}
+<article {{'class='~class if class }}>
+<h1><a href="{{ content_url(res.url) }}">{{ res.meta.title }}</a></h1>
+<a href="{{ content_url(res.url) }}">{{ post.image|markdown|typogrify }}</a>
+{{ post.excerpt|markdown|typogrify }}
+<time datetime="{{ res.meta.created.strftime('%Y-%m-%d') }}">
+    Posted: {{ res.meta.created.strftime('%a, %d %b %Y') }}
+</time>
+</article>
+{% endmacro %}
+
+
+{% macro render_post_title(res) %}
+{% refer to res.url as post %}
+<article class="post">
+    <h1><a href="{{ content_url(res.url) }}">{{ res.meta.title }}</a></h1>
+    <div class="meta">
+        <time datetime="{{ res.meta.created.strftime('%Y-%m-%d') }}">
+            posted on {{ res.meta.created.strftime('%d %b %Y') }}
+        </time> 
+        {% if res.meta.tags %}
+         with the tags 
+        <ul class="tags">
+        {% for tag in res.meta.tags %}
+            <li>{% if loop.last %} and {% endif %}<a href="{{ content_url('blog/tags/'~tag~'.html') }}">{{ tag }}</a></li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+        <!-- <span class="permalink"><a href="{{ content_url(res.url) }}">permalink</a><span></span></span> -->
+    </div>
+</article>
+{% endmacro %}
+
+{% macro render_post_meta(res) %}
+{% refer to res.url as post %}
+<article class="post">
+<h1><a href="{{ content_url(res.url) }}">{{ res.meta.title }}</a></h1>
+
+    <div class="meta">
+        <time datetime="{{ res.meta.created.strftime('%Y-%m-%d') }}">
+            posted on {{ res.meta.created.strftime('%d %b %Y') }}
+        </time> 
+        {% if res.meta.tags %}
+         with the tags 
+        <ul class="tags">
+        {% for tag in res.meta.tags %}
+            <li>{% if loop.last %} and {% endif %}<a href="{{ content_url('blog/tags/'~tag~'.html') }}">{{ tag }}</a></li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+        <span class="permalink"><a href="{{ content_url(res.url) }}">permalink</a><span></span></span>
+    </div>
+    {{ post.excerpt|markdown|typogrify }}
+    <p><a href="{{ content_url(res.url) }}">read more...</a></p>
+</article>
+{% endmacro %}
+
+

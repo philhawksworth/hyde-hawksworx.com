@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>
+        BASIC blog excerpts feed    </title>
+        <link href="blog/excerpts.xml" rel="self" />
+    
+        <link href="/"/>
+    
+        
+    <updated>2011-09-01T09:02:44Z</updated>
+
+    <id>/blog/excerpts.xml/</id>
+
+            <entry>
+            <title type="html">Social media did not cause the London riots</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/social-media-did-not-cause-the-london-riots"/>
+            <updated>2011-08-09T10:00:00Z</updated>
+            <published>2011-08-09T10:00:00Z</published>
+            <id>/blog/social-media-did-not-cause-the-london-riots</id>
+                        <category   scheme="/blog/tags"
+                        term="observations"
+                        label="Observations" />
+                        <category   scheme="/blog/tags"
+                        term="opinion"
+                        label="Opinion" />
+                        <category   scheme="/blog/tags"
+                        term="london"
+                        label="London" />
+            
+            <content type="html">
+                &lt;img src=&#34;/media/images/london-cleanup.jpg&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    It seems to me that this is the time for some responsibility. In the face of the kind of &lt;a href=&#34;http://www.bbc.co.uk/news/uk-england-london-14450248&#34; title=&#34;BBC News - Further riots in London as violence spreads across England&#34;&gt;civil unrest that we have witnessed&lt;/a&gt; in the &lt;span class=&#34;caps&#34;&gt;UK&lt;/span&gt; over the last few days, starting in north London and spreading to many other areas across the city and then to other cities we must have a return to responsible behaviour.  I&amp;#8217;m not just talking about the people turning to criminal acts, young and old, men and women, but also about, &lt;em&gt;specifically&lt;/em&gt; about, the&amp;nbsp;media.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Getting started with Node at AsyncJS</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/getting-started-with-node-at-asyncjs"/>
+            <updated>2011-05-27T10:00:00Z</updated>
+            <published>2011-05-27T10:00:00Z</published>
+            <id>/blog/getting-started-with-node-at-asyncjs</id>
+                        <category   scheme="/blog/tags"
+                        term="javascript"
+                        label="Javascript" />
+                        <category   scheme="/blog/tags"
+                        term="talks"
+                        label="Talks" />
+                        <category   scheme="/blog/tags"
+                        term="nodejs"
+                        label="Nodejs" />
+            
+            <content type="html">
+                &lt;img src=&#34;/media/images/getting-started-with-node-at-asyncjs.jpg&#34; alt=&#34;Getting started with NodeJS&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    Yesterday I had the pleasure of talking about &lt;a href=&#34;http://nodejs.org&#34;&gt;Node&lt;/a&gt; at &lt;a href=&#34;http://asyncjs.com/intro-nodejs/&#34;&gt;AsyncJS&lt;/a&gt;&lt;a&gt;&lt;/a&gt;, a meetup of smart and motivated developers and tech enthusiasts in&amp;nbsp;Brighton.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Developing a side project</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/developing-a-side-project"/>
+            <updated>2011-05-09T10:00:00Z</updated>
+            <published>2011-05-09T10:00:00Z</published>
+            <id>/blog/developing-a-side-project</id>
+                        <category   scheme="/blog/tags"
+                        term="news"
+                        label="News" />
+                        <category   scheme="/blog/tags"
+                        term="observations"
+                        label="Observations" />
+                        <category   scheme="/blog/tags"
+                        term="projects"
+                        label="Projects" />
+            
+            <content type="html">
+                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    One of the nice things about being a web developer today, is that thanks to the incredibly low cost of resilient, scalable hosting infrastructure, and the abundance of free tools and technologies, you&amp;#8217;re empowered to create things and release them to the a huge audience. You can experiment with much less risk than ever before. We&amp;#8217;re seeing evidence of this with so many entrepreneurs and startups entering the market. Some more successfully than&amp;nbsp;others. 
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">How to create and distribute lovely screencasts</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/how-to-create-and-distribute-lovely-screencasts"/>
+            <updated>2011-05-09T10:00:00Z</updated>
+            <published>2011-05-09T10:00:00Z</published>
+            <id>/blog/how-to-create-and-distribute-lovely-screencasts</id>
+                        <category   scheme="/blog/tags"
+                        term="news"
+                        label="News" />
+                        <category   scheme="/blog/tags"
+                        term="observations"
+                        label="Observations" />
+                        <category   scheme="/blog/tags"
+                        term="projects"
+                        label="Projects" />
+            
+            <content type="html">
+                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">The next generation stack. Is NodeJS ready to go mainstream?</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/the-next-generation-stack-is-nodejs-ready-to-go-mainstream"/>
+            <updated>2010-09-10T10:00:00Z</updated>
+            <published>2010-09-10T10:00:00Z</published>
+            <id>/blog/the-next-generation-stack-is-nodejs-ready-to-go-mainstream</id>
+                        <category   scheme="/blog/tags"
+                        term="javascript"
+                        label="Javascript" />
+                        <category   scheme="/blog/tags"
+                        term="nodejs"
+                        label="Nodejs" />
+            
+            <content type="html">
+                &lt;img src=&#34;/media/images/the-next-generation-stack-is-nodejs-ready-to.png&#34; alt=&#34;nnnn - the node stack&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    I&amp;#8217;ve been building things with web technologies professionally for a little more than 11 years now. In that time, I&amp;#8217;ve used a variety of technology stacks with varying degrees of success and comfort.  While at university, I was making use of the faculty infrastructure and so was building the simplest of sites on top of Apache on their unix environment. Then as I moved into developing Web applications for a living, I found myself working on Windows &lt;span class=&#34;caps&#34;&gt;NT&lt;/span&gt; servers with &lt;span class=&#34;caps&#34;&gt;IIS&lt;/span&gt; and &lt;span class=&#34;caps&#34;&gt;ASP&lt;/span&gt;. Later on I moved into using the &lt;span class=&#34;caps&#34;&gt;LAMP&lt;/span&gt; stack, which after the initial shock to the system, was a revelation and I have never looked&amp;nbsp;back.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Hitched</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/hitched"/>
+            <updated>2010-07-27T10:00:00Z</updated>
+            <published>2010-07-27T10:00:00Z</published>
+            <id>/blog/hitched</id>
+                        <category   scheme="/blog/tags"
+                        term="personal"
+                        label="Personal" />
+                        <category   scheme="/blog/tags"
+                        term="announcements"
+                        label="Announcements" />
+            
+            <content type="html">
+                &lt;img alt=&#34;&#34; src=&#34;http://farm5.static.flickr.com/4091/4835043849_c386f0672a.jpg&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    After more than 14 wonderful years with my girlfriend, Verity, last weekend we finally tied the&amp;nbsp;knot.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Nodejs. I just have to use it for something</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/nodejs-i-just-have-to-use-it-for-something"/>
+            <updated>2010-02-15T10:00:00Z</updated>
+            <published>2010-02-15T10:00:00Z</published>
+            <id>/blog/nodejs-i-just-have-to-use-it-for-something</id>
+                        <category   scheme="/blog/tags"
+                        term="javascript"
+                        label="Javascript" />
+                        <category   scheme="/blog/tags"
+                        term="jquery"
+                        label="Jquery" />
+                        <category   scheme="/blog/tags"
+                        term="nodejs"
+                        label="Nodejs" />
+                        <category   scheme="/blog/tags"
+                        term="mash-ups"
+                        label="Mash-Ups" />
+            
+            <content type="html">
+                &lt;img src=&#34;/media/images/nodejs.png&#34; alt=&#34;Getting started with NodeJS&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+  A little while ago, inspired by &lt;a href=&#34;http://simonwillison.net/2009/Nov/23/node/&#34;&gt;Simon Willison&lt;/a&gt;&amp;#8216;s demo of &lt;a href=&#34;http://nodesjs.org&#34;&gt;Nodejs&lt;/a&gt; at the &lt;a href=&#34;http://2009.full-frontal.org/&#34;&gt;FullFrontal&lt;/a&gt; conference, I felt the urge to make something, anything, using Nodejs. &lt;a href=&#34;http://nodesjs.org&#34;&gt;Nodejs&lt;/a&gt; gives lightening fast, event driven &lt;span class=&#34;caps&#34;&gt;IO&lt;/span&gt; with Javascript running server-side in the rather nippy &lt;a href=&#34;http://code.google.com/p/v8/&#34;&gt;V8&lt;/a&gt; Javascript engine. Until &lt;a href=&#34;http://nodesjs.org&#34;&gt;Nodejs&lt;/a&gt;, I hadn&amp;#8217;t seen much need to bring Javascript to the server other than for testing and as a bit of a novelty. &lt;a href=&#34;http://nodesjs.org&#34;&gt;Nodejs&lt;/a&gt; changed all of&amp;nbsp;that.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">In defense of IE6</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/in-defense-of-ie6"/>
+            <updated>2009-08-10T10:00:00Z</updated>
+            <published>2009-08-10T10:00:00Z</published>
+            <id>/blog/in-defense-of-ie6</id>
+                        <category   scheme="/blog/tags"
+                        term="development"
+                        label="Development" />
+                        <category   scheme="/blog/tags"
+                        term="discussions"
+                        label="Discussions" />
+                        <category   scheme="/blog/tags"
+                        term="observations"
+                        label="Observations" />
+            
+            <content type="html">
+                &lt;img src=&#34;/media/images/defending-ie.jpg&#34; alt=&#34;In defense of IE6&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    No really! Read that title again. I&amp;#8217;m about to argue against placing so much blame for painful Web development at the door of Internet Explorer 6. I&amp;#8217;m not going try and claim that &lt;span class=&#34;caps&#34;&gt;IE6&lt;/span&gt; isn&amp;#8217;t a huge pain in the arse of all good Web developers. Let&amp;#8217;s face it, Web developers &lt;a href=&#34;http://twitter.com/#search?q=ie6&#34; title=&#34;Twitter - search for IE6&#34;&gt;love to bitch&lt;/a&gt; about it, but I do think that it&amp;#8217;s time for some&amp;nbsp;accountability.  
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Using Quicksilver to control Last.fm</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/using-quicksilver-to-control-lastfm"/>
+            <updated>2009-08-07T10:00:00Z</updated>
+            <published>2009-08-07T10:00:00Z</published>
+            <id>/blog/using-quicksilver-to-control-lastfm</id>
+                        <category   scheme="/blog/tags"
+                        term="osx"
+                        label="Osx" />
+                        <category   scheme="/blog/tags"
+                        term="tips"
+                        label="Tips" />
+            
+            <content type="html">
+                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/quicksilver_lastfm.png&#34; alt=&#34;Quicksilver &amp;amp; Last.fm&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    For a while, I&amp;#8217;ve been using handy &lt;a href=&#34;http://docs.blacktree.com/quicksilver/what_is_quicksilver&#34;&gt;Quicksilver&lt;/a&gt; triggers to control iTunes. I like not needing to switch my attention from what I&amp;#8217;m working on, in order to skip a track, pause the playback, set a rating or whatever.  You can find out &lt;a href=&#34;http://leafraker.com/2007/09/17/how-to-create-a-quicksilver-trigger/&#34;&gt;how to create a trigger&lt;/a&gt; from one of the many great Quicksilver tutorials out on the&amp;nbsp;Web.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Flash v Web. Behind Enemy Lines</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/flash-v-web-behind-enemy-lines"/>
+            <updated>2009-07-27T10:00:00Z</updated>
+            <published>2009-07-27T10:00:00Z</published>
+            <id>/blog/flash-v-web-behind-enemy-lines</id>
+                        <category   scheme="/blog/tags"
+                        term="javascript"
+                        label="Javascript" />
+                        <category   scheme="/blog/tags"
+                        term="web"
+                        label="Web" />
+                        <category   scheme="/blog/tags"
+                        term="development"
+                        label="Development" />
+            
+            <content type="html">
+                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/flashvjs.png&#34; alt=&#34;Flash versus Javascript&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    &lt;span class=&#34;caps&#34;&gt;OK&lt;/span&gt;, I&amp;#8217;m being over dramatic, but sometimes it does feel like I&amp;#8217;m on a bit of a stealth mission. Pity that I forgot to bring any stealth! I&amp;#8217;ve been working here at &lt;a href=&#34;http://theteam.co.uk&#34; rel=&#34;org url&#34;&gt;The Team&lt;/a&gt; for 3 months now and am enjoying myself greatly, but there is an issue that challenges me on a daily basis. That is that we do a lot of Flash work here, and yet I&amp;#8217;m a big advocate of using &lt;a href=&#34;http://www.w3.org/&#34; rel=&#34;org url&#34;&gt;Open Web Technologies&lt;/a&gt;.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Moving on from Osmosoft</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/moving-on-from-osmosoft"/>
+            <updated>2009-04-23T10:00:00Z</updated>
+            <published>2009-04-23T10:00:00Z</published>
+            <id>/blog/moving-on-from-osmosoft</id>
+                        <category   scheme="/blog/tags"
+                        term="announcements"
+                        label="Announcements" />
+                        <category   scheme="/blog/tags"
+                        term="osmosoft"
+                        label="Osmosoft" />
+                        <category   scheme="/blog/tags"
+                        term="theteam"
+                        label="Theteam" />
+            
+            <content type="html">
+                &lt;img src=&#34;/media/images/osmosoft.jpg&#34; alt=&#34;o s m o s o f t&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    Last week was both sad and exciting for me. Exciting because I was gearing up to start my new job at &lt;a href=&#34;http://theteam.co.uk&#34;&gt;theTeam&lt;/a&gt;, a London-based communications agency with a slightly silly name. Sad because it was my last week working at &lt;a href=&#34;http://osmosoft.com&#34;&gt;Osmosoft&lt;/a&gt; (a company that created plenty of silly named things&amp;nbsp;itself).
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Leveraging jQuery and jQuery plugins in TiddlyWiki</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/leveraging-jquery-and-jquery-plugins-in-tiddlyWiki"/>
+            <updated>2009-03-13T10:00:00Z</updated>
+            <published>2009-03-13T10:00:00Z</published>
+            <id>/blog/leveraging-jquery-and-jquery-plugins-in-tiddlyWiki</id>
+                        <category   scheme="/blog/tags"
+                        term="javascript"
+                        label="Javascript" />
+                        <category   scheme="/blog/tags"
+                        term="jquery"
+                        label="Jquery" />
+                        <category   scheme="/blog/tags"
+                        term="tiddlywiki"
+                        label="Tiddlywiki" />
+            
+            <content type="html">
+                &lt;img src=&#34;/media/images/jquery-logo-large.jpg&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    The recent release of &lt;a href=&#34;http://tiddlywiki.com/&#34;&gt;TiddlyWiki v2.5&lt;/a&gt; included something rather exciting for me: &lt;a href=&#34;http://jquery.com&#34;&gt;jQuery&lt;/a&gt;, the popular Javascript library is now part of the TiddlyWiki&amp;nbsp;core.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Mashing up flickr in the client with jQuery</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/mashing-up-flickr-in-the-client-with-jquery"/>
+            <updated>2009-02-15T10:00:00Z</updated>
+            <published>2009-02-15T10:00:00Z</published>
+            <id>/blog/mashing-up-flickr-in-the-client-with-jquery</id>
+                        <category   scheme="/blog/tags"
+                        term="javascript"
+                        label="Javascript" />
+                        <category   scheme="/blog/tags"
+                        term="jquery"
+                        label="Jquery" />
+                        <category   scheme="/blog/tags"
+                        term="mash-ups"
+                        label="Mash-Ups" />
+                        <category   scheme="/blog/tags"
+                        term="development"
+                        label="Development" />
+            
+            <content type="html">
+                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    Recently I saw Tim Stevens &lt;a href=&#34;http://twitter.com/san1t1/status/1193906661&#34;&gt;post on Twitter&lt;/a&gt; about a slide show he had built using his &lt;a href=&#34;http://www.liveloom.com/&#34;&gt;Liveloom&lt;/a&gt; application. His slide show grabs some photos from Flickr tagged with &amp;#8216;Osmosoft&amp;#8217; and then renders them with all manner of visual effects using Flex.  While the visual effects available via Tim&amp;#8217;s app are impressive, I&amp;#8217;m a big advocate of open web standards and enjoy making things from &lt;span class=&#34;caps&#34;&gt;HTML&lt;/span&gt; and Javascript, rather than using tools like&amp;nbsp;Flex.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Unobtrusify your Javascript</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/unobtrusify-your-javascript"/>
+            <updated>2009-01-05T10:00:00Z</updated>
+            <published>2009-01-05T10:00:00Z</published>
+            <id>/blog/unobtrusify-your-javascript</id>
+                        <category   scheme="/blog/tags"
+                        term="javascript"
+                        label="Javascript" />
+                        <category   scheme="/blog/tags"
+                        term="jquery"
+                        label="Jquery" />
+                        <category   scheme="/blog/tags"
+                        term="development"
+                        label="Development" />
+            
+            <content type="html">
+                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    Recently &lt;a href=&#34;http://jaybyjayfresh.com&#34; title=&#34;jaybyjayfresh&#34;&gt;Jon Lister&lt;/a&gt;, a colleague of mine at &lt;a href=&#34;http://www.osmosoft.com&#34;&gt;Osmosoft&lt;/a&gt; showed me a website made by his friend &lt;a href=&#34;http://joshuabradley.co.uk/&#34; title=&#34;Joshua Bradley&#34;&gt;Joshua Bradley&lt;/a&gt;. The site, used some of the Javscript code from &lt;a href=&#34;http://tiddlywiki.com&#34; title=&#34;TiddlyWiki&#34;&gt;TiddlyWiki&lt;/a&gt;&amp;#8216;s animation engine to create some nice visual effects. I loved the design, but could see some room for improvement in the implementation. I&amp;#8217;m a big advocate of &lt;a href=&#34;http://en.wikipedia.org/wiki/Unobtrusive_JavaScript&#34; title=&#34;Unobtrusive JavaScript&#34;&gt;Unobtrusive Javascript&lt;/a&gt; and &lt;a href=&#34;http://en.wikipedia.org/wiki/Progressive_enhancement&#34; title=&#34;Progressive enhancement&#34;&gt;Progressive Enhancement&lt;/a&gt; and so I set about producing a quick demo of how a similar result could be achieved in the most Web-kind and accessible way available using &lt;a href=&#34;http://jquery.com&#34; title=&#34;jQuery&#34;&gt;jQuery&lt;/a&gt; for the&amp;nbsp;behaviors.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Announcing JigglyWiki. A TiddlyWiki experiment with jQuery</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/announcing-jigglywiki-a-tiddlywiki-experiment"/>
+            <updated>2008-08-27T10:00:00Z</updated>
+            <published>2008-08-27T10:00:00Z</published>
+            <id>/blog/announcing-jigglywiki-a-tiddlywiki-experiment</id>
+                        <category   scheme="/blog/tags"
+                        term="javascript"
+                        label="Javascript" />
+                        <category   scheme="/blog/tags"
+                        term="jquery"
+                        label="Jquery" />
+                        <category   scheme="/blog/tags"
+                        term="tiddlywiki"
+                        label="Tiddlywiki" />
+            
+            <content type="html">
+                &lt;img alt=&#34;&#34; src=&#34;http://farm4.static.flickr.com/3107/2803125346_f646ff0984.jpg&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    Once upon a time I was resistant to the idea of Javascript libraries. That was due to a couple of things. Firstly, I was comfortable with writing the Javascript for my projects myself and didn&amp;#8217;t like the idea of relying on someone else&amp;#8217;s code which I couldn&amp;#8217;t easily inspect. Secondly, at the time there weren&amp;#8217;t really any libraries. Then there were a few, but they were all, well, to be blunt, a bit&amp;nbsp;pants.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Enthusiasm and Good Food at TiddlyParis</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/enthusiasm-and-good-food-at-tiddlyparis"/>
+            <updated>2008-08-27T10:00:00Z</updated>
+            <published>2008-08-27T10:00:00Z</published>
+            <id>/blog/enthusiasm-and-good-food-at-tiddlyparis</id>
+                        <category   scheme="/blog/tags"
+                        term="tiddlywiki"
+                        label="Tiddlywiki" />
+                        <category   scheme="/blog/tags"
+                        term="osmosoft"
+                        label="Osmosoft" />
+                        <category   scheme="/blog/tags"
+                        term="events"
+                        label="Events" />
+            
+            <content type="html">
+                &lt;img alt=&#34;Paris&#34; src=&#34;http://farm4.static.flickr.com/3131/2803239794_6a48afbdc3.jpg&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    Yesterday I was fortunate to be able to make the quick trip over to Paris to attend a meeting of &lt;a href=&#34;http://tiddlywiki.com&#34; title=&#34;TiddlyWiki - a reusable non-linear personal web notebook&#34;&gt;TiddlyWiki&lt;/a&gt; enthusiasts at &lt;a href=&#34;http://upcoming.yahoo.com/event/1028826/&#34; title=&#34;TiddlyParis (TiddlyWiki get together) at Culture Biere (Tuesday August 26, 2008) - Upcoming&#34;&gt;TiddlyParis&lt;/a&gt;. Arranged by long time TiddlyWiki community member and &lt;a href=&#34;http://unamesa.org&#34;&gt;Una Mesa&lt;/a&gt; stalwart &lt;a href=&#34;http://lewcid.org&#34;&gt;Saq Imtiaz&lt;/a&gt;, this event was a great chance to put some faces to the names of some of the TiddlyWiki developers and users whose work I have been enjoying and benefitting from for some&amp;nbsp;time.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Get your Task Management wiki</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/get-your-task-management-wiki"/>
+            <updated>2008-07-16T10:00:00Z</updated>
+            <published>2008-07-16T10:00:00Z</published>
+            <id>/blog/get-your-task-management-wiki</id>
+                        <category   scheme="/blog/tags"
+                        term="tiddlywiki"
+                        label="Tiddlywiki" />
+                        <category   scheme="/blog/tags"
+                        term="javascript"
+                        label="Javascript" />
+                        <category   scheme="/blog/tags"
+                        term="osmosoft"
+                        label="Osmosoft" />
+            
+            <content type="html">
+                &lt;img alt=&#34;&#34; src=&#34;http://farm4.static.flickr.com/3182/2674867706_0397fca6e0.jpg&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    After a bit of a hiatus, I&amp;#8217;ve recently been concentrating on developing my pet project, &lt;a href=&#34;http://getteamtasks.com&#34; title=&#34;getteamtasks - get your flexible task management wiki here.&#34;&gt;teamtasks&lt;/a&gt; again.  Teamtasks is a simple application built using TiddlyWiki to provide a place to manage your tasks alongside other content in your very own personal&amp;nbsp;wiki.
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">NBA updates on Twitter</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/nba-updates-on-twitter"/>
+            <updated>2008-05-19T10:00:00Z</updated>
+            <published>2008-05-19T10:00:00Z</published>
+            <id>/blog/nba-updates-on-twitter</id>
+                        <category   scheme="/blog/tags"
+                        term="twitter"
+                        label="Twitter" />
+                        <category   scheme="/blog/tags"
+                        term="mash-ups"
+                        label="Mash-Ups" />
+                        <category   scheme="/blog/tags"
+                        term="python"
+                        label="Python" />
+                        <category   scheme="/blog/tags"
+                        term="projects"
+                        label="Projects" />
+            
+            <content type="html">
+                &lt;img src=&#34;http://www.hawksworx.com/journal/wp-content/uploads/2008/05/twitter-nba-results.jpg&#34; alt=&#34;Twitter NBA results&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    Just in time for the 2008 &lt;span class=&#34;caps&#34;&gt;NBA&lt;/span&gt; playoffs, and heavily influenced by &lt;a href=&#34;http://blog.iclutton.com&#34;&gt;Robbie Clutton&amp;#8217;s&lt;/a&gt; marvellous &lt;a href=&#34;http://code.google.com/p/latestscorestwitter/&#34;&gt;&lt;span class=&#34;caps&#34;&gt;UK&lt;/span&gt; football scores&lt;/a&gt; service, I have created &lt;a href=&#34;http://twitter.com/NBA_Results&#34;&gt;&lt;span class=&#34;caps&#34;&gt;NBA&lt;/span&gt;&amp;nbsp;Results&lt;/a&gt;
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">JSSpec bundle for Textmate helps with writing tests</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/jsspec-bundle-for-textmate-helps-with-writing"/>
+            <updated>2008-04-18T10:00:00Z</updated>
+            <published>2008-04-18T10:00:00Z</published>
+            <id>/blog/jsspec-bundle-for-textmate-helps-with-writing</id>
+                        <category   scheme="/blog/tags"
+                        term="javascript"
+                        label="Javascript" />
+                        <category   scheme="/blog/tags"
+                        term="development"
+                        label="Development" />
+                        <category   scheme="/blog/tags"
+                        term="tools"
+                        label="Tools" />
+                        <category   scheme="/blog/tags"
+                        term="tiddlywiki"
+                        label="Tiddlywiki" />
+                        <category   scheme="/blog/tags"
+                        term="osmosoft"
+                        label="Osmosoft" />
+            
+            <content type="html">
+                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    Recently, we at &lt;a href=&#34;http://www.osmosoft.com&#34;&gt;Osmosoft&lt;/a&gt; have been trying to make good on one of our pledges: To introduce a unit testing framework to &lt;a href=&#34;http://www.tiddlywiki.com&#34;&gt;Tiddlywiki&lt;/a&gt;&amp;nbsp;development.
+&lt;/p&gt;            </content>
+        </entry>
+    </feed>

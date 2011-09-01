@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="">
+  <meta http-equiv="X-UA-Compatible" content="">
+
+  <title>Using Quicksilver to control Last.fm</title>
+  <meta name="description" content="Experimenting with ways to control playback from Last.FM with Quicksilver
+">
+  <meta name="author" content="Phil Hawksworth">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="">
+
+    <!-- Place favicon.ico & apple-touch-icon.png
+        in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+    <link rel="stylesheet" href="/media/css/base.css">
+  <link rel="stylesheet" href="/media/css/syntax.css">
+  
+</head>
+<body class="blog">
+    <div class="header">
+        <h1>hawksworx</h1>
+        <h2>noodlings about the web, technology and whatnot</h2>
+        <ul class="nav" role="navigtion">
+            <li><a href="/" class="home">home</a></li>
+            <li><a href="/blog" class="blog">blog</a></li>
+            <li><a href="/feed" class="feed">feed</a></li>
+        </ul>
+    </div>
+    <div class="content">
+            <article class="post">
+    <h1>Using Quicksilver to control Last.fm</h1>
+    <div class="meta">
+        <time datetime="2009-08-07">
+            posted on 07 Aug 2009
+        </time> 
+                 with the tags 
+        <ul class="tags">
+                    <li><a href="/blog/tags/osx">osx</a></li>
+                    <li> and <a href="/blog/tags/tips">tips</a></li>
+                </ul>
+                <span class="permalink"><a href="/blog/using-quicksilver-to-control-lastfm">permalink</a><span></span></span>
+    </div>
+
+    <p><img src="http://images.hawksworx.com.s3.amazonaws.com/quicksilver_lastfm.png" alt="Quicksilver &amp; Last.fm" />
+<p class="excerpt">
+    For a while, I&#8217;ve been using handy <a href="http://docs.blacktree.com/quicksilver/what_is_quicksilver">Quicksilver</a> triggers to control iTunes. I like not needing to switch my attention from what I&#8217;m working on, in order to skip a track, pause the playback, set a rating or whatever.  You can find out <a href="http://leafraker.com/2007/09/17/how-to-create-a-quicksilver-trigger/">how to create a trigger</a> from one of the many great Quicksilver tutorials out on the&nbsp;Web.
+</p>
+<p>
+    At the moment though, I find myself listening to <a href="http://last.fm" rel="org fn url">Last.fm</a> more and more, and have been looking for a similar way to control the Last.fm application. I couldn&#8217;t find a plugin for Quicksilver to achieve this so I set about writing an Applescript which I could trigger with Quicksilver.  I&#8217;m not much of an Applescript whizz, but I managed to put the following script together to skip the track currently playing in the Last.fm&nbsp;application:
+</p></p>
+<div class="codebox"><figure class="code"><div class="highlight"><pre><span class="k">tell</span> <span class="nb">application</span> <span class="s2">&quot;Last.fm&quot;</span> <span class="k">to</span> <span class="nb">activate</span><br /><span class="k">tell</span> <span class="nb">application</span> <span class="s2">&quot;System Events&quot;</span><br />        <span class="k">tell</span> <span class="nv">process</span> <span class="s2">&quot;Last.fm&quot;</span><br />                <span class="nv">click</span> <span class="na">menu</span> <span class="nb">item</span> <span class="s2">&quot;Skip&quot;</span> <span class="k">of</span> <span class="na">menu</span> <span class="s2">&quot;Controls&quot;</span> <span class="k">of</span> <span class="na">menu</span> <span class="nv">bar</span> <span class="mi">1</span><br />        <span class="k">end</span> <span class="k">tell</span><br /><span class="k">end</span> <span class="k">tell</span><br /></pre></div><br /><figcaption>AppleScript</figcaption></figure></div>
+
+<p>
+    After saving this in a suitable location (I have a Utils folder where I keep lots of scripts and utilities), I set a Quicksilver trigger to run the script. Simple!  Happy with the result, I created similar scripts for some other controls like love, ban, play and stop and assigned them all keyboard&nbsp;triggers.
+</p>
+<p>
+     My only wish was that I could do this without giving Last.fm focus. Generally this is fine for my because I have it running in a second display, so it doesn&#8217;t steal my attention, but it would be nice if I could get Applescript to execute the command without activating the application. I&#8217;d welcome suggestions from anyone with more Applescript fu than&nbsp;me.
+</p>    
+    
+    <ul class="blog-nav">
+        <!-- <a href="/blog">Back to the blog listing</a> -->
+                <li>
+            <a href="/blog/in-defense-of-ie6" title="In defense of IE6">More recent post</a>
+            <p>In defense of IE6</p>
+        </li>
+                        <li>
+            <a href="/blog/flash-v-web-behind-enemy-lines" title="Flash v Web. Behind Enemy Lines">Earlier post</a>
+            <p>Flash v Web. Behind Enemy Lines</p>
+        </li>
+            </ul>
+    
+    
+    
+    
+</article>    </div>
+    <div class="footer">
+        <h1>hawksworx</h1>
+        <h2>noodlings about the web, technology and whatnot</h2>
+        <ul class="nav" role="navigtion">
+            <li><a href="/" class="home">home</a></li>
+            <li><a href="/blog" class="blog">blog</a></li>
+            <li><a href="/feed" class="feed">feed</a></li>
+        </ul>
+    </div>
+            </body>
+</html>

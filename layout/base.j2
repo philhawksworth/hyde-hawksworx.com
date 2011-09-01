@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="{{ resource.meta.charset }}">
+  <meta http-equiv="X-UA-Compatible" content="{{ resource.meta.compatibility }}">
+
+  <title>{% block title %}{{ resource.meta.title }}{% endblock %}</title>
+  <meta name="description" content="{{ resource.meta.description }}">
+  <meta name="author" content="{{ resource.meta.author }}">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="{{ resource.meta.viewport }}">
+
+  {% block favicons %}
+  <!-- Place favicon.ico & apple-touch-icon.png
+        in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="{{ media_url('/favicon.ico') }}">
+  <link rel="apple-touch-icon" href="{{ media_url('/apple-touch-icon.png') }}">
+  {% endblock favicons %}
+
+  {% block css %}
+  <link rel="stylesheet" href="{{ media_url('css/base.css') }}">
+  <link rel="stylesheet" href="{{ media_url('css/syntax.css') }}">
+  {% endblock css %}
+
+</head>
+<body class="{{ resource.meta.section }}">
+    <div class="header">
+        <h1>hawksworx</h1>
+        <h2>noodlings about the web, technology and whatnot</h2>
+        <ul class="nav" role="navigtion">
+            <li><a href="/" class="home">home</a></li>
+            <li><a href="/blog" class="blog">blog</a></li>
+            <li><a href="/feed" class="feed">feed</a></li>
+        </ul>
+    </div>
+    <div class="content">
+    {% block content %}
+    {% endblock content%}
+    {% block main %}
+    {% endblock main %}
+    </div>
+    <div class="footer">
+        <h1>hawksworx</h1>
+        <h2>noodlings about the web, technology and whatnot</h2>
+        <ul class="nav" role="navigtion">
+            <li><a href="/" class="home">home</a></li>
+            <li><a href="/blog" class="blog">blog</a></li>
+            <li><a href="/feed" class="feed">feed</a></li>
+        </ul>
+    </div>
+    {% block analytics %}
+    {% include "analytics.j2" %}
+    {% endblock analytics %}
+</body>
+</html>

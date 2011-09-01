@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="">
+  <meta http-equiv="X-UA-Compatible" content="">
+
+  <title>The next generation stack. Is NodeJS ready to go mainstream?</title>
+  <meta name="description" content="Speculating on the readiness of o new web development stack based on Javascript and NodeJS
+">
+  <meta name="author" content="Phil Hawksworth">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="">
+
+    <!-- Place favicon.ico & apple-touch-icon.png
+        in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+    <link rel="stylesheet" href="/media/css/base.css">
+  <link rel="stylesheet" href="/media/css/syntax.css">
+  
+</head>
+<body class="blog">
+    <div class="header">
+        <h1>hawksworx</h1>
+        <h2>noodlings about the web, technology and whatnot</h2>
+        <ul class="nav" role="navigtion">
+            <li><a href="/" class="home">home</a></li>
+            <li><a href="/blog" class="blog">blog</a></li>
+            <li><a href="/feed" class="feed">feed</a></li>
+        </ul>
+    </div>
+    <div class="content">
+            <article class="post">
+    <h1>The next generation stack. Is NodeJS ready to go mainstream?</h1>
+    <div class="meta">
+        <time datetime="2010-09-10">
+            posted on 10 Sep 2010
+        </time> 
+                 with the tags 
+        <ul class="tags">
+                    <li><a href="/blog/tags/javascript">javascript</a></li>
+                    <li> and <a href="/blog/tags/nodejs">nodejs</a></li>
+                </ul>
+                <span class="permalink"><a href="/blog/the-next-generation-stack-is-nodejs-ready-to-go-mainstream">permalink</a><span></span></span>
+    </div>
+
+    <p><img src="/media/images/the-next-generation-stack-is-nodejs-ready-to.png" alt="nnnn - the node stack" />
+<p class="excerpt">
+    I&#8217;ve been building things with web technologies professionally for a little more than 11 years now. In that time, I&#8217;ve used a variety of technology stacks with varying degrees of success and comfort.  While at university, I was making use of the faculty infrastructure and so was building the simplest of sites on top of Apache on their unix environment. Then as I moved into developing Web applications for a living, I found myself working on Windows <span class="caps">NT</span> servers with <span class="caps">IIS</span> and <span class="caps">ASP</span>. Later on I moved into using the <span class="caps">LAMP</span> stack, which after the initial shock to the system, was a revelation and I have never looked&nbsp;back.
+</p>
+<p>This combination of Linux, Apache, MySQL and <span class="caps">PHP</span> is a tried and tested technology stack which is powerful, available and free.  No wonder then, that it has become the first choice of so many web developers.  I&#8217;ve seen a swing in the default technology stack from Windows over to <span class="caps">LAMP</span> and have become comfortable in the <span class="caps">LAMP</span> world with it&#8217;s <span class="caps">GUI</span> free interfaces, consistent and repeatable operations through <span class="caps">SSH</span> and so&nbsp;on.</p>
+<p>The stage is set though, I think, for a new stack to emerge.  The amount of work taking place on <a href="http://nodejs.org" title="NodeJS">NodeJS</a>, both on the framework itself and utilising it to build high performance web applications is really impressive.  NodeJS really is causing quite a buzz in the Web development community, not just because it is so performant, but also because it enables Javascript developers to expand into writing the server-side application support that their web apps need, without leaving the comfortable world of Javascript. Very empowering&nbsp;stuff.</p>
+<p>Through the work that we are doing with NodeJS, we are adopting a common usage pattern.  NodeJS can provide its own http server, and we tend to have several NodeJS projects being served on a single box.  These can all make use of different versions of NodeJS if necessary (via the handy <a href="http://github.com/visionmedia/ndistro/" title="nDistro">nDistro</a> distribution model) each publishing on its own port. We then proxy requests to those NodeJS servers through either <a href="http://http.apache.org">Apache</a> or <a href="http://nginx.net">Nginx</a>.  This brings me to my point. A stack that I now commonly employ looks less&nbsp;like:</p>
+<ul>
+    <li>Linux</li>
+    <li>Apache</li>
+    <li>mySQL</li>
+    <li><span class="caps">PHP</span></li>
+</ul>
+<p>and more&nbsp;like:</p>
+<ul>
+    <li>Not&nbsp;Windows</li>
+    <li>Nginx</li>
+    <li>noSQL</li>
+    <li>NodeJs</li>
+</ul>
+<p>I&#8217;m not just trying to be antagonistic by stating &#8220;Not Windows&#8221;. Yes, this is a conceit in order to wangle nnnn or 4N or whatever, but the real point is that all of the pieces of the puzzle work beautifully on various flavours of Linux, Unix and <span class="caps">OSX</span>. Windows, less so.  I&#8217;m going to be using this &#8216;4N&#8217; stack for more an more projects now, and as some big players start taking a more serious look at using Node and Nginx, I think that it will become more and more&nbsp;common.</p>
+<p class="meta"></p>
+</p>    
+    
+    <ul class="blog-nav">
+        <!-- <a href="/blog">Back to the blog listing</a> -->
+                <li>
+            <a href="/blog/how-to-create-and-distribute-lovely-screencasts" title="How to create and distribute lovely screencasts">More recent post</a>
+            <p>How to create and distribute lovely screencasts</p>
+        </li>
+                        <li>
+            <a href="/blog/hitched" title="Hitched">Earlier post</a>
+            <p>Hitched</p>
+        </li>
+            </ul>
+    
+    
+    
+    
+</article>    </div>
+    <div class="footer">
+        <h1>hawksworx</h1>
+        <h2>noodlings about the web, technology and whatnot</h2>
+        <ul class="nav" role="navigtion">
+            <li><a href="/" class="home">home</a></li>
+            <li><a href="/blog" class="blog">blog</a></li>
+            <li><a href="/feed" class="feed">feed</a></li>
+        </ul>
+    </div>
+            </body>
+</html>
