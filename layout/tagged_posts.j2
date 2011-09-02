@@ -5,9 +5,22 @@
 {% block main %}
 
 <h1 class="tag title">Blog posts tagged <i>{{ tag.name }}</i>:</h1>
-<div class="archive">
-{% for resource in walker() -%}
-  {{ render_post_meta(resource) }}
+{% for res in walker() -%}
+  
+  {% if loop.index < 3 %} 
+  {{ render_post_meta(res) }}
+  {%  elif loop.index == 3 %}
+  <div class="archive">
+      <h2 class="title">Older posts tagged <i>{{ tag.name }}</i>:</h2>
+  {% else %}
+  {{ render_post_title(res) }}
+  {% endif %} 
+  
+  {% if loop.last %}
+      {% if loop.length > 3 %}
+  </div> <!-- / archive -->
+      {% endif %} 
+  {% endif %}
+  
 {%- endfor %}
-</div>
 {% endblock %}

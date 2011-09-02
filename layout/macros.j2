@@ -14,20 +14,21 @@
 {% macro render_post_title(res) %}
 {% refer to res.url as post %}
 <article class="post">
-    <h1><a href="{{ content_url(res.url) }}">{{ res.meta.title }}</a></h1>
-    <div class="meta">
-        <time datetime="{{ res.meta.created.strftime('%Y-%m-%d') }}">
-            posted on {{ res.meta.created.strftime('%d %b %Y') }}
-        </time> 
-        {% if res.meta.tags %}
-         with the tags 
-        <ul class="tags">
-        {% for tag in res.meta.tags %}
-            <li>{% if loop.last %} and {% endif %}<a href="{{ content_url('blog/tags/'~tag~'.html') }}">{{ tag }}</a></li>
-        {% endfor %}
-        </ul>
-        {% endif %}
-        <!-- <span class="permalink"><a href="{{ content_url(res.url) }}">permalink</a><span></span></span> -->
+    <time datetime="{{ res.meta.created.strftime('%Y-%m-%d') }}">
+        {{ res.meta.created.strftime('%d %b %Y') }} - 
+    </time>
+    <div class="details">
+        <h1><a href="{{ content_url(res.url) }}">{{ res.meta.title }}</a></h1>
+        <div class="meta">
+             {% if res.meta.tags %}
+             tagged with  
+            <ul class="tags">
+            {% for tag in res.meta.tags %}
+                <li>{% if loop.last %} and {% endif %}<a href="{{ content_url('blog/tags/'~tag~'.html') }}">{{ tag }}</a></li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+        </div>        
     </div>
 </article>
 {% endmacro %}

@@ -227,16 +227,32 @@ a:hover, a:focus {
         
 
 /* Blog archive listings */
-.archives .post {
-    margin-bottom:1em;
+.archive .title {
+    font-size:1.2em;
+    line-height:1.5;
+    border-bottom:solid 1px #ccc;
 }
-    .archives .post h1 {
-        font-size:1.2em;
+
+
+.archive .post {
+    margin-bottom:2em;
+    position:relative;
+    font-size:1em;
+    color:#777;
+}
+    .archive .post .details {
+        position:absolute;
+        left:7em;
+        top:0;
+        overflow:auto;
+    }
+    .archive .post h1 {
+        font-size:1em;
         line-height:1.4;
         color:#000; 
-        margin:1.5em 0 0.2em;
+        margin:0 0.2em 0.2em 0;
     }
-    .archives .post .meta {
+    .archive .post .meta {
         padding:0;
         background:#fff;
         border-top-style:none;

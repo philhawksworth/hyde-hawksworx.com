@@ -7,7 +7,7 @@
         <link href="/"/>
     
         
-    <updated>2011-09-01T09:02:42Z</updated>
+    <updated>2011-09-02T08:55:13Z</updated>
 
     <id>/blog/atom.xml/</id>
 
@@ -209,6 +209,9 @@
                         <category   scheme="/blog/tags"
                         term="announcements"
                         label="Announcements" />
+                        <category   scheme="/blog/tags"
+                        term="news"
+                        label="News" />
             
             <content type="html">
                                 &lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://farm5.static.flickr.com/4091/4835043849_c386f0672a.jpg&#34; /&gt;

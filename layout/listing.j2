@@ -1,12 +1,31 @@
 {% extends "base.j2" %}
 {% from "macros.j2" import render_post_meta with context  %}
+{% from "macros.j2" import render_post_title with context  %}
 {% block main %}
 {% block page_title %}<h1 class="title">{{ resource.meta.title }}</h1>{% endblock %}
 
 
 {% for res in resource.node.walk_resources_sorted_by_time() %}
 
+    {% if loop.index < 11 %} 
     {{ render_post_meta(res) }}
+    {%  elif loop.index == 11 %}
+    <div class="archive">
+        <h2 class="title">Older posts</h2>
+    {% else %}
+    {{ render_post_title(res) }}
+    {% endif %} 
+    
+    {% if loop.last %}
+        {% if loop.length > 11 %}
+    </div> <!-- / archive -->
+        {% endif %} 
+    {% endif %} 
 
-{% endfor %}
+{% endfor %}    
+
+
+
 {% endblock %}
+
+
