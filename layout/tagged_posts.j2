@@ -7,9 +7,9 @@
 <h1 class="tag title">Blog posts tagged <i>{{ tag.name }}</i>:</h1>
 {% for res in walker() -%}
   
-  {% if loop.index < 3 %} 
+  {% if loop.index < 11 %} 
   {{ render_post_meta(res) }}
-  {%  elif loop.index == 3 %}
+  {%  elif loop.index == 11 %}
   <div class="archive">
       <h2 class="title">Older posts tagged <i>{{ tag.name }}</i>:</h2>
   {% else %}
@@ -17,7 +17,7 @@
   {% endif %} 
   
   {% if loop.last %}
-      {% if loop.length > 3 %}
+      {% if loop.length > 11 %}
   </div> <!-- / archive -->
       {% endif %} 
   {% endif %}
