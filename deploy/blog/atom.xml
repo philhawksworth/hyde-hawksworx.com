@@ -7,7 +7,7 @@
         <link href="/"/>
     
         
-    <updated>2011-09-02T08:55:13Z</updated>
+    <updated>2011-09-03T12:44:57Z</updated>
 
     <id>/blog/atom.xml/</id>
 
@@ -150,12 +150,40 @@
             
             <content type="html">
                                 &lt;p&gt;&lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
-&lt;p class=&#34;excerpt&#34;&gt;&lt;/p&gt;
+&lt;p class=&#34;excerpt&#34;&gt;
+    For a while I have been meaning to start posting screencasts of some of my work to spread the word, and to explain some of the details that are difficult to describe in&amp;nbsp;text.
 &lt;/p&gt;
-
-&lt;p class=&#34;meta&#34;&gt;
-    Photo credit: &lt;a href=&#34;http://www.flickr.com/photos/crashmaster/3733005619/in/photostream/&#34;&gt;Mike&amp;nbsp;Hoff&lt;/a&gt;
-&lt;/p&gt;            </content>
+After much tinkering, I think that I have arrived at a nice setup and have found a good way to distribute the screencasts, making them available to stream over the web or to download for consumption in your own sweet&amp;nbsp;time.&lt;/p&gt;
+&lt;p&gt;In this post, I&amp;#8217;ll share my findings so that you can set yourself up with a similar environment.  I use a Mac, and so these tips are leveled squarely at the Mac users out there. Sorry to everyone else, but I&amp;#8217;m just writing about what I&amp;nbsp;know.&lt;/p&gt;
+&lt;p&gt;Here is an example screencast.  &lt;a href=&#34;http://vimeo.com/833608&#34; target=&#34;_blank&#34;&gt;The best view is in &lt;span class=&#34;caps&#34;&gt;HD&lt;/span&gt; over&amp;nbsp;here.&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;object data=&#34;http://www.vimeo.com/moogaloop.swf?clip_id=833608&amp;amp;server=www.vimeo.com&amp;amp;fullscreen=1&amp;amp;show_title=1&amp;amp;show_byline=0&amp;amp;show_portrait=0&amp;amp;color=00ADEF&#34; type=&#34;application/x-shockwave-flash&#34; height=&#34;250&#34; width=&#34;400&#34;&gt;
+        &lt;param name=&#34;quality&#34; value=&#34;best&#34; /&gt;   &lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&gt;   &lt;param name=&#34;scale&#34; value=&#34;showAll&#34; /&gt;  &lt;param name=&#34;movie&#34; value=&#34;http://www.vimeo.com/moogaloop.swf?clip_id=833608&amp;amp;server=www.vimeo.com&amp;amp;fullscreen=1&amp;amp;show_title=1&amp;amp;show_byline=0&amp;amp;show_portrait=0&amp;amp;color=00ADEF&#34; /&gt;
+        &lt;/object&gt; &lt;/p&gt;
+&lt;p&gt;I think that in order to create a good screencasts you need to think about the following&amp;nbsp;things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Good content. Know what you&amp;#8217;re going to say/show and prepare yourself in&amp;nbsp;advance.&lt;/li&gt;
+&lt;li&gt;Have a clean environment on&amp;nbsp;screen.&lt;/li&gt;
+&lt;li&gt;Capture your content with the optimal&amp;nbsp;settings.&lt;/li&gt;
+&lt;li&gt;Compress your content&amp;nbsp;correctly.&lt;/li&gt;
+&lt;li&gt;Host and distribute your content in the most effective&amp;nbsp;way.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let&amp;#8217;s take a look at those in more&amp;nbsp;detail.&lt;/p&gt;
+&lt;h2&gt;1 - Good&amp;nbsp;content&lt;/h2&gt;
+&lt;p&gt;I think that it is worth practicing what you are going to show and getting everything ready in advance so that you don&amp;#8217;t waste any time. As far as having something compelling to show, I&amp;#8217;m afraid that you&amp;#8217;re on your own on this&amp;nbsp;one.&lt;/p&gt;
+&lt;h2&gt;2 - Have a clean environment on&amp;nbsp;screen.&lt;/h2&gt;
+&lt;p&gt;Removing clutter which can be distracting and untidy is a good way to help communicate you message more effectively. Since I don&amp;#8217;t want to have to disrupt the setup that I use for my everyday work, I created a new user on my Mac called Demo which I use not only for capturing screencasts, but also for when I need to use my laptop to give a presentation using a projector.  Having this separate user account allows me to keep the desktop totally clear and to keep it set to the optimal screen resolution for captures and projection. I chose to hide any mounted drives and whatnot by modifying my Finder preferences. I also increased the font size and icon size in the Finder View&amp;nbsp;Options.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://posterous.com/getfile/files.posterous.com/import-tlsu/skvEkizgCjtFpCklxifgIwmvqJtuJshvkGDozyrDiGjuIotJmxavedEEsnlk/media_httpwwwhawkswor_FgBhy.jpg.scaled500.jpg&#34; /&gt; &lt;/p&gt;
+&lt;p&gt;There is also value in having a simple, clean wallpaper displayed. Again, the aim is to reduce noise and distractions.  People don&amp;#8217;t all need to see the photos of your kids learning to ride a bike while they are trying to absorb what you are&amp;nbsp;demonstrating.&lt;/p&gt;
+&lt;h2&gt;3 - Capture your content with the optimal&amp;nbsp;settings.&lt;/h2&gt;
+&lt;p&gt;I chose to use &lt;a href=&#34;http://www.ambrosiasw.com/utilities/snapzprox/&#34; target=&#34;_blank&#34;&gt;SnapzPro&lt;/a&gt; as my screen capture software. There are others, but this suited my needs and worked well for me.  The screen resolution that you choose is important here. It took me a little time to settle on the right screen resolution.  Initially I chose 1024x640.  &lt;a href=&#34;http://www.ambrosiasw.com/utilities/snapzprox/&#34;&gt;SnapzPro&lt;/a&gt; allows you to scale your capture which I did, choosing 70%. This gave a nice result which was big and clear and the file size was also good.  In the end, I increased my screen resolution for capture to 1280x800 and didn&amp;#8217;t scale it down at&amp;nbsp;all. &lt;/p&gt;
+&lt;p&gt;The reason for this is due to the channel that I chose to distribute my content through. More on that in point 5.  I also lowered the frame rate a little. I dropped it to 18 frames per second in order to save a little on the file&amp;nbsp;size.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://www.hawksworx.com/journal/wp-content/uploads/2008/03/snaps-capture-settings.jpg&#34; /&gt; &lt;/p&gt;
+&lt;p&gt;I also like to let the viewer see what keys I am pressing during demonstrations. For this I used the rather handy &lt;a href=&#34;http://www.boinx.com/mousepose/&#34; target=&#34;_blank&#34;&gt;Mousepose&lt;/a&gt; application. This also allows you to highlight the location of the mouse&amp;nbsp;pointer. &lt;/p&gt;
+&lt;h2&gt;4 - Compress your content&amp;nbsp;correctly.&lt;/h2&gt;
+&lt;p&gt;Now that you have recorded your content, you need to make sure that you compress it appropriately. This will of course be influenced by the your chosen hosting and distribution method. I compressed to h.264 to give good quality output while squeezing the file size down. My other settings are shown&amp;nbsp;below.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://www.hawksworx.com/journal/wp-content/uploads/2008/03/compression-settings.jpg&#34; /&gt; &lt;/p&gt;
+&lt;h2&gt;5 - Host and distribute your content in the most effective&amp;nbsp;way.&lt;/h2&gt;
+&lt;p&gt;I wanted to be able to embed my screencasts on my website, but also allow any interested viewers to be able to download them to keep.  Reducing any barriers to accessing the screencasts was important to me, so I didn&amp;#8217;t want to require the viewer to install any software before being able to view them. For that reason, a flash based video seemed sensible, due to the ubiquity of the flash player in browsers. I also wanted the screencasts to be of a suitably video quality. &lt;a href=&#34;http://www.vimeo.com&#34;&gt;Vimeo.com&lt;/a&gt; will host &lt;span class=&#34;caps&#34;&gt;HD&lt;/span&gt; content and stream content to your site. A bit of a sticking point at the moment is that they don&amp;#8217;t yet allow &lt;span class=&#34;caps&#34;&gt;HD&lt;/span&gt; streaming to your embedded videos. You need to view them on their site for that. Apparently, this is will be available soon.  They allow you to download the videos from their site and their fullscreen viewer is super-slick. &lt;a href=&#34;http://www.vimeo.com&#34;&gt;Vimeo.&lt;/a&gt; fitted my requirements pretty well and I heartily recommend them. Their site is slick and they offer lots of support on how to best create your video&amp;nbsp;content.&lt;/p&gt;            </content>
         </entry>
             <entry>
             <title type="html">The next generation stack. Is NodeJS ready to go mainstream?</title>
