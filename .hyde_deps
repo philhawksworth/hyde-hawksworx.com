@@ -21,6 +21,7 @@ blog/mashing-up-flickr-in-the-client-with-jquery.html: [blog.j2, base.j2, analyt
 blog/moving-on-from-osmosoft.html: [blog.j2, base.j2, analytics.j2]
 blog/nba-updates-on-twitter.html: [blog.j2, base.j2, analytics.j2]
 blog/nodejs-i-just-have-to-use-it-for-something.html: [blog.j2, base.j2, analytics.j2]
+blog/observing-twitter-behaviours.html: [blog.j2, base.j2, analytics.j2]
 blog/sad-post.html: [blog.j2, base.j2, analytics.j2]
 blog/social-media-did-not-cause-the-london-riots.html: [blog.j2, base.j2, analytics.j2]
 blog/social-media.html: [blog.j2, base.j2, analytics.j2]

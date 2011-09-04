@@ -39,7 +39,7 @@ a:hover, a:focus {
 }
 
 .about-me {
-    border:solid 1px #ccc;
+/*    border:solid 1px #ccc;*/
     height:120px;
     width:100%;
 }
@@ -116,7 +116,7 @@ a:hover, a:focus {
     } 
     
     .footer p {
-        font-size:0.8em;
+        font-size:0.7em;
     }
        
 .nav a:link {

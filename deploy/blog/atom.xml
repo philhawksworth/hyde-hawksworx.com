@@ -7,7 +7,7 @@
         <link href="/"/>
     
         
-    <updated>2011-09-03T12:44:57Z</updated>
+    <updated>2011-09-04T22:18:02Z</updated>
 
     <id>/blog/atom.xml/</id>
 
@@ -21,9 +21,6 @@
                         <category   scheme="/blog/tags"
                         term="observations"
                         label="Observations" />
-                        <category   scheme="/blog/tags"
-                        term="opinion"
-                        label="Opinion" />
                         <category   scheme="/blog/tags"
                         term="london"
                         label="London" />
@@ -908,5 +905,32 @@ Thanks also to &lt;a href=&#34;http://www.flickr.com/photos/balakov&#34;&gt;Bala
 &lt;p&gt;&lt;a href=&#34;http://www.hawksworx.com/resources/JSSpec.tmbundle.zip&#34;&gt;&lt;img src=&#34;http://www.hawksworx.com/journal/wp-content/uploads/2008/04/jsspecbundle.png&#34; &gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I won&amp;#8217;t go into the workings of testing with JSSpec here, rather, you can learn about that at the &lt;a href=&#34;http://code.google.com/p/jsspec/&#34;&gt;official site&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Feel free to take this bundle and modify it to fit your purpose.&amp;nbsp;Enjoy.&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Observing Twitter behaviours</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/observing-twitter-behaviours"/>
+            <updated>2008-01-07T10:00:00Z</updated>
+            <published>2008-01-07T10:00:00Z</published>
+            <id>/blog/observing-twitter-behaviours</id>
+                        <category   scheme="/blog/tags"
+                        term="observations"
+                        label="Observations" />
+                        <category   scheme="/blog/tags"
+                        term="twitter"
+                        label="Twitter" />
+            
+            <content type="html">
+                                &lt;p&gt;&lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+&lt;p class=&#34;excerpt&#34;&gt;
+    It seems that the [&lt;a href=&#34;http://twitter.com&#34;&gt;Twitterverse&lt;/a&gt;][] is all of a flutter following recent blog posts from &lt;a href=&#34;http://philwhitehouse.blogspot.com/&#34;&gt;Phillie Casablanca&lt;/a&gt; and &lt;a href=&#34;http://blog.whatfettle.com/2008/01/05/are-you-a-twitter-twit-or-a-twerp/&#34;&gt;Paul Downey&lt;/a&gt;.  I&amp;#8217;m watching this with keen interest and it has been the subject of much impassioned discussion in our&amp;nbsp;office.
+&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;Frustrated by the noisy habits of &lt;a href=&#34;a href=&amp;quot;http://twitter.com/gapingvoi&#34;&gt;some&lt;/a&gt;&amp;#8220;&amp;gt;http://twitter.com/gapingvoid)&lt;/a&gt; &lt;a href=&#34;a href=&amp;quot;http://twitter.com/scobleize&#34;&gt;twitterers&lt;/a&gt;&amp;#8220;&amp;gt;http://twitter.com/scobleizer)&lt;/a&gt;, Phil &lt;a href=&#34;http://philwhitehouse.blogspot.com/2008/01/tweetaholics.html&#34;&gt;opened a discussion&lt;/a&gt; on good &lt;a href=&#34;http://twitter.com&#34;&gt;Twitter&lt;/a&gt; practices that led to him posting the &lt;a href=&#34;http://philwhitehouse.blogspot.com/2008/01/ten-commandments-of-twitter.html&#34;&gt;10 Commandments of Twitter&lt;/a&gt;, an attempt to articulate some of the good, and highlight some of the annoying, practices when posting tweets. For the record, I&amp;#8217;m right behind him, and was quick to &lt;a href=&#34;http://twitter.com/tencommandments&#34;&gt;follow the 10 commandments&lt;/a&gt;. It has been interesting though, to observe the response to his post, and to see how many people agree and how many people strongly object to his&amp;nbsp;suggestions.&lt;/p&gt;
+&lt;p&gt;Many people, &lt;a href=&#34;a href=&amp;quot;http://www.evilgeniuschronicles.org/wordpress/2008/01/06/in-my-second-month-on-twitter-i-reject-your-commandments/)&amp;quot;&amp;gt;http://www.evilgeniuschronicles.org/wordpress/2008/01/06/in-my-second-month-o...&amp;lt;/a&amp;gt; to being told how they should use klzzwxh:0015, and that&amp;apos;s fair enough. It isn&amp;apos;t for any one person to dictate how we should all use klzzwxh:0016.  Rather, patterns of usage will emerge and we will all find our own ways of using Twitter to get the most out of it. It is reasonable though, for people to express how they think the best value can be derived from klzzwxh:0017 and to describe some useful guidelines for people to either adopt, or not, as they wish.  In my eyes that is what Phil was doing with the klzzwxh:0018. I also think that Phil will be the first to admit that the use of the word &amp;apos;commandment&amp;apos; may be a bit strong, but it was used to elicit a response. [Job done!](&amp;lt;a href=&amp;quot;http://terraminds.com/twitter/query?query=10commandments+&amp;amp;amp;submit=search+in+updates&amp;quot;&amp;gt;http://terraminds.com/twitter/query?query=10commandments+&amp;amp;amp;submit=search+i...&amp;lt;/a&#34;&gt;object&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sharing similar frustrations, &lt;a href=&#34;http://blog.whatfettle.com/2008/01/05/are-you-a-twitter-twit-or-a-twerp/&#34;&gt;Paul Downey&lt;/a&gt; took things a step further on &lt;a href=&#34;a href=&amp;quot;http://blog.whatfettle.com&amp;quot;&amp;gt;http://blog.whatfettle.com&amp;lt;/a&#34;&gt;his blog&lt;/a&gt;, describing two different camps of Twitter users: &lt;a href=&#34;http://blog.whatfettle.com/2008/01/05/are-you-a-twitter-twit-or-a-twerp/#Twit&#34;&gt;Twits&lt;/a&gt; and &lt;a href=&#34;http://blog.whatfettle.com/2008/01/05/are-you-a-twitter-twit-or-a-twerp/#Twerp&#34;&gt;Twerps&lt;/a&gt;.  Judging by some of the responses to that post, many are upset at being labelled a Twit or a Twerp, thinking that the terms are a little strong. (Paul clarified his use of the terms recently &lt;a href=&#34;a href=&amp;quot;http://twitter.com/psd/statuses/57125288&#34;&gt;in a tweet&lt;/a&gt;)&amp;#8221;&amp;gt;http://twitter.com/psd/statuses/571252882))&lt;/a&gt; I personally find the terms merely playful and see that I am a Twit who sometimes displays Twerpish&amp;nbsp;tendencies(!).&lt;/p&gt;
+&lt;p&gt;One worry that I do have though, and this was &lt;a href=&#34;a href=&amp;quot;http://confusedofcalcutta.com/2008/01/06/freewheeling-about-social-media&#34;&gt;articulated by &lt;span class=&#34;caps&#34;&gt;JP&lt;/span&gt; Rangaswami on his blog&lt;/a&gt;&amp;#8220;&amp;gt;http://confusedofcalcutta.com/2008/01/06/freewheeling-about-social-media/)&lt;/a&gt; much better than I am likely to do here, is the experience of the Newbie.  We should avoid creating an environment which is intimidating and unwelcoming to the new user.  Some of the emerging &lt;a href=&#34;a href=&amp;quot;http://microformats.org/wiki/twitter-nanoformat&#34;&gt;nanoformats&lt;/a&gt;&amp;#8220;&amp;gt;http://microformats.org/wiki/twitter-nanoformats)&lt;/a&gt; add great value to Twitter, but we must never try and dictate that they are used by all. Instead, we should provide complete, and accessible information on them for anyone who is interested enough to use them.  I for one was scared off &lt;span class=&#34;caps&#34;&gt;IRC&lt;/span&gt; and the like for years by the seemingly ferocious users who knew the conventions inside and out, but didn&amp;#8217;t appear to tolerate newcomers.  I&amp;#8217;d hate for twitter to end up like that.  We should use things like the &lt;a href=&#34;http://philwhitehouse.blogspot.com/2008/01/ten-commandments-of-twitter.html&#34;&gt;10 Commandments of Twitter&lt;/a&gt; as useful tips for people, rather than an iron rod with which to force people to use Twitter &amp;#8216;our&amp;nbsp;way.&amp;#8217;&lt;/p&gt;
+&lt;p class=&#34;meta&#34;&gt;
+    Photo credit: &lt;a href=&#34;http://www.flickr.com/photos/crashmaster/3733005619/in/photostream/&#34;&gt;Mike&amp;nbsp;Hoff&lt;/a&gt;
+&lt;/p&gt;            </content>
         </entry>
     </feed>
