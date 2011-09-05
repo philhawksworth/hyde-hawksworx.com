@@ -7,7 +7,7 @@
         <link href="/"/>
     
         
-    <updated>2011-09-05T00:04:59Z</updated>
+    <updated>2011-09-05T19:13:13Z</updated>
 
     <id>/blog/atom.xml/</id>
 
@@ -932,5 +932,42 @@ Frustrated by the noisy habits of &lt;a href=&#34;http://twitter.com/gapingvoid&
 &lt;p class=&#34;meta&#34;&gt;
     Photo credit: &lt;a href=&#34;http://www.flickr.com/photos/crashmaster/3733005619/in/photostream/&#34;&gt;Mike&amp;nbsp;Hoff&lt;/a&gt;
 &lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Osmosoft return from LeWeb3 intact</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/osmosoft-return-from-leweb3-intact"/>
+            <updated>2007-12-17T10:00:00Z</updated>
+            <published>2007-12-17T10:00:00Z</published>
+            <id>/blog/osmosoft-return-from-leweb3-intact</id>
+                        <category   scheme="/blog/tags"
+                        term="news"
+                        label="News" />
+                        <category   scheme="/blog/tags"
+                        term="osmosoft"
+                        label="Osmosoft" />
+                        <category   scheme="/blog/tags"
+                        term="events"
+                        label="Events" />
+            
+            <content type="html">
+                                &lt;p&gt;&lt;img src=&#34;/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+&lt;!-- http://www.hawksworx.com/journal/wp-content/uploads/2007/12/le-web-3.jpg --&gt;&lt;/p&gt;
+&lt;p class=&#34;excerpt&#34;&gt;
+    Last week the entire &lt;a href=&#34;http://www.osmosoft.com&#34;&gt;Osmosoft&lt;/a&gt; team visited Paris to attend the &lt;a href=&#34;http://www.leweb3.com&#34;&gt;LeWeb3&lt;/a&gt; conference.  Initially, we had intended to be attending simply as delegates, but as time went by, we decided that we might be able to build something handy to use at the conference, and that perhaps, others might find it useful&amp;nbsp;too.
+&lt;/p&gt;
+
+&lt;p&gt;And so, &lt;a href=&#34;http://ripplerap.com&#34;&gt;RippeRap&lt;/a&gt; (then dubbed &amp;#8216;TiddleLeWeb&amp;#8217;) was conceived. We considered that building a tool based on &lt;a href=&#34;http://www.tiddlywiki.com&#34;&gt;TiddlyWiki&lt;/a&gt; where you could make notes on the conference and effortlessly share those notes with others, while being shielded from network hiccups, would be cool. To be ready, we had much to do, and little time to do&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ripplerap.com&#34;&gt;&lt;img src=&#34;http://www.hawksworx.com/journal/wp-content/uploads/2007/12/ripplerap.jpg&#34;&gt;&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;We found that getting up-to-date and accurate information about the agenda from the &lt;a href=&#34;http://www.leweb3.com&#34;&gt;LeWeb3 website&lt;/a&gt;, was a little fiddly, so including an agenda and using it as the basic navigation in RippleRap seemed like a natural choice. For added value, we also used &lt;a href=&#34;http://www.microformats.org&#34;&gt;Microformats&lt;/a&gt; to markup the agenda so that you could export the sessions to your calendar and so&amp;nbsp;on.&lt;/p&gt;
+&lt;p&gt;Since we were planning to hand out copies of RippleRap to other delegates, we decided to have a stand at the conference so that we could explain what we were doing with RippleRap, and in the open source world.  Osmosoft and &lt;a href=&#34;http://bt.com&#34;&gt;&lt;span class=&#34;caps&#34;&gt;BT&lt;/span&gt;&lt;/a&gt; shared a stand which was busy throughout. I think that having &lt;a href=&#34;http://blog.whatfettle.com&#34;&gt;Paul Downey&lt;/a&gt; around to talk people through his excellent, and popular uber-doodle, &amp;#8216;&lt;a href=&#34;http://map.whatfettle.com&#34;&gt;The Web Is Agreement&lt;/a&gt;&amp;#8216; (more than 60 thousand views &lt;a href=&#34;http://www.flickr.com/photos/psd/1805709102/&#34;&gt;on flickr&lt;/a&gt; at time of writing) helped draw people to the stand.  I rather think that the retro-chic &lt;a href=&#34;http://www.flickr.com/photos/philliecasablanca/2070476239/&#34;&gt;bat phone&lt;/a&gt; also raised a smile.  We enabled every copy of RippleRap to make free calls to the bat phone at the stand in order to get support. Building that feature was made easy with &lt;a href=&#34;http://mojo.bt.com&#34;&gt;Mojo&lt;/a&gt;, &lt;span class=&#34;caps&#34;&gt;BT&lt;/span&gt;&amp;#8217;s &lt;a href=&#34;http://en.wikipedia.org/wiki/Representational_State_Transfer&#34;&gt;&lt;span class=&#34;caps&#34;&gt;REST&lt;/span&gt;&lt;/a&gt; exposure to its &lt;a href=&#34;http://sdk.bt.com&#34;&gt;21cSDK&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/psd/sets/72157602805227511/&#34;&gt;&lt;img src=&#34;http://www.hawksworx.com/journal/wp-content/uploads/2007/12/paul-explains-twia-to-yossi-vardi.jpg&#34; alt=&#34;Paul explains TWIA to Yossi Vardi&#34;&gt;&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;RippleRap was distributed with the mantra &amp;#8216;release early, release often&amp;#8217; ringing in our ears. There is no arguing with the suggestion that this is an application in it&amp;#8217;s early days.  Releasing software in this way has been something of a revelation to me. I&amp;#8217;m used to a more traditional release cycle, where you possessively guard your work until you are good and ready to face the scrutiny. As I attend more conferences like this, I hear &amp;#8216;release early, release often&amp;#8217; more and more regularly, and it is always met with lots of enthusiastic head nodding from around the room. There has been a lot of feedback and we are finding it all valuable.  Hopefully, the next release of RippleRap will have some of the useful improvements that were&amp;nbsp;suggested.&lt;/p&gt;
+&lt;p&gt;The LeWeb3 conference was, on the whole, pretty good. Some of the speakers where really interesting, and I found some unexpected gems. &lt;a href=&#34;http://en.wikipedia.org/wiki/Yossi_Vardi&#34;&gt;Yossi Vardi&lt;/a&gt; and &lt;a href=&#34;http://www.philippe-starck.com/&#34;&gt;Philippe Starck&lt;/a&gt; were really entertaining, although I gather that some of these talks were already available on YouTube.  Listening to &lt;span class=&#34;caps&#34;&gt;BT&lt;/span&gt;&amp;#8217;s &lt;a href=&#34;http://www.confusedofcalcutta.com&#34;&gt;&lt;span class=&#34;caps&#34;&gt;JP&lt;/span&gt; Rangaswami&lt;/a&gt; was as ever, rather inspiring. I was also lucky enough to listen in on several ad hoc discussions that &lt;span class=&#34;caps&#34;&gt;JP&lt;/span&gt; had around the conference, and noted that you rarely saw &lt;span class=&#34;caps&#34;&gt;JP&lt;/span&gt; talking, without a small crowd gathering around him. I unexpectedly found myself on stage with &lt;span class=&#34;caps&#34;&gt;JP&lt;/span&gt; and am now enjoying the glory of photos on flickr described &amp;#8220;&lt;span class=&#34;caps&#34;&gt;JP&lt;/span&gt; Rangaswami takes the stage at Le Web, supported by Phil Hawksworth&amp;#8221;. Brilliant! (just don&amp;#8217;t tell anyone that I was up there in nothing more than a &amp;#8216;helper-monkey&amp;#8217;&amp;nbsp;capacity!)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/psd/2104675535/&#34;&gt;&lt;img src=&#34;http://www.hawksworx.com/journal/wp-content/uploads/2007/12/jp-presenting.jpg&#34; alt=&#34;JP presenting&#34;&gt;&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;There were a couple of things about LeWeb3 that I did find a little irksome though (aside from the absurd name - this is not the third year of the LeWeb conference, the 3 refers to web 3.0!). I found that the time allocation for the various speakers was a bit odd at times.  It seemed that some panel discussions that featured &lt;a href=&#34;http://loiclemeur.com/&#34;&gt;Loic Le Meur&lt;/a&gt; (organiser of LeWeb3) went on for a very long time, and I found them, to be blunt, a little self indulgent.  This is all well and good except that several other speakers had their time trimmed to ridiculously short slots.  Notably, &lt;a href=&#34;http://www.searls.com/&#34;&gt;Doc Searls&lt;/a&gt;, who I was particularly looking forward to listening to, had to rush through his presentation at lightening speed and was told that he didn&amp;#8217;t have time to take questions.&amp;nbsp;Booo.&lt;/p&gt;
+&lt;p&gt;I was also really disappointed at the handling of some of the questions from the auditorium by Loic. At times I found him rather rude in the way he dealt with those asking questions, especially if the questions were in any way challenging to the panel.  Perhaps Mr Le Meur was just trying to take care of his speakers by shielding them from any potential awkwardness on stage, and the rudeness was just a artefact of a slight language barrier, but I suspect&amp;nbsp;not.&lt;/p&gt;
+&lt;p&gt;The facilities at LeWeb3 were very good. I had reservations about the conference being split into 3 separate buildings, but this was not actually a problem.  The staging and audiovisuals where outstanding. The food was superb and the provision of power on every row of the main auditorium was very welcome.  I am led to believe that a significant amount of money had been spent on providing free wifi, but sadly the wifi was rather unreliable - but hey, that&amp;#8217;s what you get at conferences, and why a tool like RippleRap might be a handy thing to have at your&amp;nbsp;fingertips.&lt;/p&gt;
+&lt;p&gt;Check out the photos that Osmosoft took at LeWeb3. Several Osmosoftians &lt;a href=&#34;http://www.flickr.com/photos/psd/sets/72157603456702447/&#34;&gt;more&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/philliecasablanca/sets/72157603435510986/&#34;&gt;talented&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/carrierdetect/sets/72157603197236730&#34;&gt;than&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/philhawksworth/sets/72157603446183588&#34;&gt;I&lt;/a&gt; have posted pictures at&amp;nbsp;flickr.&lt;/p&gt;            </content>
         </entry>
     </feed>
