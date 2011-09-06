@@ -171,13 +171,17 @@ a:hover, a:focus {
     .post h2 {
        margin-bottom:0.4em;
     }
-
     .post p {
         text-align:justify;                
     }
     .post img {
         width:680px;
         margin-bottom:10px;
+    }
+    .post img.free {
+        width:auto;
+        text-align:center;
+        margin:0 auto 10px;
     }
     .post li {
         margin:0 1em 0.4em 1em;

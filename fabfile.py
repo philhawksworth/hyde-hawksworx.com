@@ -20,18 +20,13 @@ DEPLOY_PATH = os.path.join(ROOT_PATH, 'production_site')
 
 
 
-
 # django.settings_module('ebay.config.europe.settings.local')
 # from django.conf import settings
 
 env.project = "hawksworx"
-tmp_time = datetime.datetime.now()
-env.time = tmp_time.strftime("%Y-%m-%d_%H-%M")
-# env.media_root = settings.MEDIA_ROOT
 
-#SERVER
-# STAGING = 'phil@ec2-79-125-85-220.eu-west-1.compute.amazonaws.com'
-PRODUCTION = 'philhawksworth-aws@ec2-79-125-85-220.eu-west-1.compute.amazonaws.com'
+# SERVER
+PRODUCTION = '46.51.184.117'
 
 # PROJECT_ROOT = os.path.dirname(os.path.realpath(__file__))
 # here = lambda *x: os.path.join(PROJECT_ROOT, *x)
@@ -50,29 +45,37 @@ PRODUCTION = 'philhawksworth-aws@ec2-79-125-85-220.eu-west-1.compute.amazonaws.c
 # env.htdocs = here('tmp', env.time, 'www')
 
 
+
 # Hyde utilities
 
 def clean():
+    ''' remove the previoiusly generated dirs '''
     local('rm -rf ./deploy')
     local('rm -rf ./production_site')
 
 def regen():
+    ''' generate a new version of the site '''
     clean()
     local('hyde gen')
     local('chmod -R 777 ./deploy')
 
 def serve():
+    ''' run the local test server '''
     local('hyde serve')
 
 def reserve():
+    ''' rgenerate and serve the site '''
     regen()
     serve()
 
 def genprod():
+    ''' generate a version for production '''
     clean()
     local('hyde gen -c production.yaml -d ./production_site')
     local('chmod -R 777 ./production_site')
 
+
+# Server utilities
 
 def staging():
     """Staging site"""
@@ -81,6 +84,7 @@ def staging():
     env.path = '/var/www/stage.hawksworx.com'
     env.user = 'ubuntu'
     env.apache = ['stage.hawksworx.com',]
+    env.key_filename  = '/Users/phil.hawksworth/.ssh/philhawksworth-aws.pem'
     # env.release_name = '%(project)s_%(time)s' % env
     # env.origin_path =  env.path + "/var/releases/hawksworx.com"
     env.release_path = "/var/releases/hawksworx.com"
@@ -91,6 +95,7 @@ def production():
     env.hosts = [PRODUCTION]
     env.path = '/var/www/hawksworx.com'
     env.user = 'ubuntu'
+    env.key_filename  = '/Users/phil.hawksworth/.ssh/philhawksworth-aws.pem'
     env.apache = ['hawksworx.com', ]
     # env.release_name = '%(project)s_%(time)s' % env
     # env.origin_path =  env.path + "/releases/hawksworx.com"
@@ -99,20 +104,15 @@ def production():
 
 def deploy():
     """Deployment actions"""
-    # current version on the server
     export_release()
-        # symlink_release()
-        # copy_settings_local()
+    # symlink_release()
+    # copy_settings_local()
 
 def export_release():
     """Exports a release with the current time and date"""
     run('cd %s && git pull origin master' % env.release_path)
-    run('cp -r %(release_path)s/deploy %(path)s' % env)
+    run('cp -r %(release_path)s/deploy/ %(path)s' % env)
 
-    # Remove .git repository. Is there a better way of doing this?
-    # run('rm -rf %(path)s/releases/%(release_name)s/.git' % env)
-    # ammend file permissions
-    # sudo('chown www-data:www-data %(path)s/releases/%(release_name)s/ebay/assets/ -R' % env)
 
 def symlink_release():
     """Removes the old release and symlinks latest release to current"""
@@ -120,7 +120,6 @@ def symlink_release():
     run('rm %(path)s/current' % env)
     # symlink deployment
     run('ln -s %(path)s/releases/%(release_name)s/ %(path)s/current' % env)
-
 
 def copy_apache():
     """Copies the apache file to the appropriate location."""
