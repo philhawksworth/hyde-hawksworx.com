@@ -7,7 +7,7 @@
         <link href="/"/>
     
         
-    <updated>2011-09-06T20:46:39Z</updated>
+    <updated>2011-09-06T23:34:32Z</updated>
 
     <id>/blog/atom.xml/</id>
 
@@ -958,5 +958,42 @@ Thanks also to &lt;a href=&#34;http://www.flickr.com/photos/balakov&#34;&gt;Bala
 &lt;p&gt;I was also really disappointed at the handling of some of the questions from the auditorium by Loic. At times I found him rather rude in the way he dealt with those asking questions, especially if the questions were in any way challenging to the panel.  Perhaps Mr Le Meur was just trying to take care of his speakers by shielding them from any potential awkwardness on stage, and the rudeness was just a artefact of a slight language barrier, but I suspect&amp;nbsp;not.&lt;/p&gt;
 &lt;p&gt;The facilities at LeWeb3 were very good. I had reservations about the conference being split into 3 separate buildings, but this was not actually a problem.  The staging and audiovisuals where outstanding. The food was superb and the provision of power on every row of the main auditorium was very welcome.  I am led to believe that a significant amount of money had been spent on providing free wifi, but sadly the wifi was rather unreliable - but hey, that&amp;#8217;s what you get at conferences, and why a tool like RippleRap might be a handy thing to have at your&amp;nbsp;fingertips.&lt;/p&gt;
 &lt;p&gt;Check out the photos that Osmosoft took at LeWeb3. Several Osmosoftians &lt;a href=&#34;http://www.flickr.com/photos/psd/sets/72157603456702447/&#34;&gt;more&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/philliecasablanca/sets/72157603435510986/&#34;&gt;talented&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/carrierdetect/sets/72157603197236730&#34;&gt;than&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/philhawksworth/sets/72157603446183588&#34;&gt;I&lt;/a&gt; have posted pictures at&amp;nbsp;flickr.&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Opening a Finder window from the Terminal</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/opening-a-finder-window-from-the-terminal"/>
+            <updated>2007-11-04T10:00:00Z</updated>
+            <published>2007-11-04T10:00:00Z</published>
+            <id>/blog/opening-a-finder-window-from-the-terminal</id>
+                        <category   scheme="/blog/tags"
+                        term="osx"
+                        label="Osx" />
+                        <category   scheme="/blog/tags"
+                        term="tips"
+                        label="Tips" />
+            
+            <content type="html">
+                                &lt;p class=&#34;excerpt&#34;&gt;
+I stumbled upon a simple method for opening a Finder window at your current Terminal session location recently.  Since it is something that I have a regular need for, I thought that there might be other Mac users out there who might also find this useful from time to&amp;nbsp;time.
+&lt;/p&gt;
+
+&lt;p&gt;To set things up so that it is easy to use whenever you need it, you just need to follow these two&amp;nbsp;steps:&lt;/p&gt;
+&lt;p&gt;First, using your &lt;a href=&#34;http://www.macromates.com&#34;&gt;preferred text editor&lt;/a&gt; create a file which contains this&amp;nbsp;command:&lt;/p&gt;
+&lt;div class=&#34;codebox&#34;&gt;&lt;figure class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;c&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;br /&gt;open /System/Library/CoreServices/Finder.app &lt;span class=&#34;nv&#34;&gt;$&lt;span class=&#34;caps&#34;&gt;PWD&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br /&gt;&lt;figcaption&gt;Bash&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;You should name this file with whatever you want to use to call it later.  I named it &lt;code&gt;fndr&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Second, you should place this somewhere that is visible on your path. I collect any little utility scripts like this together in a directory called &lt;code&gt;Utils&lt;/code&gt; which I added to my path to make all of its contents easily&amp;nbsp;accessible.&lt;/p&gt;
+&lt;p&gt;Now you can simply type &lt;code&gt;fndr&lt;/code&gt; in your Terminal window to open a Finder at your present&amp;nbsp;directory.&lt;/p&gt;
+&lt;p&gt;If you need help adding something to your path, I recommend creating a file in your home directory (it may even already exist) called &lt;code&gt;.bash_profile&lt;/code&gt;.  This file gets invoked whenever you enter the Terminal&amp;nbsp;environment. &lt;/p&gt;
+&lt;p&gt;Add an item to your path by entering a line something like this to your &lt;code&gt;.bash_profile&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&#34;codebox&#34;&gt;&lt;figure class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nb&#34;&gt;export &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;&lt;span class=&#34;caps&#34;&gt;PATH&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;$&lt;span class=&#34;caps&#34;&gt;PATH&lt;/span&gt;:/Users/PhilH/Utils&amp;#39;&lt;/span&gt;&lt;br /&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br /&gt;&lt;figcaption&gt;Bash&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;I&amp;#8217;m always on the look out for bits and pieces like this to help make my life easier in Mac &lt;span class=&#34;caps&#34;&gt;OSX&lt;/span&gt;.  Not that I think that things are difficult in this excellent &lt;span class=&#34;caps&#34;&gt;OS&lt;/span&gt;, but there is always room for shortcuts to speed up common tasks. If you have any little gems that might be useful to the Mac &lt;span class=&#34;caps&#34;&gt;OSX&lt;/span&gt; world, it would be great if you could post them in the comments.&amp;nbsp;Thanks!&lt;/p&gt;
+&lt;h3&gt;Update:&lt;/h3&gt;
+
+&lt;p&gt;This can simple be done with a single command already as it turns out. Just use&amp;nbsp;this:&lt;/p&gt;
+
+&lt;div class=&#34;codebox&#34;&gt;&lt;figure class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;open .&lt;br /&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br /&gt;&lt;figcaption&gt;Bash&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;            </content>
         </entry>
     </feed>

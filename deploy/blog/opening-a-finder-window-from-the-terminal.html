@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="">
+  <meta http-equiv="X-UA-Compatible" content="">
+
+  <title>Opening a Finder window from the Terminal</title>
+  <meta name="description" content="A tip for more easily moving between the terminal and the Finder in OSX
+">
+  <meta name="author" content="Phil Hawksworth">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="">
+
+    <!-- Place favicon.ico & apple-touch-icon.png
+        in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+    <link rel="stylesheet" href="/media/css/base.css">
+  <link rel="stylesheet" href="/media/css/syntax.css">
+  
+</head>
+<body class="blog">
+    <div class="header">
+        <h1>hawksworx</h1>
+        <h2>noodlings about the web, technology and whatnot</h2>
+        <ul class="nav" role="navigtion">
+            <li><a href="/" class="home">home</a></li>
+            <li><a href="/blog" class="blog">blog</a></li>
+            <li><a href="/feed" class="feed">feed</a></li>
+        </ul>
+    </div>
+    <div class="content">
+            <article class="post">
+    <h1>Opening a Finder window from the Terminal <g:plusone size="small" annotation="none"></g:plusone></h1>
+    <div class="meta">
+        <time datetime="2007-11-04">
+            posted on 04 Nov 2007
+        </time> 
+                 with the tags 
+        <ul class="tags">
+                    <li><a href="/blog/tags/osx">osx</a></li>
+                    <li> and <a href="/blog/tags/tips">tips</a></li>
+                </ul>
+                <span class="permalink"><a href="/blog/opening-a-finder-window-from-the-terminal">permalink</a><span></span></span>
+    </div>
+
+    <p class="excerpt">
+I stumbled upon a simple method for opening a Finder window at your current Terminal session location recently.  Since it is something that I have a regular need for, I thought that there might be other Mac users out there who might also find this useful from time to&nbsp;time.
+</p>
+
+<p>To set things up so that it is easy to use whenever you need it, you just need to follow these two&nbsp;steps:</p>
+<p>First, using your <a href="http://www.macromates.com">preferred text editor</a> create a file which contains this&nbsp;command:</p>
+<div class="codebox"><figure class="code"><div class="highlight"><pre><span class="c">#!/bin/bash</span><br />open /System/Library/CoreServices/Finder.app <span class="nv">$<span class="caps">PWD</span></span><br /></pre></div><br /><figcaption>Bash</figcaption></figure></div>
+
+<p>You should name this file with whatever you want to use to call it later.  I named it <code>fndr</code>.</p>
+<p>Second, you should place this somewhere that is visible on your path. I collect any little utility scripts like this together in a directory called <code>Utils</code> which I added to my path to make all of its contents easily&nbsp;accessible.</p>
+<p>Now you can simply type <code>fndr</code> in your Terminal window to open a Finder at your present&nbsp;directory.</p>
+<p>If you need help adding something to your path, I recommend creating a file in your home directory (it may even already exist) called <code>.bash_profile</code>.  This file gets invoked whenever you enter the Terminal&nbsp;environment. </p>
+<p>Add an item to your path by entering a line something like this to your <code>.bash_profile</code> file:</p>
+<div class="codebox"><figure class="code"><div class="highlight"><pre><span class="nb">export </span><span class="nv"><span class="caps">PATH</span></span><span class="o">=</span><span class="s1">&#39;$<span class="caps">PATH</span>:/Users/PhilH/Utils&#39;</span><br /></pre></div><br /><figcaption>Bash</figcaption></figure></div>
+
+<p>I&#8217;m always on the look out for bits and pieces like this to help make my life easier in Mac <span class="caps">OSX</span>.  Not that I think that things are difficult in this excellent <span class="caps">OS</span>, but there is always room for shortcuts to speed up common tasks. If you have any little gems that might be useful to the Mac <span class="caps">OSX</span> world, it would be great if you could post them in the comments.&nbsp;Thanks!</p>
+<h3>Update:</h3>
+
+<p>This can simple be done with a single command already as it turns out. Just use&nbsp;this:</p>
+
+<div class="codebox"><figure class="code"><div class="highlight"><pre>open .<br /></pre></div><br /><figcaption>Bash</figcaption></figure></div>    
+    <ul class="blog-nav">
+        <!-- <a href="/blog">Back to the blog listing</a> -->
+                <li>
+            <a href="/blog/osmosoft-return-from-leweb3-intact" title="Osmosoft return from LeWeb3 intact">More recent post</a>
+            <p>Osmosoft return from LeWeb3 intact</p>
+        </li>
+                    </ul>
+    
+    
+    
+    
+</article>    </div>
+    <div class="footer">
+        <h1>hawksworx</h1>
+        <h2>noodlings about the web, technology and whatnot</h2>
+        <ul class="nav" role="navigtion">
+            <li><a href="/" class="home">home</a></li>
+            <li><a href="/blog" class="blog">blog</a></li>
+            <li><a href="/feed" class="feed">feed</a></li>
+        </ul>
+        <p>
+            Follow <a href="http://twitter.com/philhawksworth" rel="me">@philhawksworth</a> on twitter for more regular wibblings. This site is hand-whittled with some help from <a href="https://github.com/hyde/hyde">Hyde</a> and can be found on <a href="http://github.com/">Github</a>
+        </p>
+    </div>
+    <!-- Place this render call where appropriate -->
+    <script type="text/javascript">
+      window.___gcfg = {lang: 'en-GB'};
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+            </body>
+</html>
