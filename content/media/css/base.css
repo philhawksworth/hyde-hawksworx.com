@@ -106,7 +106,7 @@ a:hover, a:focus {
 
     .footer .nav {
         position:absolute;
-        bottom:20px;
+        top:10px;
         right:20px;
         list-style:none;
     }
@@ -116,7 +116,10 @@ a:hover, a:focus {
     } 
     
     .footer p {
-        font-size:0.7em;
+        font-size: 0.7em;
+        background: #292929;
+        padding: 10px 20px 20px;
+        margin: 50px -20px -20px;
     }
        
 .nav a:link {
