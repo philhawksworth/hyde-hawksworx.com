@@ -75,24 +75,24 @@ def genprod():
 
 
 def staging():
-    """UK staging server"""
+    """Staging site"""
     env.alias = "staging"
-    env.hosts = [STAGING]
+    env.hosts = [PRODUCTION]
     env.path = '/var/www/stage.hawksworx.com'
     env.user = 'ubuntu'
     env.apache = ['stage.hawksworx.com',]
-    env.release_name = '%(project)s_%(time)s' % env
+    # env.release_name = '%(project)s_%(time)s' % env
     # env.origin_path =  env.path + "/var/releases/hawksworx.com"
     env.release_path = "/var/releases/hawksworx.com"
 
 def production():
-    """UK staging server"""
+    """Production site"""
     env.alias = "production"
     env.hosts = [PRODUCTION]
     env.path = '/var/www/hawksworx.com'
     env.user = 'ubuntu'
     env.apache = ['hawksworx.com', ]
-    env.release_name = '%(project)s_%(time)s' % env
+    # env.release_name = '%(project)s_%(time)s' % env
     # env.origin_path =  env.path + "/releases/hawksworx.com"
     env.release_path = "/var/releases/hawksworx.com"
 
@@ -100,8 +100,6 @@ def production():
 def deploy():
     """Deployment actions"""
     # current version on the server
-    # if console.confirm("This will deploy to the %s environment" % env.alias):
-        # export release
     export_release()
         # symlink_release()
         # copy_settings_local()
