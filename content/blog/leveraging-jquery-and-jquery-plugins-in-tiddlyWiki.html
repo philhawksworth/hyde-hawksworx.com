@@ -8,25 +8,19 @@ tags:
     - jquery
     - tiddlywiki
 ---
-
-
-{% mark image -%}
-<img src="/media/images/jquery-logo-large.jpg" />
-{%- endmark %}
+{% mark image -%}<img src="{{site.config.image_path}}/jquery-logo-large.jpg" />{%- endmark %}
 
 {% mark excerpt -%}
 <p class="excerpt">
     The recent release of <a href="http://tiddlywiki.com/">TiddlyWiki v2.5</a> included something rather exciting for me: <a href="http://jquery.com">jQuery</a>, the popular Javascript library is now part of the TiddlyWiki core.
 </p>
 {%- endmark %}
-
 <p>This is exciting for a number of reasons.</p>
 <ol> 
     <li>The TiddlyWiki core functions can now use jQuery to perform all manner of DOM inspection and DOM manipulation.  We can refactor a ton of code to benefit from jQuery's blistering Sizzle engine and pass the burden of maintaining lots of utility functions over to those clever jQuery bods. All of which will simplify the TiddlyWiki codebase and ultimately make it easier to read and easier to maintain.</li> 
     <li>TiddlyWiki plugin developers will now be able to make use of jQuery in their plugins. That's great news for both hardcore plugin developers and people dabbling for the first time.  jQuery is elegantly expressive, powerful, and superbly documented.  All of this lowers the barriers to entry for a would be developer and smooths the way for exisiting developers.</li> 
     <li>There is a huge wealth of jQuery plugins which can now be utilised by TiddlyWiki.  The quality of many of these plugins is tremendously high. Bring 'em on!</li> 
 </ol>
-
 <p>
     But how does a TiddlyWiki plugin developer get started? How can we bring a jQuery plugin into TiddlyWiki and make it available via a Macro?  Let's take a look at an example.
 </p>
@@ -36,7 +30,7 @@ tags:
 <p>
     To include the plugin, all we need to do is copy it into a tiddler and then tag the tiddler with systemConfig. After saving the file and reloading, the plugin is available for us to use.
 </p>
-<img alt="" src="http://www.hawksworx.com/journal/wp-content/uploads/2009/03/plugin_inclusion.png" />  
+<img alt="Plugin inclusion" src="{{site.config.image_path}}/plugin_inclusion.png" />  
 <p>
     With the jQuery plugin availble, we can use it to provide a snazzy UI for any UL or LI elements on the page. The Javascript syntax for that is nice and simple:
 </p>
@@ -74,11 +68,11 @@ tags:
 <p>
     To see it working, I created two more new tiddlers. MyFruityList holds a list of items, and ExampleListNav holds a call to the new macro.
 </p>
-<img alt="" src="http://www.hawksworx.com/journal/wp-content/uploads/2009/03/list-and-example-call.png" /> 
+<img alt="List amnd example call" src="{{site.config.image_path}}/list-and-example-call.png" /> 
 <p>
      Saving the TiddlyWiki file and reloading will make the macro available to call. If we open the ExampleListNav tiddler, we should see our macro called like this:
 </p> 
-<img alt="" src="http://www.hawksworx.com/journal/wp-content/uploads/2009/03/macro-called-1.png" /> 
+<img alt="" src="{{site.config.image_path}}/macro-called-1.png" /> 
 <p> 
     All good, but not exciting yet. Let's flesh out our TiddlyWiki macro a bit.  We'll use a TiddlyWiki function to get the text from our desired tiddler and then make a list from it.  Where we might once have used some TiddlyWiki utility functions to help us create the HTML elements (like createTiddlyElement), we can now use <a href="http://docs.jquery.com/Manipulation">jQuery's helper functions</a> to append elements to the document. 
 </p> 
@@ -112,7 +106,7 @@ tags:
 <p>
     Now we're getting somewhere. We've grabbed each line from our MyFruityList tiddler and used jQuery to turn them into an unordered list.
 </p> 
-<img alt="" src="http://www.hawksworx.com/journal/wp-content/uploads/2009/03/example-list-created.png" /> 
+<img alt="" src="{{site.config.image_path}}/example-list-created.png" /> 
 <p>
     We can now call the jQuery plugin to render our list as a NavList. The plugin requires a little extra HTML so we can create that, and then call the listnav plugin.
 </p>
@@ -222,5 +216,5 @@ config.macros.listnav = {
 {% endsyntax %} 
 
 <p>
-    You can explore the finished example in a <a href="http://www.hawksworx.com/journal/wp-content/uploads/2009/03/listnavplugin.html" title="ListNavPlugin example TiddlyWiki"> TiddlyWiki</a>.
+    You can explore the finished example in a <a href="http://static.hawksworx.com/listnavplugin.html" title="ListNavPlugin example TiddlyWiki"> TiddlyWiki</a>.
 </p>

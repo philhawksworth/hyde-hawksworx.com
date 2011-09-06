@@ -7,7 +7,7 @@
         <link href="/"/>
     
         
-    <updated>2011-09-05T19:13:15Z</updated>
+    <updated>2011-09-06T09:14:57Z</updated>
 
     <id>/blog/excerpts.xml/</id>
 
@@ -72,7 +72,7 @@
                         label="Projects" />
             
             <content type="html">
-                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
                 &lt;p class=&#34;excerpt&#34;&gt;
     One of the nice things about being a web developer today, is that thanks to the incredibly low cost of resilient, scalable hosting infrastructure, and the abundance of free tools and technologies, you&amp;#8217;re empowered to create things and release them to the a huge audience. You can experiment with much less risk than ever before. We&amp;#8217;re seeing evidence of this with so many entrepreneurs and startups entering the market. Some more successfully than&amp;nbsp;others. 
 &lt;/p&gt;            </content>
@@ -95,7 +95,7 @@
                         label="Projects" />
             
             <content type="html">
-                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
                 &lt;p class=&#34;excerpt&#34;&gt;
     For a while I have been meaning to start posting screencasts of some of my work to spread the word, and to explain some of the details that are difficult to describe in&amp;nbsp;text.
 &lt;/p&gt;            </content>
@@ -207,7 +207,7 @@
                         label="Tips" />
             
             <content type="html">
-                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/quicksilver_lastfm.png&#34; alt=&#34;Quicksilver &amp;amp; Last.fm&#34; /&gt;
+                &lt;img src=&#34;/media/images/quicksilver_lastfm.png&#34; alt=&#34;Quicksilver &amp;amp; Last.fm&#34; /&gt;
                 &lt;p class=&#34;excerpt&#34;&gt;
     For a while, I&amp;#8217;ve been using handy &lt;a href=&#34;http://docs.blacktree.com/quicksilver/what_is_quicksilver&#34;&gt;Quicksilver&lt;/a&gt; triggers to control iTunes. I like not needing to switch my attention from what I&amp;#8217;m working on, in order to skip a track, pause the playback, set a rating or whatever.  You can find out &lt;a href=&#34;http://leafraker.com/2007/09/17/how-to-create-a-quicksilver-trigger/&#34;&gt;how to create a trigger&lt;/a&gt; from one of the many great Quicksilver tutorials out on the&amp;nbsp;Web.
 &lt;/p&gt;            </content>
@@ -230,7 +230,7 @@
                         label="Development" />
             
             <content type="html">
-                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/flashvjs.png&#34; alt=&#34;Flash versus Javascript&#34; /&gt;
+                &lt;img src=&#34;/media/images/flashvjs.png&#34; alt=&#34;Flash versus Javascript&#34; /&gt;
                 &lt;p class=&#34;excerpt&#34;&gt;
     &lt;span class=&#34;caps&#34;&gt;OK&lt;/span&gt;, I&amp;#8217;m being over dramatic, but sometimes it does feel like I&amp;#8217;m on a bit of a stealth mission. Pity that I forgot to bring any stealth! I&amp;#8217;ve been working here at &lt;a href=&#34;http://theteam.co.uk&#34; rel=&#34;org url&#34;&gt;The Team&lt;/a&gt; for 3 months now and am enjoying myself greatly, but there is an issue that challenges me on a daily basis. That is that we do a lot of Flash work here, and yet I&amp;#8217;m a big advocate of using &lt;a href=&#34;http://www.w3.org/&#34; rel=&#34;org url&#34;&gt;Open Web Technologies&lt;/a&gt;.
 &lt;/p&gt;            </content>
@@ -302,7 +302,7 @@
                         label="Development" />
             
             <content type="html">
-                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
                 &lt;p class=&#34;excerpt&#34;&gt;
     Recently I saw Tim Stevens &lt;a href=&#34;http://twitter.com/san1t1/status/1193906661&#34;&gt;post on Twitter&lt;/a&gt; about a slide show he had built using his &lt;a href=&#34;http://www.liveloom.com/&#34;&gt;Liveloom&lt;/a&gt; application. His slide show grabs some photos from Flickr tagged with &amp;#8216;Osmosoft&amp;#8217; and then renders them with all manner of visual effects using Flex.  While the visual effects available via Tim&amp;#8217;s app are impressive, I&amp;#8217;m a big advocate of open web standards and enjoy making things from &lt;span class=&#34;caps&#34;&gt;HTML&lt;/span&gt; and Javascript, rather than using tools like&amp;nbsp;Flex.
 &lt;/p&gt;            </content>
@@ -325,7 +325,7 @@
                         label="Development" />
             
             <content type="html">
-                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
                 &lt;p class=&#34;excerpt&#34;&gt;
     Recently &lt;a href=&#34;http://jaybyjayfresh.com&#34; title=&#34;jaybyjayfresh&#34;&gt;Jon Lister&lt;/a&gt;, a colleague of mine at &lt;a href=&#34;http://www.osmosoft.com&#34;&gt;Osmosoft&lt;/a&gt; showed me a website made by his friend &lt;a href=&#34;http://joshuabradley.co.uk/&#34; title=&#34;Joshua Bradley&#34;&gt;Joshua Bradley&lt;/a&gt;. The site, used some of the Javscript code from &lt;a href=&#34;http://tiddlywiki.com&#34; title=&#34;TiddlyWiki&#34;&gt;TiddlyWiki&lt;/a&gt;&amp;#8216;s animation engine to create some nice visual effects. I loved the design, but could see some room for improvement in the implementation. I&amp;#8217;m a big advocate of &lt;a href=&#34;http://en.wikipedia.org/wiki/Unobtrusive_JavaScript&#34; title=&#34;Unobtrusive JavaScript&#34;&gt;Unobtrusive Javascript&lt;/a&gt; and &lt;a href=&#34;http://en.wikipedia.org/wiki/Progressive_enhancement&#34; title=&#34;Progressive enhancement&#34;&gt;Progressive Enhancement&lt;/a&gt; and so I set about producing a quick demo of how a similar result could be achieved in the most Web-kind and accessible way available using &lt;a href=&#34;http://jquery.com&#34; title=&#34;jQuery&#34;&gt;jQuery&lt;/a&gt; for the&amp;nbsp;behaviors.
 &lt;/p&gt;            </content>
@@ -420,7 +420,7 @@
                         label="Projects" />
             
             <content type="html">
-                &lt;img src=&#34;http://www.hawksworx.com/journal/wp-content/uploads/2008/05/twitter-nba-results.jpg&#34; alt=&#34;Twitter NBA results&#34; /&gt;
+                &lt;img src=&#34;/media/images/twitter-nba-results.jpg&#34; alt=&#34;Twitter NBA results&#34; /&gt;
                 &lt;p class=&#34;excerpt&#34;&gt;
     Just in time for the 2008 &lt;span class=&#34;caps&#34;&gt;NBA&lt;/span&gt; playoffs, and heavily influenced by &lt;a href=&#34;http://blog.iclutton.com&#34;&gt;Robbie Clutton&amp;#8217;s&lt;/a&gt; marvellous &lt;a href=&#34;http://code.google.com/p/latestscorestwitter/&#34;&gt;&lt;span class=&#34;caps&#34;&gt;UK&lt;/span&gt; football scores&lt;/a&gt; service, I have created &lt;a href=&#34;http://twitter.com/NBA_Results&#34;&gt;&lt;span class=&#34;caps&#34;&gt;NBA&lt;/span&gt;&amp;nbsp;Results&lt;/a&gt;
 &lt;/p&gt;            </content>
@@ -449,7 +449,7 @@
                         label="Osmosoft" />
             
             <content type="html">
-                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
                 &lt;p class=&#34;excerpt&#34;&gt;
     Recently, we at &lt;a href=&#34;http://www.osmosoft.com&#34;&gt;Osmosoft&lt;/a&gt; have been trying to make good on one of our pledges: To introduce a unit testing framework to &lt;a href=&#34;http://www.tiddlywiki.com&#34;&gt;Tiddlywiki&lt;/a&gt;&amp;nbsp;development.
 &lt;/p&gt;            </content>
@@ -469,7 +469,7 @@
                         label="Twitter" />
             
             <content type="html">
-                &lt;img src=&#34;http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
                 &lt;p class=&#34;excerpt&#34;&gt;
     It seems that the &lt;a href=&#34;http://twitter.com&#34;&gt;Twitterverse&lt;/a&gt; is all of a flutter following recent blog posts from Phillie Casablanca and Paul Downey.  I&amp;#8217;m watching this with keen interest and it has been the subject of much impassioned discussion in our&amp;nbsp;office.
 &lt;/p&gt;            </content>
@@ -492,7 +492,7 @@
                         label="Events" />
             
             <content type="html">
-                &lt;img src=&#34;/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                &lt;img src=&#34;/media/images/le-web-3.jpg&#34; alt=&#34;LeWeb3&#34; /&gt;
                 &lt;p class=&#34;excerpt&#34;&gt;
     Last week the entire &lt;a href=&#34;http://www.osmosoft.com&#34;&gt;Osmosoft&lt;/a&gt; team visited Paris to attend the &lt;a href=&#34;http://www.leweb3.com&#34;&gt;LeWeb3&lt;/a&gt; conference.  Initially, we had intended to be attending simply as delegates, but as time went by, we decided that we might be able to build something handy to use at the conference, and that perhaps, others might find it useful&amp;nbsp;too.
 &lt;/p&gt;            </content>

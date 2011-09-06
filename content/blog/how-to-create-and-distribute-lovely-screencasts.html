@@ -11,7 +11,7 @@ tags:
 
  
 {% mark image -%}
-<img src="http://images.hawksworx.com.s3.amazonaws.com/include_beer.jpeg" alt="Include Beer" />
+<img src="{{site.config.image_path}}/include_beer.jpeg" alt="Include Beer" />
 {%- endmark %}
 
 {% mark excerpt -%}
@@ -25,13 +25,11 @@ After much tinkering, I think that I have arrived at a nice setup and have found
 In this post, I'll share my findings so that you can set yourself up with a similar environment.  I use a Mac, and so these tips are leveled squarely at the Mac users out there. Sorry to everyone else, but I'm just writing about what I know.
  
  
- 
- 
 Here is an example screencast.  <a href="http://vimeo.com/833608" target="_blank">The best view is in HD over here.</a> 
-	
+
 <object data="http://www.vimeo.com/moogaloop.swf?clip_id=833608&amp;server=www.vimeo.com&amp;fullscreen=1&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF" type="application/x-shockwave-flash" height="250" width="400">
-    	<param name="quality" value="best" />	<param name="allowfullscreen" value="true" />	<param name="scale" value="showAll" />	<param name="movie" value="http://www.vimeo.com/moogaloop.swf?clip_id=833608&amp;server=www.vimeo.com&amp;fullscreen=1&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF" />
-    	</object> 
+    <param name="quality" value="best" />	<param name="allowfullscreen" value="true" />	<param name="scale" value="showAll" />	<param name="movie" value="http://www.vimeo.com/moogaloop.swf?clip_id=833608&amp;server=www.vimeo.com&amp;fullscreen=1&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF" />
+</object> 
  
  
 I think that in order to create a good screencasts you need to think about the following things:
@@ -68,7 +66,7 @@ I chose to use <a href="http://www.ambrosiasw.com/utilities/snapzprox/" target="
  
 The reason for this is due to the channel that I chose to distribute my content through. More on that in point 5.  I also lowered the frame rate a little. I dropped it to 18 frames per second in order to save a little on the file size.
  
-<img alt="" src="http://www.hawksworx.com/journal/wp-content/uploads/2008/03/snaps-capture-settings.jpg" /> 
+<img alt="Capture settings" src="{{site.config.image_path}}/snaps-capture-settings.jpg" /> 
  
 I also like to let the viewer see what keys I am pressing during demonstrations. For this I used the rather handy <a href="http://www.boinx.com/mousepose/" target="_blank">Mousepose</a> application. This also allows you to highlight the location of the mouse pointer. 
  
@@ -77,7 +75,7 @@ I also like to let the viewer see what keys I am pressing during demonstrations.
  
 Now that you have recorded your content, you need to make sure that you compress it appropriately. This will of course be influenced by the your chosen hosting and distribution method. I compressed to h.264 to give good quality output while squeezing the file size down. My other settings are shown below.
  
-<img alt="" src="http://www.hawksworx.com/journal/wp-content/uploads/2008/03/compression-settings.jpg" /> 
+<img alt="Compression settings" src="{{site.config.image_path}}/compression-settings.jpg" /> 
 
  
  
