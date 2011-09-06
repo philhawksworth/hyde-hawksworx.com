@@ -30,7 +30,7 @@ tags:
 <p>
     To include the plugin, all we need to do is copy it into a tiddler and then tag the tiddler with systemConfig. After saving the file and reloading, the plugin is available for us to use.
 </p>
-<img alt="Plugin inclusion" src="{{site.config.image_path}}/plugin_inclusion.png" />  
+<img alt="Plugin inclusion" src="{{site.config.image_path}}/plugin_inclusion.jpg" />  
 <p>
     With the jQuery plugin availble, we can use it to provide a snazzy UI for any UL or LI elements on the page. The Javascript syntax for that is nice and simple:
 </p>
@@ -68,11 +68,11 @@ tags:
 <p>
     To see it working, I created two more new tiddlers. MyFruityList holds a list of items, and ExampleListNav holds a call to the new macro.
 </p>
-<img alt="List amnd example call" src="{{site.config.image_path}}/list-and-example-call.png" /> 
+<img alt="List amnd example call" src="{{site.config.image_path}}/list-and-example-call.jpg" /> 
 <p>
      Saving the TiddlyWiki file and reloading will make the macro available to call. If we open the ExampleListNav tiddler, we should see our macro called like this:
 </p> 
-<img alt="" src="{{site.config.image_path}}/macro-called-1.png" /> 
+<img alt="" src="{{site.config.image_path}}/macro-called-1.jpg" /> 
 <p> 
     All good, but not exciting yet. Let's flesh out our TiddlyWiki macro a bit.  We'll use a TiddlyWiki function to get the text from our desired tiddler and then make a list from it.  Where we might once have used some TiddlyWiki utility functions to help us create the HTML elements (like createTiddlyElement), we can now use <a href="http://docs.jquery.com/Manipulation">jQuery's helper functions</a> to append elements to the document. 
 </p> 
@@ -106,7 +106,7 @@ tags:
 <p>
     Now we're getting somewhere. We've grabbed each line from our MyFruityList tiddler and used jQuery to turn them into an unordered list.
 </p> 
-<img alt="" src="{{site.config.image_path}}/example-list-created.png" /> 
+<img alt="" src="{{site.config.image_path}}/example-list-created.jpg" /> 
 <p>
     We can now call the jQuery plugin to render our list as a NavList. The plugin requires a little extra HTML so we can create that, and then call the listnav plugin.
 </p>

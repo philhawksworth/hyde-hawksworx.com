@@ -66,7 +66,7 @@
 <p>
     To include the plugin, all we need to do is copy it into a tiddler and then tag the tiddler with systemConfig. After saving the file and reloading, the plugin is available for us to&nbsp;use.
 </p>
-<img alt="Plugin inclusion" src="/media/images/plugin_inclusion.png" /><br />
+<img alt="Plugin inclusion" src="/media/images/plugin_inclusion.jpg" /><br />
 <p>
     With the jQuery plugin availble, we can use it to provide a snazzy <span class="caps">UI</span> for any <span class="caps">UL</span> or <span class="caps">LI</span> elements on the page. The Javascript syntax for that is nice and&nbsp;simple:
 </p></p>
@@ -87,11 +87,11 @@
 <p>
     To see it working, I created two more new tiddlers. MyFruityList holds a list of items, and ExampleListNav holds a call to the new&nbsp;macro.
 </p>
-<img alt="List amnd example call" src="/media/images/list-and-example-call.png" /> 
+<img alt="List amnd example call" src="/media/images/list-and-example-call.jpg" /> 
 <p>
      Saving the TiddlyWiki file and reloading will make the macro available to call. If we open the ExampleListNav tiddler, we should see our macro called like&nbsp;this:
 </p> 
-<img alt="" src="/media/images/macro-called-1.png" /> 
+<img alt="" src="/media/images/macro-called-1.jpg" /> 
 <p> 
     All good, but not exciting yet. Let&#8217;s flesh out our TiddlyWiki macro a bit.  We&#8217;ll use a TiddlyWiki function to get the text from our desired tiddler and then make a list from it.  Where we might once have used some TiddlyWiki utility functions to help us create the <span class="caps">HTML</span> elements (like createTiddlyElement), we can now use <a href="http://docs.jquery.com/Manipulation">jQuery&#8217;s helper functions</a> to append elements to the&nbsp;document. 
 </p>
@@ -101,7 +101,7 @@
 <p>
     Now we&#8217;re getting somewhere. We&#8217;ve grabbed each line from our MyFruityList tiddler and used jQuery to turn them into an unordered&nbsp;list.
 </p> 
-<img alt="" src="/media/images/example-list-created.png" /> 
+<img alt="" src="/media/images/example-list-created.jpg" /> 
 <p>
     We can now call the jQuery plugin to render our list as a NavList. The plugin requires a little extra <span class="caps">HTML</span> so we can create that, and then call the listnav&nbsp;plugin.
 </p>
