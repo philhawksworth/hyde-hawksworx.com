@@ -171,6 +171,7 @@ a:hover, a:focus {
     .post h2 {
        margin-bottom:0.4em;
     }
+
     .post p {
         text-align:justify;                
     }
@@ -180,8 +181,6 @@ a:hover, a:focus {
     }
     .post img.free {
         width:auto;
-        text-align:center;
-        margin:0 auto 10px;
     }
     .post li {
         margin:0 1em 0.4em 1em;

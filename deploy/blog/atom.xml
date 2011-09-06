@@ -7,7 +7,7 @@
         <link href="/"/>
     
         
-    <updated>2011-09-06T09:14:55Z</updated>
+    <updated>2011-09-06T20:29:59Z</updated>
 
     <id>/blog/atom.xml/</id>
 
@@ -125,60 +125,6 @@
 &lt;/p&gt;            </content>
         </entry>
             <entry>
-            <title type="html">How to create and distribute lovely screencasts</title>
-            <author><name>Phil Hawksworth</name></author>
-            <link href="/blog/how-to-create-and-distribute-lovely-screencasts"/>
-            <updated>2011-05-09T10:00:00Z</updated>
-            <published>2011-05-09T10:00:00Z</published>
-            <id>/blog/how-to-create-and-distribute-lovely-screencasts</id>
-                        <category   scheme="/blog/tags"
-                        term="news"
-                        label="News" />
-                        <category   scheme="/blog/tags"
-                        term="observations"
-                        label="Observations" />
-                        <category   scheme="/blog/tags"
-                        term="projects"
-                        label="Projects" />
-            
-            <content type="html">
-                                &lt;p&gt;&lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
-&lt;p class=&#34;excerpt&#34;&gt;
-    For a while I have been meaning to start posting screencasts of some of my work to spread the word, and to explain some of the details that are difficult to describe in&amp;nbsp;text.
-&lt;/p&gt;
-After much tinkering, I think that I have arrived at a nice setup and have found a good way to distribute the screencasts, making them available to stream over the web or to download for consumption in your own sweet&amp;nbsp;time.&lt;/p&gt;
-&lt;p&gt;In this post, I&amp;#8217;ll share my findings so that you can set yourself up with a similar environment.  I use a Mac, and so these tips are leveled squarely at the Mac users out there. Sorry to everyone else, but I&amp;#8217;m just writing about what I&amp;nbsp;know.&lt;/p&gt;
-&lt;p&gt;Here is an example screencast.  &lt;a href=&#34;http://vimeo.com/833608&#34; target=&#34;_blank&#34;&gt;The best view is in &lt;span class=&#34;caps&#34;&gt;HD&lt;/span&gt; over&amp;nbsp;here.&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;&lt;object data=&#34;http://www.vimeo.com/moogaloop.swf?clip_id=833608&amp;amp;server=www.vimeo.com&amp;amp;fullscreen=1&amp;amp;show_title=1&amp;amp;show_byline=0&amp;amp;show_portrait=0&amp;amp;color=00ADEF&#34; type=&#34;application/x-shockwave-flash&#34; height=&#34;250&#34; width=&#34;400&#34;&gt;
-    &lt;param name=&#34;quality&#34; value=&#34;best&#34; /&gt;   &lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&gt;   &lt;param name=&#34;scale&#34; value=&#34;showAll&#34; /&gt;  &lt;param name=&#34;movie&#34; value=&#34;http://www.vimeo.com/moogaloop.swf?clip_id=833608&amp;amp;server=www.vimeo.com&amp;amp;fullscreen=1&amp;amp;show_title=1&amp;amp;show_byline=0&amp;amp;show_portrait=0&amp;amp;color=00ADEF&#34; /&gt;
-&lt;/object&gt; &lt;/p&gt;
-&lt;p&gt;I think that in order to create a good screencasts you need to think about the following&amp;nbsp;things:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Good content. Know what you&amp;#8217;re going to say/show and prepare yourself in&amp;nbsp;advance.&lt;/li&gt;
-&lt;li&gt;Have a clean environment on&amp;nbsp;screen.&lt;/li&gt;
-&lt;li&gt;Capture your content with the optimal&amp;nbsp;settings.&lt;/li&gt;
-&lt;li&gt;Compress your content&amp;nbsp;correctly.&lt;/li&gt;
-&lt;li&gt;Host and distribute your content in the most effective&amp;nbsp;way.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Let&amp;#8217;s take a look at those in more&amp;nbsp;detail.&lt;/p&gt;
-&lt;h2&gt;1 - Good&amp;nbsp;content&lt;/h2&gt;
-&lt;p&gt;I think that it is worth practicing what you are going to show and getting everything ready in advance so that you don&amp;#8217;t waste any time. As far as having something compelling to show, I&amp;#8217;m afraid that you&amp;#8217;re on your own on this&amp;nbsp;one.&lt;/p&gt;
-&lt;h2&gt;2 - Have a clean environment on&amp;nbsp;screen.&lt;/h2&gt;
-&lt;p&gt;Removing clutter which can be distracting and untidy is a good way to help communicate you message more effectively. Since I don&amp;#8217;t want to have to disrupt the setup that I use for my everyday work, I created a new user on my Mac called Demo which I use not only for capturing screencasts, but also for when I need to use my laptop to give a presentation using a projector.  Having this separate user account allows me to keep the desktop totally clear and to keep it set to the optimal screen resolution for captures and projection. I chose to hide any mounted drives and whatnot by modifying my Finder preferences. I also increased the font size and icon size in the Finder View&amp;nbsp;Options.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://posterous.com/getfile/files.posterous.com/import-tlsu/skvEkizgCjtFpCklxifgIwmvqJtuJshvkGDozyrDiGjuIotJmxavedEEsnlk/media_httpwwwhawkswor_FgBhy.jpg.scaled500.jpg&#34; /&gt; &lt;/p&gt;
-&lt;p&gt;There is also value in having a simple, clean wallpaper displayed. Again, the aim is to reduce noise and distractions.  People don&amp;#8217;t all need to see the photos of your kids learning to ride a bike while they are trying to absorb what you are&amp;nbsp;demonstrating.&lt;/p&gt;
-&lt;h2&gt;3 - Capture your content with the optimal&amp;nbsp;settings.&lt;/h2&gt;
-&lt;p&gt;I chose to use &lt;a href=&#34;http://www.ambrosiasw.com/utilities/snapzprox/&#34; target=&#34;_blank&#34;&gt;SnapzPro&lt;/a&gt; as my screen capture software. There are others, but this suited my needs and worked well for me.  The screen resolution that you choose is important here. It took me a little time to settle on the right screen resolution.  Initially I chose 1024x640.  &lt;a href=&#34;http://www.ambrosiasw.com/utilities/snapzprox/&#34;&gt;SnapzPro&lt;/a&gt; allows you to scale your capture which I did, choosing 70%. This gave a nice result which was big and clear and the file size was also good.  In the end, I increased my screen resolution for capture to 1280x800 and didn&amp;#8217;t scale it down at&amp;nbsp;all. &lt;/p&gt;
-&lt;p&gt;The reason for this is due to the channel that I chose to distribute my content through. More on that in point 5.  I also lowered the frame rate a little. I dropped it to 18 frames per second in order to save a little on the file&amp;nbsp;size.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Capture settings&#34; src=&#34;/media/images/snaps-capture-settings.jpg&#34; /&gt; &lt;/p&gt;
-&lt;p&gt;I also like to let the viewer see what keys I am pressing during demonstrations. For this I used the rather handy &lt;a href=&#34;http://www.boinx.com/mousepose/&#34; target=&#34;_blank&#34;&gt;Mousepose&lt;/a&gt; application. This also allows you to highlight the location of the mouse&amp;nbsp;pointer. &lt;/p&gt;
-&lt;h2&gt;4 - Compress your content&amp;nbsp;correctly.&lt;/h2&gt;
-&lt;p&gt;Now that you have recorded your content, you need to make sure that you compress it appropriately. This will of course be influenced by the your chosen hosting and distribution method. I compressed to h.264 to give good quality output while squeezing the file size down. My other settings are shown&amp;nbsp;below.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Compression settings&#34; src=&#34;/media/images/compression-settings.jpg&#34; /&gt; &lt;/p&gt;
-&lt;h2&gt;5 - Host and distribute your content in the most effective&amp;nbsp;way.&lt;/h2&gt;
-&lt;p&gt;I wanted to be able to embed my screencasts on my website, but also allow any interested viewers to be able to download them to keep.  Reducing any barriers to accessing the screencasts was important to me, so I didn&amp;#8217;t want to require the viewer to install any software before being able to view them. For that reason, a flash based video seemed sensible, due to the ubiquity of the flash player in browsers. I also wanted the screencasts to be of a suitably video quality. &lt;a href=&#34;http://www.vimeo.com&#34;&gt;Vimeo.com&lt;/a&gt; will host &lt;span class=&#34;caps&#34;&gt;HD&lt;/span&gt; content and stream content to your site. A bit of a sticking point at the moment is that they don&amp;#8217;t yet allow &lt;span class=&#34;caps&#34;&gt;HD&lt;/span&gt; streaming to your embedded videos. You need to view them on their site for that. Apparently, this is will be available soon.  They allow you to download the videos from their site and their fullscreen viewer is super-slick. &lt;a href=&#34;http://www.vimeo.com&#34;&gt;Vimeo.&lt;/a&gt; fitted my requirements pretty well and I heartily recommend them. Their site is slick and they offer lots of support on how to best create your video&amp;nbsp;content.&lt;/p&gt;            </content>
-        </entry>
-            <entry>
             <title type="html">The next generation stack. Is NodeJS ready to go mainstream?</title>
             <author><name>Phil Hawksworth</name></author>
             <link href="/blog/the-next-generation-stack-is-nodejs-ready-to-go-mainstream"/>
@@ -235,7 +181,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
                         label="News" />
             
             <content type="html">
-                                &lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://farm5.static.flickr.com/4091/4835043849_c386f0672a.jpg&#34; /&gt;
+                                &lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;/media/images/hitched-beam.jpeg&#34; /&gt;
 &lt;p class=&#34;excerpt&#34;&gt;
     After more than 14 wonderful years with my girlfriend, Verity, last weekend we finally tied the&amp;nbsp;knot.
 &lt;/p&gt;
@@ -248,12 +194,12 @@ After much tinkering, I think that I have arrived at a nice setup and have found
 
 &lt;p&gt;From my vantage point, the ceremony seemed to be fun and spirited while being sincere and weighty. A difficult balance to strike so I was delighted with how well Rev Sue Nutt did. She made it really enjoyable. It also helps that when you turn and glance around at the congregation, you see nothing but the beaming faces of friends and family. (&amp;#8230;and I said I wouldn&amp;#8217;t gush!). We had memorable readings from Verity&amp;#8217;s brother Mark, sister-in-law Faith (ably assisted by niece and nephew Molly and Stan), and my sister Claire. All of which had special and poignant moments for both Verity and&amp;nbsp;I.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://farm5.static.flickr.com/4086/4835046609_c4614b652a.jpg&#34; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;/media/images/hitched-leaving.jpeg&#34; /&gt; &lt;/p&gt;
 &lt;p&gt;The sun came out to welcome us out of the church and we spent quite a few happy moments chatting to everyone on the green before climbing into a carriage, feeling like royalty, for the short journey up to Ickworth House where we were greeted by our lovely &lt;a href=&#34;http://www.flickr.com/photos/psd/4804975779/in/photostream/&#34; title=&#34;Master of the Toast on Flickr&#34;&gt;Toastmaster&lt;/a&gt;, Colin.  Colin really helped to keep things running roughly to schedule and looked like quite the bobby&amp;nbsp;dazzler.&lt;/p&gt;
 
 &lt;p&gt;The next part of the day went by in the blink of an eye.  We had our group photos taken in the grounds of the West Wing. Meanwhile a local brass band provided some music while the canapes were supplemented by an &lt;a href=&#34;http://www.icicletricycle.co.uk/&#34; title=&#34;Icicle Tricycle&#34;&gt;ice cream bike&lt;/a&gt; serving ice cream to the kids (and the adults).  I would have loved to spend a good long time mingling at this point, but this was our time to gather groups for the photos. Our awesome ushers did a great job of that, which helped keep things moving&amp;nbsp;quickly.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://farm5.static.flickr.com/4119/4828174104_0f22ef2a4c.jpg&#34; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;/media/images/hitched-groomsmen.jpeg&#34; /&gt; &lt;/p&gt;
 &lt;p&gt;When looking for a photographer, I was quite specific about the kind of style and quality that I was looking for.  Being a little less organised than I would have liked meant that we didn&amp;#8217;t find quite what we were looking for in the area and so widened the search a little. At the time of writing, we&amp;#8217;ve only seen a few &lt;a href=&#34;http://www.barriedownie.com/index.php/wedding-photography/verity-phils-wedding-at-ickworth-house-suffolk/&#34; title=&#34;Verity &amp;amp; Phil&amp;rsquo;s wedding at Ickworth House Suffolk &amp;raquo; wedding and portrait photographer London, Sussex, Surrey, Hampshire&#34;&gt;sneaky peeks&lt;/a&gt; at the photos, but the signs are really good. We couldn&amp;#8217;t have been happier with the friendly and talented &lt;a href=&#34;http://www.barriedownie.com/&#34; title=&#34;Barrie Downie photography&#34;&gt;Barrie Downie&lt;/a&gt; who directed us really well, clearly loved his job and has an amazing eye.  It never felt like Barrie was dominating the proceedings and was really sensitive to what was important to&amp;nbsp;us.&lt;/p&gt;
 
 &lt;p&gt;While I&amp;#8217;m talking about people who did an amazing job for us, we were just delighted with our florist, Zoe Mills. Zoe is from the area and operates under the great name of &lt;a href=&#34;http://millsandbloom.com/&#34; title=&#34;Mills and Bloom - Florists based in Diss, Norfolk, UK&#34;&gt;Mills and Bloom&lt;/a&gt;.  Zoe was just fantastic and we&amp;#8217;d eagerly recommend her. She seemed genuinely excited for us and about the details of the &lt;a href=&#34;http://www.flickr.com/photos/psd/4805581012/in/set-72157624404129727/&#34; title=&#34;Bouquet on Flickr&#34;&gt;flowers&lt;/a&gt; as they developed.  That kind of excitement and calm in the run up to the day was really helpful and energising for us.  She carefully listened to all of our requests and added her own insights and considerable knowledge to really bring things to life. Thanks&amp;nbsp;Zoe!&lt;/p&gt;
@@ -266,15 +212,15 @@ After much tinkering, I think that I have arrived at a nice setup and have found
 
 &lt;p&gt;The food was followed by drinking, chatting and dancing. All of which went by too quickly. Verity and I opted for a combination of a home made playlist (the contents of which had been largely crowd-sourced from all of the guests) to provide some quality, wedding-grade cheese, and a live band to provide some funk.  My good friend Nigel plays the bass in an excellent band called &lt;a href=&#34;http://www.clubsoulband.com/&#34; title=&#34;Club Soul // London&#39;s hottest Funk / Soul / Jazz act for your event&#34;&gt;Club Soul&lt;/a&gt; who were absolutely amazing and packed the dance floor immediately and for the duration. Another hearty&amp;nbsp;recommendation.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://farm5.static.flickr.com/4099/4806337288_5f467bc362.jpg&#34; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;/media/images/hitched-dancing.jpeg&#34; /&gt; &lt;/p&gt;
 &lt;p&gt;Another detail which was important to us was that ours should be a child friendly wedding. So many of our friends have young kids now and our family has grown over the years to include kids and teenagers of all ages who we couldn&amp;#8217;t imagine the day without. We debated for a while about whether or not a creche service, which had been recommended to us, would be worth the effort. I argued that people might not want their kids vanishing into the adjoining room to be monitored by strangers, and that they might feel like their kids weren&amp;#8217;t being included. Verity thought that many people would find it useful and that having the option would give several of our important friends the opportunity to spend more time celebrating with us, and prolong their evening.  Boy oh boy, was Verity right!  We used a group called &lt;a href=&#34;http://www.artfullsplodgers.com/award-winning-creche.html&#34; title=&#34;A totally stress free wedding with a creche from Artfull Splodgers&#34;&gt;Artful Splodgers&lt;/a&gt; who did a fantastic job. Kids of all ages were being entertained with all manor of crafts and activities and they were totally engaged. Several of our friends gave us enthusiastic hugs and thanks specifically for the creche which worked perfectly. For a wedding which had so very many children in attendance, there was no disruption during the speeches, no drama from anyone getting &amp;#8220;over tired&amp;#8221; and yet we got to enjoy the company of lots of excited kids who were keen to show us the latest things that they had made. Yet another&amp;nbsp;recommendation!&lt;/p&gt;
 
 &lt;p&gt;All too soon, the night wound to an end and after saying some emotional goodbyes, we retired to the &lt;a href=&#34;http://www.theangel.co.uk/&#34; title=&#34;The Angel Hotel, Suffolk&#34;&gt;Angel Hotel&lt;/a&gt; in Bury St Edmunds with a handful of friends who were also staying there. We, the final few, chatted away over a bottle or two of fizz until well into the early hour before our eyelids got too heavy to&amp;nbsp;manage.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://farm5.static.flickr.com/4117/4826256489_203431d408.jpg&#34; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;/media/images/hitched-sunrise.jpeg&#34; /&gt; &lt;/p&gt;
 &lt;p&gt;Verity and finally came to terms with the fact that we wrung every last drop out of the day and headed for bed around 4am and spent the next hour sitting in the window of the hotel watching the sun rise over Bury St Edmunds&amp;#8217; Abbey Gate excitedly recounting the day. I think that we&amp;#8217;ll be boring people with details, highlights and &lt;a href=&#34;http://www.flickr.com/photos/tags/pvwed/&#34; title=&#34;Flickr photos tagged &#39;pvwed&#39;&#34;&gt;photos&lt;/a&gt; for a very, very long time to&amp;nbsp;come.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://farm5.static.flickr.com/4119/4827191797_e588ff3245_o.png&#34; /&gt; &lt;/p&gt;            </content>
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;/media/images/hitched-pose.png&#34; /&gt; &lt;/p&gt;            </content>
         </entry>
             <entry>
             <title type="html">Nodejs. I just have to use it for something</title>
@@ -307,7 +253,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
 &lt;p&gt;
     To that end, I resurrected an old idea which I first built circa 1999 for randomly choosing someone from a list to make the tea. Not earth-shattering, but a bit of fun and simple enough for me to see through to completion. For this incarnation, dubbed &lt;a href=&#34;http://teafr.com&#34;&gt;Teafr.com&lt;/a&gt;, I piggybacked on the lists feature of &lt;a href=&#34;http://twitter.com/philhawksworth/tea-buddies&#34;&gt;Twitter&lt;/a&gt; to allow people to create and manage their lists of potential tea-makers somewhere they are already comfortable. &lt;a href=&#34;http://teafr.com&#34;&gt;My app&lt;/a&gt; would allow a user to recall a list of their choosing and then perform a lottery, selecting a winner (or loser) from the list at random. To add a little suspense (in the loosest possible sense) I added a basic animation which gradually got slower until the winner was&amp;nbsp;revealed.
 &lt;/p&gt;
-&lt;img src=&#34;/media/images/teafr-tea-rotas-from-twitter-lists.png&#34; /&gt;
+&lt;img src=&#34;/media/images/teafr-tea-rotas-from-twitter-lists.jpg&#34; /&gt;
 &lt;p&gt;
     I captured a couple of &lt;a href=&#34;http://www.vimeo.com/8144420&#34;&gt;videos&lt;/a&gt; showing teafr.com doing its stuff, &lt;a href=&#34;http://www.vimeo.com/8457609&#34;&gt;one of them&lt;/a&gt; on an iPhone. The fun part of this for me was in allowing this lottery and the animation to be visible to everyone viewing the same list from wherever they are. &lt;a href=&#34;http://nodesjs.org&#34;&gt;Nodejs&lt;/a&gt; makes it trivially simple to handle long-lived http requests so that all clients could listen out for the initiation of a new lottery event. Since this is all just lightweight &lt;span class=&#34;caps&#34;&gt;HTTP&lt;/span&gt;, &lt;span class=&#34;caps&#34;&gt;HTML&lt;/span&gt;, &lt;span class=&#34;caps&#34;&gt;CSS&lt;/span&gt; and Javascript, it also runs pretty nicely on both my iPhone and Palm&amp;nbsp;Pre.
 &lt;/p&gt;
@@ -383,7 +329,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
                         label="Tips" />
             
             <content type="html">
-                                &lt;p&gt;&lt;img src=&#34;/media/images/quicksilver_lastfm.png&#34; alt=&#34;Quicksilver &amp;amp; Last.fm&#34; /&gt;
+                                &lt;p&gt;&lt;img src=&#34;/media/images/quicksilver_lastfm.jpg&#34; alt=&#34;Quicksilver and Last.fm&#34; /&gt;
 &lt;p class=&#34;excerpt&#34;&gt;
     For a while, I&amp;#8217;ve been using handy &lt;a href=&#34;http://docs.blacktree.com/quicksilver/what_is_quicksilver&#34;&gt;Quicksilver&lt;/a&gt; triggers to control iTunes. I like not needing to switch my attention from what I&amp;#8217;m working on, in order to skip a track, pause the playback, set a rating or whatever.  You can find out &lt;a href=&#34;http://leafraker.com/2007/09/17/how-to-create-a-quicksilver-trigger/&#34;&gt;how to create a trigger&lt;/a&gt; from one of the many great Quicksilver tutorials out on the&amp;nbsp;Web.
 &lt;/p&gt;
@@ -517,7 +463,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
 &lt;p&gt;
     To include the plugin, all we need to do is copy it into a tiddler and then tag the tiddler with systemConfig. After saving the file and reloading, the plugin is available for us to&amp;nbsp;use.
 &lt;/p&gt;
-&lt;img alt=&#34;Plugin inclusion&#34; src=&#34;/media/images/plugin_inclusion.png&#34; /&gt;&lt;br /&gt;
+&lt;img alt=&#34;Plugin inclusion&#34; src=&#34;/media/images/plugin_inclusion.jpg&#34; /&gt;&lt;br /&gt;
 &lt;p&gt;
     With the jQuery plugin availble, we can use it to provide a snazzy &lt;span class=&#34;caps&#34;&gt;UI&lt;/span&gt; for any &lt;span class=&#34;caps&#34;&gt;UL&lt;/span&gt; or &lt;span class=&#34;caps&#34;&gt;LI&lt;/span&gt; elements on the page. The Javascript syntax for that is nice and&amp;nbsp;simple:
 &lt;/p&gt;&lt;/p&gt;
@@ -538,11 +484,11 @@ After much tinkering, I think that I have arrived at a nice setup and have found
 &lt;p&gt;
     To see it working, I created two more new tiddlers. MyFruityList holds a list of items, and ExampleListNav holds a call to the new&amp;nbsp;macro.
 &lt;/p&gt;
-&lt;img alt=&#34;List amnd example call&#34; src=&#34;/media/images/list-and-example-call.png&#34; /&gt; 
+&lt;img alt=&#34;List amnd example call&#34; src=&#34;/media/images/list-and-example-call.jpg&#34; /&gt; 
 &lt;p&gt;
      Saving the TiddlyWiki file and reloading will make the macro available to call. If we open the ExampleListNav tiddler, we should see our macro called like&amp;nbsp;this:
 &lt;/p&gt; 
-&lt;img alt=&#34;&#34; src=&#34;/media/images/macro-called-1.png&#34; /&gt; 
+&lt;img alt=&#34;&#34; src=&#34;/media/images/macro-called-1.jpg&#34; /&gt; 
 &lt;p&gt; 
     All good, but not exciting yet. Let&amp;#8217;s flesh out our TiddlyWiki macro a bit.  We&amp;#8217;ll use a TiddlyWiki function to get the text from our desired tiddler and then make a list from it.  Where we might once have used some TiddlyWiki utility functions to help us create the &lt;span class=&#34;caps&#34;&gt;HTML&lt;/span&gt; elements (like createTiddlyElement), we can now use &lt;a href=&#34;http://docs.jquery.com/Manipulation&#34;&gt;jQuery&amp;#8217;s helper functions&lt;/a&gt; to append elements to the&amp;nbsp;document. 
 &lt;/p&gt;
@@ -552,7 +498,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
 &lt;p&gt;
     Now we&amp;#8217;re getting somewhere. We&amp;#8217;ve grabbed each line from our MyFruityList tiddler and used jQuery to turn them into an unordered&amp;nbsp;list.
 &lt;/p&gt; 
-&lt;img alt=&#34;&#34; src=&#34;/media/images/example-list-created.png&#34; /&gt; 
+&lt;img alt=&#34;&#34; src=&#34;/media/images/example-list-created.jpg&#34; /&gt; 
 &lt;p&gt;
     We can now call the jQuery plugin to render our list as a NavList. The plugin requires a little extra &lt;span class=&#34;caps&#34;&gt;HTML&lt;/span&gt; so we can create that, and then call the listnav&amp;nbsp;plugin.
 &lt;/p&gt;
@@ -596,7 +542,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
                         label="Development" />
             
             <content type="html">
-                                &lt;p&gt;&lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                                &lt;p&gt;&lt;img src=&#34;/media/images/polaroiderizer-a-slideshow-from-your-flickr-tags.jpg&#34; alt=&#34;Polaroiderizer&#34; /&gt;
 &lt;p class=&#34;excerpt&#34;&gt;
     Recently I saw Tim Stevens &lt;a href=&#34;http://twitter.com/san1t1/status/1193906661&#34;&gt;post on Twitter&lt;/a&gt; about a slide show he had built using his &lt;a href=&#34;http://www.liveloom.com/&#34;&gt;Liveloom&lt;/a&gt; application. His slide show grabs some photos from Flickr tagged with &amp;#8216;Osmosoft&amp;#8217; and then renders them with all manner of visual effects using Flex.  While the visual effects available via Tim&amp;#8217;s app are impressive, I&amp;#8217;m a big advocate of open web standards and enjoy making things from &lt;span class=&#34;caps&#34;&gt;HTML&lt;/span&gt; and Javascript, rather than using tools like&amp;nbsp;Flex.
 &lt;/p&gt;
@@ -633,7 +579,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
                         label="Development" />
             
             <content type="html">
-                                &lt;p&gt;&lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
+                                &lt;p&gt;&lt;img src=&#34;/media/images/unobtrusive.jpg&#34; alt=&#34;Unobtrusive Javascript&#34; class=&#34;free&#34; /&gt;
 &lt;p class=&#34;excerpt&#34;&gt;
     Recently &lt;a href=&#34;http://jaybyjayfresh.com&#34; title=&#34;jaybyjayfresh&#34;&gt;Jon Lister&lt;/a&gt;, a colleague of mine at &lt;a href=&#34;http://www.osmosoft.com&#34;&gt;Osmosoft&lt;/a&gt; showed me a website made by his friend &lt;a href=&#34;http://joshuabradley.co.uk/&#34; title=&#34;Joshua Bradley&#34;&gt;Joshua Bradley&lt;/a&gt;. The site, used some of the Javscript code from &lt;a href=&#34;http://tiddlywiki.com&#34; title=&#34;TiddlyWiki&#34;&gt;TiddlyWiki&lt;/a&gt;&amp;#8216;s animation engine to create some nice visual effects. I loved the design, but could see some room for improvement in the implementation. I&amp;#8217;m a big advocate of &lt;a href=&#34;http://en.wikipedia.org/wiki/Unobtrusive_JavaScript&#34; title=&#34;Unobtrusive JavaScript&#34;&gt;Unobtrusive Javascript&lt;/a&gt; and &lt;a href=&#34;http://en.wikipedia.org/wiki/Progressive_enhancement&#34; title=&#34;Progressive enhancement&#34;&gt;Progressive Enhancement&lt;/a&gt; and so I set about producing a quick demo of how a similar result could be achieved in the most Web-kind and accessible way available using &lt;a href=&#34;http://jquery.com&#34; title=&#34;jQuery&#34;&gt;jQuery&lt;/a&gt; for the&amp;nbsp;behaviors.
 &lt;/p&gt;&lt;/p&gt;
@@ -695,7 +641,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
     We also use jQuery to show the hover image by just repositioning the background image when we hover with the mouse and also to show the hidden div element when we click a heading. Remember, none of this will happen unless Javascript is&amp;nbsp;available.
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;/media/images/unobtrusifycom-unobtrusive-javascript-for-progressive-enhancement.png&#34; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;/media/images/unobtrusifycom.jpg&#34; /&gt; &lt;/p&gt;
 &lt;p&gt;
     I also use an additional trick to prevent a flash of unstyled content or &lt;span class=&#34;caps&#34;&gt;FOUC&lt;/span&gt; (gratifyingly pronounced &amp;#8216;&lt;span class=&#34;caps&#34;&gt;FOOOOOOK&lt;/span&gt;&amp;#8217; by &lt;a href=&#34;http://hicksdesign.co.uk/&#34; title=&#34;hicksdesign: design for print and new-fangled media&#34;&gt;John Hicks&lt;/a&gt;) while the Javascript is being downloaded. This trick is &lt;a href=&#34;http://www.learningjquery.com/2008/10/1-awesome-way-to-avoid-the-not-so-excellent-flash-of-amazing-unstyled-content&#34; title=&#34;1 (Awesome) Way To Avoid the (Not So Excellent) Flash of (Amazing) Unstyled Content &amp;raquo; Learning jQuery - Tips, Techniques, Tutorials&#34;&gt;very well explained&lt;/a&gt; by &lt;a href=&#34;http://www.englishrules.com/&#34; title=&#34;English Rules&#34;&gt;Karl Swedberg&lt;/a&gt; on the excellent &lt;a href=&#34;http://www.learningjquery.com/&#34; title=&#34;Learning jQuery - Tips, Techniques, Tutorials&#34;&gt;learningjquery.com&lt;/a&gt;&amp;nbsp;site.
 &lt;/p&gt; 
@@ -721,7 +667,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
                         label="Tiddlywiki" />
             
             <content type="html">
-                                &lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://farm4.static.flickr.com/3107/2803125346_f646ff0984.jpg&#34; /&gt;
+                                &lt;p&gt;&lt;img alt=&#34;Jigglywiki&#34; src=&#34;/media/images/jigglywiki.jpg&#34; /&gt;
 &lt;p class=&#34;excerpt&#34;&gt;
     Once upon a time I was resistant to the idea of Javascript libraries. That was due to a couple of things. Firstly, I was comfortable with writing the Javascript for my projects myself and didn&amp;#8217;t like the idea of relying on someone else&amp;#8217;s code which I couldn&amp;#8217;t easily inspect. Secondly, at the time there weren&amp;#8217;t really any libraries. Then there were a few, but they were all, well, to be blunt, a bit&amp;nbsp;pants.
 &lt;/p&gt;&lt;/p&gt;
@@ -789,7 +735,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
 &lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://farm4.static.flickr.com/3209/2802391055_ca4fe53d4e.jpg&#34; /&gt; &lt;/p&gt;
 &lt;p&gt;I was very keen to meet BidiX who has quietly been producing great TiddlyWiki assets for some time. Recent work includes &lt;a href=&#34;http://itw.bidix.info/&#34;&gt;iTW&lt;/a&gt;, the best iPhone TiddlyWiki that I know of. The &lt;a href=&#34;http://itw.bidix.info/tiddlyparis/&#34;&gt;TiddlyParis edition&lt;/a&gt; of iTW went with me in my pocket to help me find the venue and read about the agenda.  BidiX is also the man behind &lt;a href=&#34;http://tiddlyhome.bidix.info&#34;&gt;TiddlyHome&lt;/a&gt;, a lovely and seemingly simple hosted TiddlyWiki resource which he recently deployed to Google App Engine for its &lt;a href=&#34;http://th2.bidix.info/&#34;&gt;next release&lt;/a&gt; (which we got to play with, but he insists isn&amp;#8217;t quite ready for prime time&amp;nbsp;yet).&lt;/p&gt;
 &lt;p&gt;For my part I spoke about &lt;a href=&#34;http://gettematasks.com&#34;&gt;TeamTasks&lt;/a&gt;, which I was happy to learn was being used to some degree by several people around the table. I also answered questions about &lt;a href=&#34;http://bt.com&#34;&gt;BTs&lt;/a&gt; interest in TiddlyWiki and motives for being involved in such a project and community.  I&amp;#8217;ll not go over that again here, as it has already been well articulated by several of my colleagues on &lt;a href=&#34;http://jermolene.com/2008/08/13/what-is-the-point-of-osmosoft/&#34;&gt;their&lt;/a&gt; &lt;a href=&#34;http://philwhitehouse.blogspot.com/2008/01/managing-open-source-projects.html&#34;&gt;blogs&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I went on to talk about a new pet project of mine which, following the TiddlyWiki convention for absurd names, has been dubbed JigglyWiki. (As it turns out, the French accent lends this name much more gravitas due to the soft &amp;#8216;j&amp;#8217;. Marvelous!)  &lt;a href=&#34;http://hawksworx.com/blog/announcing-jigglywiki-a-tiddlywiki-experiment-with-jquery&#34;&gt;JigglyWiki deserves a blog post of its own&lt;/a&gt;. For now, through, let&amp;#8217;s just describe it as and experiment to explore what TiddlyWiki 3.0 might be like if it were to be developed from the ground up with the use of the jQuery javascript library and adopt an unobtrusive Javascript&amp;nbsp;approach. &lt;/p&gt;
+&lt;p&gt;I went on to talk about a new pet project of mine which, following the TiddlyWiki convention for absurd names, has been dubbed JigglyWiki. (As it turns out, the French accent lends this name much more gravitas due to the soft &amp;#8216;j&amp;#8217;. Marvelous!)  &lt;a href=&#34;/blog/announcing-jigglywiki-a-tiddlywiki-experiment-with-jquery&#34;&gt;JigglyWiki deserves a blog post of its own&lt;/a&gt;. For now, through, let&amp;#8217;s just describe it as and experiment to explore what TiddlyWiki 3.0 might be like if it were to be developed from the ground up with the use of the jQuery javascript library and adopt an unobtrusive Javascript&amp;nbsp;approach. &lt;/p&gt;
 &lt;p&gt;JigglyWiki (I can only hear that in a French accent now!) created quite a bit of discussion.  Proppy and Loic Dachary were particularly vocal about the potential for a TiddlyWiki implementation benefitting from unobtrusive javascript and built in a modular way with a library such as jQuery.  Debate raged about the need for a javascript library to properly manage plugins and dependancies. A topic that I&amp;#8217;m sure I will be discussing more in a later&amp;nbsp;post.&lt;/p&gt;
 &lt;p&gt;My thanks go out to all of the folks I encountered at &lt;a href=&#34;http://upcoming.yahoo.com/event/1028826/&#34;&gt;TiddlyParis&lt;/a&gt;. Not only for their passion about TiddlyWiki, but also for making me feel so welcome and for conducting the entire event in English rather than in French which I know required considerable effort from some.  For what it&amp;#8217;s worth, my French stretched far enough for me to order my meal (which was bloomin&amp;#8217; great) and a few drinks without totally shaming myself. Big thanks also to &lt;a href=&#34;http://lewcid.org&#34;&gt;Saq Imtiaz&lt;/a&gt; for putting it all together. When&amp;#8217;s the next&amp;nbsp;one?!&lt;/p&gt;
 &lt;p&gt;A&amp;nbsp;bient&amp;ocirc;t!&lt;/p&gt;            </content>
@@ -817,7 +763,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
     After a bit of a hiatus, I&amp;#8217;ve recently been concentrating on developing my pet project, &lt;a href=&#34;http://getteamtasks.com&#34; title=&#34;getteamtasks - get your flexible task management wiki here.&#34;&gt;teamtasks&lt;/a&gt; again.  Teamtasks is a simple application built using TiddlyWiki to provide a place to manage your tasks alongside other content in your very own personal&amp;nbsp;wiki.
 &lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;This little project is by no means new. I have been tinkering with it for quite a while but have been working on other projects so &lt;a href=&#34;http://getteamtasks.com&#34;&gt;teamtasks&lt;/a&gt; has had to sit patiently in the corner and wait for me to get back to working on&amp;nbsp;it. &lt;/p&gt;
-&lt;p&gt;Rather gratifyingly, quite a few people had seen the early work on &lt;a href=&#34;http://getteamtasks.com&#34;&gt;teamtasks&lt;/a&gt; and expressed interest in using it for all manor of purposes.  The attention made me realise that it was time to promote &lt;a href=&#34;http://getteamtasks.com&#34;&gt;teamtasks&lt;/a&gt; from its place in my &lt;a href=&#34;http://hawksworx.com/playground&#34;&gt;playground&lt;/a&gt; (version 0.3 can &lt;a href=&#34;http://hawksworx.com/playground/teamtasks&#34;&gt;still be found there&lt;/a&gt; for those keen on glancing in the rear view mirror) to the big time! Or at least, a place of its own.  And so &lt;a href=&#34;http://getteamtasks.com&#34;&gt;getteamtasks.com&lt;/a&gt; was born. From there you can download the latest version (v0.4 at time of writing) and configure it to fit your task management&amp;nbsp;habits.&lt;/p&gt;
+&lt;p&gt;Rather gratifyingly, quite a few people had seen the early work on &lt;a href=&#34;http://getteamtasks.com&#34;&gt;teamtasks&lt;/a&gt; and expressed interest in using it for all manor of purposes.  The attention made me realise that it was time to promote &lt;a href=&#34;http://getteamtasks.com&#34;&gt;teamtasks&lt;/a&gt; from its place in my playground (version 0.3 can &lt;a href=&#34;http://static.hawksworx.com/playground/teamtasks/index.html&#34;&gt;still be found there&lt;/a&gt; for those keen on glancing in the rear view mirror) to the big time! Or at least, a place of its own.  And so &lt;a href=&#34;http://getteamtasks.com&#34;&gt;getteamtasks.com&lt;/a&gt; was born. From there you can download the latest version (v0.4 at time of writing) and configure it to fit your task management&amp;nbsp;habits.&lt;/p&gt;
 &lt;p&gt;This is an open source project and I&amp;#8217;m doing my best to resist the urge to tinker with it until I think that it&amp;#8217;s perfect before letting it out into the wild, so you may find things about teamtasks that don&amp;#8217;t work perfectly or you just don&amp;#8217;t like. If that&amp;#8217;s the case, then please let me know, or better yet, fix it and then show me.  I&amp;#8217;m living by the old &amp;#8220;Release early. Release often&amp;#8221; mantra here and welcome contributions, in the form of suggestions, bug reports, bug fixes, enhancements, criticism, praise, sticky buns, pats on the back, or&amp;nbsp;hugs.&lt;/p&gt;
 &lt;p&gt;Along with the new site and new release, there is a new way to get in touch and keep track of developments. Obviously, you can leave your comments here, but now you can also &lt;a href=&#34;http://twitter.com/teamtasks&#34;&gt;follow teamtasks on Twitter&lt;/a&gt;. You&amp;#8217;d get to hear about teamtasks developments if you just &lt;a href=&#34;http://twitter.com/philhawksworth&#34;&gt;followed me on Twitter&lt;/a&gt; too of course, but then you&amp;#8217;d also be subject to &lt;a href=&#34;http://twitter.com/philhawksworth/statuses/857888010&#34;&gt;other&lt;/a&gt; &lt;a href=&#34;http://twitter.com/philhawksworth/statuses/853655405&#34;&gt;random&lt;/a&gt; &lt;a href=&#34;http://twitter.com/philhawksworth/statuses/852759376&#34;&gt;utterances&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;After just a few hours of launching &lt;a href=&#34;http://getteamtasks.com&#34;&gt;getteamtasks.com&lt;/a&gt;, I have already had a nice response. This really helps to keep me motivated and on track. As the project gains a little momentum, it also gains more pairs of hands to do the work. We&amp;#8217;ve spent some time here at &lt;a href=&#34;http://www.osmosoft.com&#34;&gt;Osmosoft&lt;/a&gt; today planning the next set of enhancements for &lt;a href=&#34;http://getteamtasks.com&#34;&gt;teamtasks&lt;/a&gt; which will soon be listed on the site for you to&amp;nbsp;inspect.&lt;/p&gt;
@@ -844,7 +790,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
                         label="Projects" />
             
             <content type="html">
-                                &lt;p&gt;&lt;img src=&#34;/media/images/twitter-nba-results.jpg&#34; alt=&#34;Twitter NBA results&#34; /&gt;
+                                &lt;p&gt;&lt;img src=&#34;/media/images/nba_results.jpg&#34; alt=&#34;Twitter NBA results&#34; /&gt;
 &lt;p class=&#34;excerpt&#34;&gt;
     Just in time for the 2008 &lt;span class=&#34;caps&#34;&gt;NBA&lt;/span&gt; playoffs, and heavily influenced by &lt;a href=&#34;http://blog.iclutton.com&#34;&gt;Robbie Clutton&amp;#8217;s&lt;/a&gt; marvellous &lt;a href=&#34;http://code.google.com/p/latestscorestwitter/&#34;&gt;&lt;span class=&#34;caps&#34;&gt;UK&lt;/span&gt; football scores&lt;/a&gt; service, I have created &lt;a href=&#34;http://twitter.com/NBA_Results&#34;&gt;&lt;span class=&#34;caps&#34;&gt;NBA&lt;/span&gt;&amp;nbsp;Results&lt;/a&gt;
 &lt;/p&gt;&lt;/p&gt;
@@ -862,7 +808,7 @@ After much tinkering, I think that I have arrived at a nice setup and have found
 
 &lt;p&gt;I&amp;#8217;ll be adding more teams ready for next season, but if you want to make sure that you can get updates on Twitter of your team&amp;#8217;s results, feel free to email me (phawksworth [at] gmail [dot] com) and push your team to the top of my todo&amp;nbsp;list.&lt;/p&gt;
 &lt;p&gt;I&amp;#8217;m also readying &lt;a href=&#34;http://twitter.com/mlb_results&#34;&gt;&lt;span class=&#34;caps&#34;&gt;MLB&lt;/span&gt; Results&lt;/a&gt; to provide Major League Baseball results. &lt;a href=&#34;http://twitter.com/mlb_results&#34;&gt;&lt;span class=&#34;caps&#34;&gt;MLB&lt;/span&gt; Results&lt;/a&gt; will be active very soon. As with the &lt;span class=&#34;caps&#34;&gt;NBA&lt;/span&gt; teams, please poke me if you want to get updates for your team and I&amp;#8217;ll be sure to create their&amp;nbsp;account.&lt;/p&gt;
-&lt;p&gt;The code which drives this, is my first outing into the world of Python. You can &lt;a href=&#34;http://static.hawksworx.com/playground/tweet_results/&#34;&gt;find the code here&lt;/a&gt;. Feel free to take it and use it as you wish.  I also welcome feedback and suggestions on the code, please be gentle though, as I said, this is my first time playing with&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;The code which drives this, is my first outing into the world of Python. You can &lt;a href=&#34;http://static.hawksworx.com/playground/tweet_results/tweet_results.py.txt&#34;&gt;find the code here&lt;/a&gt;. Feel free to take it and use it as you wish.  I also welcome feedback and suggestions on the code, please be gentle though, as I said, this is my first time playing with&amp;nbsp;Python.&lt;/p&gt;
 &lt;p&gt;Many thanks to the nice folks at &lt;a href=&#34;http://www.carsonified.com&#34;&gt;Carsonified&lt;/a&gt; for permission to use their site&amp;#8217;s background image on &lt;a href=&#34;http://twitter.com/NBA_Results&#34;&gt;&lt;span class=&#34;caps&#34;&gt;NBA&lt;/span&gt; Results&lt;/a&gt;. 
 Thanks also to &lt;a href=&#34;http://www.flickr.com/photos/balakov&#34;&gt;Balakov&lt;/a&gt; who published &lt;a href=&#34;http://www.flickr.com/photos/balakov/502470343/&#34;&gt;the image used&lt;/a&gt; for each &lt;span class=&#34;caps&#34;&gt;NBA&lt;/span&gt; team twitter account icon under a Creative Commons license on&amp;nbsp;flickr.&lt;/p&gt;            </content>
         </entry>
@@ -890,15 +836,66 @@ Thanks also to &lt;a href=&#34;http://www.flickr.com/photos/balakov&#34;&gt;Bala
                         label="Osmosoft" />
             
             <content type="html">
-                                &lt;p&gt;&lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
-&lt;p class=&#34;excerpt&#34;&gt;
+                                &lt;p class=&#34;excerpt&#34;&gt;
     Recently, we at &lt;a href=&#34;http://www.osmosoft.com&#34;&gt;Osmosoft&lt;/a&gt; have been trying to make good on one of our pledges: To introduce a unit testing framework to &lt;a href=&#34;http://www.tiddlywiki.com&#34;&gt;Tiddlywiki&lt;/a&gt;&amp;nbsp;development.
-&lt;/p&gt;&lt;/p&gt;
+&lt;/p&gt;
+
 &lt;p&gt;Along the way we examined several Javascript testing frameworks and found that JSSpec suited our needs quite nicely. JSSpec resembles the popular &lt;a href=&#34;http://rspec.info/&#34;&gt;RSpec&lt;/a&gt; testing framework popularly used by Ruby&amp;nbsp;developers.&lt;/p&gt;
 &lt;p&gt;As a result, I have been dabbling away at writing tests in my favoured text editor - the rather lovely  &lt;a href=&#34;http://www.macromates.com/&#34;&gt;Textmate&lt;/a&gt;. Since this is a repetitive task, I figured that it was worth creating some helper to speed things along. Textmate offers an easy to make powerful bundles to automate tasks and help you in your code development and so I quickly put together a JSSpec bundle Textmate. This simple bundle offers a set of snippets which can act as a quick reference of what methods are available in JSSpec and let you rapidly create your test code.  Textmate users can &lt;a href=&#34;http://www.hawksworx.com/resources/JSSpec.tmbundle.zip&#34;&gt;download this bundle&lt;/a&gt; and just double-click it to make it available for use in&amp;nbsp;Textmate.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://static.hawksworx.com/JSSpec.tmbundle.zip&#34;&gt;&lt;img src=&#34;/media/images/jsspecbundle.png&#34; &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://static.hawksworx.com/JSSpec.tmbundle.zip&#34;&gt;&lt;img src=&#34;/media/images/jsspecbundle.png&#34; class=&#34;free&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I won&amp;#8217;t go into the workings of testing with JSSpec here, rather, you can learn about that at the &lt;a href=&#34;http://code.google.com/p/jsspec/&#34;&gt;official site&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Feel free to take this bundle and modify it to fit your purpose.&amp;nbsp;Enjoy.&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">How to create and distribute lovely screencasts</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/how-to-create-and-distribute-lovely-screencasts"/>
+            <updated>2008-03-28T10:00:00Z</updated>
+            <published>2008-03-28T10:00:00Z</published>
+            <id>/blog/how-to-create-and-distribute-lovely-screencasts</id>
+                        <category   scheme="/blog/tags"
+                        term="tips"
+                        label="Tips" />
+                        <category   scheme="/blog/tags"
+                        term="osx"
+                        label="Osx" />
+            
+            <content type="html">
+                                &lt;p class=&#34;excerpt&#34;&gt;
+    For a while I have been meaning to start posting screencasts of some of my work to spread the word, and to explain some of the details that are difficult to describe in&amp;nbsp;text.
+&lt;/p&gt;
+
+&lt;p&gt;After much tinkering, I think that I have arrived at a nice setup and have found a good way to distribute the screencasts, making them available to stream over the web or to download for consumption in your own sweet&amp;nbsp;time.&lt;/p&gt;
+&lt;p&gt;In this post, I&amp;#8217;ll share my findings so that you can set yourself up with a similar environment.  I use a Mac, and so these tips are levelled squarely at the Mac users out there. Sorry to everyone else, but I&amp;#8217;m just writing about what I&amp;nbsp;know.&lt;/p&gt;
+&lt;p&gt;Here is an example screencast.  &lt;a href=&#34;http://vimeo.com/833608&#34; target=&#34;_blank&#34;&gt;The best view is in &lt;span class=&#34;caps&#34;&gt;HD&lt;/span&gt; over&amp;nbsp;here.&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;object data=&#34;http://www.vimeo.com/moogaloop.swf?clip_id=833608&amp;amp;server=www.vimeo.com&amp;amp;fullscreen=1&amp;amp;show_title=1&amp;amp;show_byline=0&amp;amp;show_portrait=0&amp;amp;color=00ADEF&#34; type=&#34;application/x-shockwave-flash&#34; height=&#34;250&#34; width=&#34;400&#34;&gt;
+    &lt;param name=&#34;quality&#34; value=&#34;best&#34; /&gt;   &lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&gt;   &lt;param name=&#34;scale&#34; value=&#34;showAll&#34; /&gt;  &lt;param name=&#34;movie&#34; value=&#34;http://www.vimeo.com/moogaloop.swf?clip_id=833608&amp;amp;server=www.vimeo.com&amp;amp;fullscreen=1&amp;amp;show_title=1&amp;amp;show_byline=0&amp;amp;show_portrait=0&amp;amp;color=00ADEF&#34; /&gt;
+&lt;/object&gt; &lt;/p&gt;
+&lt;p&gt;I think that in order to create a good screencasts you need to think about the following&amp;nbsp;things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Good content. Know what you&amp;#8217;re going to say/show and prepare yourself in&amp;nbsp;advance.&lt;/li&gt;
+&lt;li&gt;Have a clean environment on&amp;nbsp;screen.&lt;/li&gt;
+&lt;li&gt;Capture your content with the optimal&amp;nbsp;settings.&lt;/li&gt;
+&lt;li&gt;Compress your content&amp;nbsp;correctly.&lt;/li&gt;
+&lt;li&gt;Host and distribute your content in the most effective&amp;nbsp;way.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let&amp;#8217;s take a look at those in more&amp;nbsp;detail.&lt;/p&gt;
+&lt;h2&gt;1 - Good&amp;nbsp;content&lt;/h2&gt;
+&lt;p&gt;I think that it is worth practicing what you are going to show and getting everything ready in advance so that you don&amp;#8217;t waste any time. As far as having something compelling to show, I&amp;#8217;m afraid that you&amp;#8217;re on your own on this&amp;nbsp;one.&lt;/p&gt;
+&lt;h2&gt;2 - Have a clean environment on&amp;nbsp;screen.&lt;/h2&gt;
+&lt;p&gt;Removing clutter which can be distracting and untidy is a good way to help communicate you message more effectively. Since I don&amp;#8217;t want to have to disrupt the setup that I use for my everyday work, I created a new user on my Mac called Demo which I use not only for capturing screencasts, but also for when I need to use my laptop to give a presentation using a projector.  Having this separate user account allows me to keep the desktop totally clear and to keep it set to the optimal screen resolution for captures and projection. I chose to hide any mounted drives and whatnot by modifying my Finder preferences. I also increased the font size and icon size in the Finder View&amp;nbsp;Options.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;free&#34; src=&#34;/media/images/finder-prefs.jpeg&#34; alt=&#34;Finder preferences&#34; /&gt; &lt;/p&gt;
+&lt;p&gt;There is also value in having a simple, clean wallpaper displayed. Again, the aim is to reduce noise and distractions.  People don&amp;#8217;t all need to see the photos of your kids learning to ride a bike while they are trying to absorb what you are&amp;nbsp;demonstrating.&lt;/p&gt;
+&lt;h2&gt;3 - Capture your content with the optimal&amp;nbsp;settings.&lt;/h2&gt;
+&lt;p&gt;I chose to use &lt;a href=&#34;http://www.ambrosiasw.com/utilities/snapzprox/&#34; target=&#34;_blank&#34;&gt;SnapzPro&lt;/a&gt; as my screen capture software. There are others, but this suited my needs and worked well for me.  The screen resolution that you choose is important here. It took me a little time to settle on the right screen resolution.  Initially I chose 1024x640.  &lt;a href=&#34;http://www.ambrosiasw.com/utilities/snapzprox/&#34;&gt;SnapzPro&lt;/a&gt; allows you to scale your capture which I did, choosing 70%. This gave a nice result which was big and clear and the file size was also good.  In the end, I increased my screen resolution for capture to 1280x800 and didn&amp;#8217;t scale it down at&amp;nbsp;all. &lt;/p&gt;
+&lt;p&gt;The reason for this is due to the channel that I chose to distribute my content through. More on that in point 5.  I also lowered the frame rate a little. I dropped it to 18 frames per second in order to save a little on the file&amp;nbsp;size.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Capture settings&#34; class=&#34;free&#34; src=&#34;/media/images/snaps-capture-settings.jpg&#34; /&gt; &lt;/p&gt;
+&lt;p&gt;I also like to let the viewer see what keys I am pressing during demonstrations. For this I used the rather handy &lt;a href=&#34;http://www.boinx.com/mousepose/&#34; target=&#34;_blank&#34;&gt;Mousepose&lt;/a&gt; application. This also allows you to highlight the location of the mouse&amp;nbsp;pointer. &lt;/p&gt;
+&lt;h2&gt;4 - Compress your content&amp;nbsp;correctly.&lt;/h2&gt;
+&lt;p&gt;Now that you have recorded your content, you need to make sure that you compress it appropriately. This will of course be influenced by the your chosen hosting and distribution method. I compressed to h.264 to give good quality output while squeezing the file size down. My other settings are shown&amp;nbsp;below.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Compression settings&#34; src=&#34;/media/images/compression-settings.jpg&#34; /&gt; &lt;/p&gt;
+&lt;h2&gt;5 - Host and distribute your content in the most effective&amp;nbsp;way.&lt;/h2&gt;
+&lt;p&gt;I wanted to be able to embed my screencasts on my website, but also allow any interested viewers to be able to download them to keep.  Reducing any barriers to accessing the screencasts was important to me, so I didn&amp;#8217;t want to require the viewer to install any software before being able to view them. For that reason, a flash based video seemed sensible, due to the ubiquity of the flash player in browsers. I also wanted the screencasts to be of a suitably video quality. &lt;a href=&#34;http://www.vimeo.com&#34;&gt;Vimeo.com&lt;/a&gt; will host &lt;span class=&#34;caps&#34;&gt;HD&lt;/span&gt; content and stream content to your site. A bit of a sticking point at the moment is that they don&amp;#8217;t yet allow &lt;span class=&#34;caps&#34;&gt;HD&lt;/span&gt; streaming to your embedded videos. You need to view them on their site for that. Apparently, this is will be available soon.  They allow you to download the videos from their site and their fullscreen viewer is super-slick. &lt;a href=&#34;http://www.vimeo.com&#34;&gt;Vimeo.&lt;/a&gt; fitted my requirements pretty well and I heartily recommend them. Their site is slick and they offer lots of support on how to best create your video&amp;nbsp;content.&lt;/p&gt;            </content>
         </entry>
             <entry>
             <title type="html">Observing Twitter behaviours</title>
@@ -915,11 +912,11 @@ Thanks also to &lt;a href=&#34;http://www.flickr.com/photos/balakov&#34;&gt;Bala
                         label="Twitter" />
             
             <content type="html">
-                                &lt;p&gt;&lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
-&lt;p class=&#34;excerpt&#34;&gt;
+                                &lt;p class=&#34;excerpt&#34;&gt;
     It seems that the &lt;a href=&#34;http://twitter.com&#34;&gt;Twitterverse&lt;/a&gt; is all of a flutter following recent blog posts from Phillie Casablanca and Paul Downey.  I&amp;#8217;m watching this with keen interest and it has been the subject of much impassioned discussion in our&amp;nbsp;office.
-&lt;/p&gt; 
-Frustrated by the noisy habits of &lt;a href=&#34;http://twitter.com/gapingvoid&#34;&gt;some&lt;/a&gt; &lt;a href=&#34;http://twitter.com/scobleizer&#34;&gt;twitterers&lt;/a&gt;, &lt;a href=&#34;http://philwhitehouse.blogspot.com/&#34; title=&#34;The Casablanca Weblog&#34;&gt;Phil&lt;/a&gt; &lt;a href=&#34;http://philwhitehouse.blogspot.com/2008/01/tweetaholics.html&#34; title=&#34;The Casablanca Weblog: Tweetaholics&#34;&gt;opened a discussion&lt;/a&gt; on good Twitter practices that led to him posting the &lt;a href=&#34;http://philwhitehouse.blogspot.com/2008/01/ten-commandments-of-twitter.html&#34; title=&#34;The Casablanca Weblog: The Ten Commandments of Twitter&#34;&gt;10 Commandments of Twitter&lt;/a&gt;, an attempt to articulate some of the good, and highlight some of the annoying, practices when posting tweets. For the record, I&amp;#8217;m right behind him, and was quick to follow the 10 commandments. It has been interesting though, to observe the response to his post, and to see how many people agree and how many people strongly object to his&amp;nbsp;suggestions.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Frustrated by the noisy habits of &lt;a href=&#34;http://twitter.com/gapingvoid&#34;&gt;some&lt;/a&gt; &lt;a href=&#34;http://twitter.com/scobleizer&#34;&gt;twitterers&lt;/a&gt;, &lt;a href=&#34;http://philwhitehouse.blogspot.com/&#34; title=&#34;The Casablanca Weblog&#34;&gt;Phil&lt;/a&gt; &lt;a href=&#34;http://philwhitehouse.blogspot.com/2008/01/tweetaholics.html&#34; title=&#34;The Casablanca Weblog: Tweetaholics&#34;&gt;opened a discussion&lt;/a&gt; on good Twitter practices that led to him posting the &lt;a href=&#34;http://philwhitehouse.blogspot.com/2008/01/ten-commandments-of-twitter.html&#34; title=&#34;The Casablanca Weblog: The Ten Commandments of Twitter&#34;&gt;10 Commandments of Twitter&lt;/a&gt;, an attempt to articulate some of the good, and highlight some of the annoying, practices when posting tweets. For the record, I&amp;#8217;m right behind him, and was quick to follow the 10 commandments. It has been interesting though, to observe the response to his post, and to see how many people agree and how many people strongly object to his&amp;nbsp;suggestions.&lt;/p&gt;
 &lt;p&gt;Many people, &lt;a href=&#34;http://www.evilgeniuschronicles.org/wordpress/2008/01/06/in-my-second-month-on-twitter-i-reject-your-commandments/&#34;&gt;object&lt;/a&gt; to being told how they should use Twitter, and that&amp;#8217;s fair enough. It isn&amp;#8217;t for any one person to dictate how we should all use [Twitter][].  Rather, patterns of usage will emerge and we will all find our own ways of using Twitter to get the most out of it. It is reasonable though, for people to express how they think the best value can be derived from Twitter and to describe some useful guidelines for people to either adopt, or not, as they wish.  In my eyes that is what Phil was doing with the [10 Commandments of Twitter][]. I also think that Phil will be the first to admit that the use of the word &amp;#8216;commandment&amp;#8217; may be a bit strong, but it was used to elicit a response. &lt;a href=&#34;http://terraminds.com/twitter/query?query=10commandments+&amp;amp;submit=search+in+updates&#34;&gt;Job&amp;nbsp;done!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Sharing similar frustrations, &lt;a href=&#34;http://blog.whatfettle.com/2008/01/05/are-you-a-twitter-twit-or-a-twerp&#34; title=&#34;Whatfettle - Paul Downey (psd)&#34;&gt;Paul Downey&lt;/a&gt; took things a step further on his blog describing two different camps of Twitter users: &lt;a href=&#34;http://blog.whatfettle.com/2008/01/05/are-you-a-twitter-twit-or-a-twerp/#Twit&#34; title=&#34;Whatfettle - Paul Downey (psd)&#34;&gt;Twits&lt;/a&gt; and &lt;a href=&#34;http://blog.whatfettle.com/2008/01/05/are-you-a-twitter-twit-or-a-twerp/#Twit&#34; title=&#34;Whatfettle - Paul Downey (psd)&#34;&gt;Twerps&lt;/a&gt;.  Judging by some of the responses to that post, many are upset at being labelled a Twit or a Twerp, thinking that the terms are a little strong. (Paul clarified his use of the terms recently &lt;a href=&#34;http://twitter.com/psd/statuses/571252882&#34;&gt;in a tweet&lt;/a&gt;) I personally find the terms merely playful and see that I am a Twit who sometimes displays Twerpish&amp;nbsp;tendencies(!).&lt;/p&gt;
 &lt;p&gt;One worry that I do have though, and this was &lt;a href=&#34;http://confusedofcalcutta.com/2008/01/06/freewheeling-about-social-media/&#34;&gt;articulated by &lt;span class=&#34;caps&#34;&gt;JP&lt;/span&gt; Rangaswami on his blog&lt;/a&gt; much better than I am likely to do here, is the experience of the Newbie.  We should avoid creating an environment which is intimidating and unwelcoming to the new user.  Some of the emerging &lt;a href=&#34;http://microformats.org/wiki/twitter-nanoformats&#34;&gt;nanoformats&lt;/a&gt; add great value to Twitter, but we must never try and dictate that they are used by all. Instead, we should provide complete, and accessible information on them for anyone who is interested enough to use them.  I for one was scared off &lt;span class=&#34;caps&#34;&gt;IRC&lt;/span&gt; and the like for years by the seemingly ferocious users who knew the conventions inside and out, but didn&amp;#8217;t appear to tolerate newcomers.  I&amp;#8217;d hate for twitter to end up like that.  We should use things like the &lt;a href=&#34;http://twitter.com/tencommandments&#34;&gt;10 Commandments of Twitter&lt;/a&gt; as useful tips for people, rather than an iron rod with which to force people to use Twitter &amp;#8216;our&amp;nbsp;way.&amp;#8217;&lt;/p&gt;
@@ -945,12 +942,12 @@ Frustrated by the noisy habits of &lt;a href=&#34;http://twitter.com/gapingvoid&
                         label="Events" />
             
             <content type="html">
-                                &lt;p&gt;&lt;img src=&#34;/media/images/le-web-3.jpg&#34; alt=&#34;LeWeb3&#34; /&gt;
+                                &lt;p&gt;&lt;img src=&#34;/media/images/le-web-3.jpg&#34; alt=&#34;LeWeb3&#34; class=&#34;free&#34; /&gt;
 &lt;p class=&#34;excerpt&#34;&gt;
     Last week the entire &lt;a href=&#34;http://www.osmosoft.com&#34;&gt;Osmosoft&lt;/a&gt; team visited Paris to attend the &lt;a href=&#34;http://www.leweb3.com&#34;&gt;LeWeb3&lt;/a&gt; conference.  Initially, we had intended to be attending simply as delegates, but as time went by, we decided that we might be able to build something handy to use at the conference, and that perhaps, others might find it useful&amp;nbsp;too.
 &lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;And so, &lt;a href=&#34;http://ripplerap.com&#34;&gt;RippeRap&lt;/a&gt; (then dubbed &amp;#8216;TiddleLeWeb&amp;#8217;) was conceived. We considered that building a tool based on &lt;a href=&#34;http://www.tiddlywiki.com&#34;&gt;TiddlyWiki&lt;/a&gt; where you could make notes on the conference and effortlessly share those notes with others, while being shielded from network hiccups, would be cool. To be ready, we had much to do, and little time to do&amp;nbsp;it.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://ripplerap.com&#34;&gt;&lt;img src=&#34;/media/images/ripplerap.jpg&#34;&gt;&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ripplerap.com&#34;&gt;&lt;img src=&#34;/media/images/ripplerap.jpg&#34; class=&#34;free&#34;&gt;&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;We found that getting up-to-date and accurate information about the agenda from the &lt;a href=&#34;http://www.leweb3.com&#34;&gt;LeWeb3 website&lt;/a&gt;, was a little fiddly, so including an agenda and using it as the basic navigation in RippleRap seemed like a natural choice. For added value, we also used &lt;a href=&#34;http://www.microformats.org&#34;&gt;Microformats&lt;/a&gt; to markup the agenda so that you could export the sessions to your calendar and so&amp;nbsp;on.&lt;/p&gt;
 &lt;p&gt;Since we were planning to hand out copies of RippleRap to other delegates, we decided to have a stand at the conference so that we could explain what we were doing with RippleRap, and in the open source world. Osmosoft and &lt;a href=&#34;http://bt.com&#34;&gt;&lt;span class=&#34;caps&#34;&gt;BT&lt;/span&gt;&lt;/a&gt; shared a stand which was busy throughout. I think that having &lt;a href=&#34;http://blog.whatfettle.com&#34;&gt;Paul Downey&lt;/a&gt; around to talk people through his excellent, and popular uber-doodle, &amp;#8216;&lt;a href=&#34;http://map.whatfettle.com&#34;&gt;The Web Is Agreement&lt;/a&gt;&amp;#8216; (more than 60 thousand views &lt;a href=&#34;http://www.flickr.com/photos/psd/1805709102/&#34;&gt;on flickr&lt;/a&gt; at time of writing) helped draw people to the stand.  I rather think that the retro-chic &lt;a href=&#34;http://www.flickr.com/photos/philliecasablanca/2070476239/&#34;&gt;bat phone&lt;/a&gt; also raised a smile.  We enabled every copy of RippleRap to make free calls to the bat phone at the stand in order to get support. Building that feature was made easy with &lt;a href=&#34;http://mojo.bt.com&#34;&gt;Mojo&lt;/a&gt;, &lt;span class=&#34;caps&#34;&gt;BT&lt;/span&gt;&amp;#8217;s &lt;a href=&#34;http://en.wikipedia.org/wiki/Representational_State_Transfer&#34;&gt;&lt;span class=&#34;caps&#34;&gt;REST&lt;/span&gt;&lt;/a&gt; exposure to its &lt;a href=&#34;http://sdk.bt.com&#34;&gt;21cSDK&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/psd/sets/72157602805227511/&#34;&gt;&lt;img src=&#34;/media/images/paul-explains-twia-to-yossi-vardi.jpg&#34; alt=&#34;Paul explains TWIA to Yossi Vardi&#34;&gt;&lt;/a&gt; &lt;/p&gt;

@@ -179,6 +179,9 @@ a:hover, a:focus {
         width:680px;
         margin-bottom:10px;
     }
+    .post img.free {
+        width:auto;
+    }
     .post li {
         margin:0 1em 0.4em 1em;
     }
