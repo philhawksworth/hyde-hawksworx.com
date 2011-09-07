@@ -6,6 +6,11 @@ description: Noodlings about the web and whatnot by Phil Hawksworth
 section: home
 ---
 
+{% block openid %}
+<link href="http://www.myopenid.com/server" rel="openid.server" />
+<link href="http://philhawksworth.myopenid.com/" rel="openid.delegate" />
+{% endblock openid %}
+
 <p class="latest-badge">Latest from the blog:</p>
 
 {% from "macros.j2" import render_post_meta with context %}
@@ -27,7 +32,7 @@ section: home
     <li><a href="http://lanyrd.com/philhawksworth" rel="me">http://lanyrd.com/philhawksworth</a></li>
     <li><a href="http://www.slideshare.net/philhawksworth" rel="me">http://www.slideshare.net/philhawksworth</a></li>
     <li><a href="http://www.linkedin.com/in/philhawksworth" rel="me">http://linkedin.com/in/philhawksworth</a></li>
-    <li><a href="http://huffduffer.com/philhawkswort" rel="me">http://huffduffer.com/philhawksworth</a> </li>
+    <li><a href="http://huffduffer.com/philhawksworth" rel="me">http://huffduffer.com/philhawksworth</a> </li>
     <li><a href="http://www.quora.com/phil-hawksworth" rel="me">http://www.quora.com/phil-hawksworth</a> </li>
     <li><a href="http://www.last.fm/user/phawksworth/" rel="me">http://www.last.fm/user/phawksworth</a> </li>
     <li><a href="http://upcoming.yahoo.com/user/195539/" rel="me">http://upcoming.yahoo.com/user/195539</a> </li>

@@ -23,13 +23,15 @@
     <link rel="stylesheet" href="{{ media_url('css/base.css') }}">
     <link rel="stylesheet" href="{{ media_url('css/syntax.css') }}">
     {% endblock css %}
+    {% block openid %}
+    {% endblock openid %}
     <script>
         var _gaq=[['_setAccount','UA-4054156-1'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))
     </script> 
 </head>
 <body class="{{ resource.meta.section }}">
     <div class="header">
-        <h1>hawksworx</h1>
+        <h1><a href="/" rel="self" title="hawksworx: home">hawksworx</a></h1>
         <h2>noodlings about the web, technology and whatnot</h2>
         <ul class="nav" role="navigtion">
             <li><a href="/" class="home">home</a></li>
@@ -44,7 +46,7 @@
     {% endblock main %}
     </div>
     <div class="footer">
-        <h1>hawksworx</h1>
+        <h1><a href="/" rel="self" title="hawksworx: home">hawksworx</a></h1>
         <h2>noodlings about the web, technology and whatnot</h2>
         <ul class="nav" role="navigtion">
             <li><a href="/" class="home">home</a></li>

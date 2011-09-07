@@ -63,6 +63,15 @@ a:hover, a:focus {
         margin:0;
         padding:0;
     }
+        .header h1 a:link,
+        .header h1 a:visited {
+            color:#333;
+            border-bottom-style:none;
+        }
+        .header h1 a:hover,
+        .header h1 a:focus {
+            text-decoration:underline;
+        }    
     .header h2 {
         font-size:0.8em;
         color:#777;
@@ -96,6 +105,15 @@ a:hover, a:focus {
         padding:0;
         color:#ddd;
     }
+        .footer h1 a:link,
+        .footer h1 a:visited {
+            color:#ddd;
+            border-bottom-style:none;
+        }
+        .footer h1 a:hover,
+        .footer h1 a:focus {
+            text-decoration:underline;
+        }
     .footer h2 {
         font-size:0.8em;
         margin:0.2em 0 0;
