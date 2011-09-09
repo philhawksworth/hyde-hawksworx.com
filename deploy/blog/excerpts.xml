@@ -7,10 +7,33 @@
         <link href="/"/>
     
         
-    <updated>2011-09-07T09:39:48Z</updated>
+    <updated>2011-09-09T10:24:00Z</updated>
 
     <id>/blog/excerpts.xml/</id>
 
+            <entry>
+            <title type="html">Expectations of web development at agencies</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/expectations-of-web-development-at-agencies"/>
+            <updated>2011-09-09T10:00:00Z</updated>
+            <published>2011-09-09T10:00:00Z</published>
+            <id>/blog/expectations-of-web-development-at-agencies</id>
+                        <category   scheme="/blog/tags"
+                        term="web"
+                        label="Web" />
+                        <category   scheme="/blog/tags"
+                        term="development"
+                        label="Development" />
+                        <category   scheme="/blog/tags"
+                        term="observations"
+                        label="Observations" />
+            
+            <content type="html">
+                &lt;img src=&#34;/media/images/production-line.jpg&#34; alt=&#34;Agencies aren&#39;t just production lines&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    Recently I was involved in an very short bit of consultancy for an e-commerce company. We were focussing on the performance of their site in the browser, and they were more than a little surprised at the software engineering rigour that we exhibited given that we are &lt;i&gt;just&lt;/i&gt; an agency. Perhaps we&amp;#8217;re thought of us web development production lines who churn out web sites. That&amp;#8217;s not my&amp;nbsp;view.
+&lt;/p&gt;            </content>
+        </entry>
             <entry>
             <title type="html">Social media did not cause the London riots</title>
             <author><name>Phil Hawksworth</name></author>
