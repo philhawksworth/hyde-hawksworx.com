@@ -106,7 +106,7 @@ def deploy():
 def export_release():
     """Exports a release with the current time and date"""
     run('cd %s && git pull origin master' % env.release_path)
-    run('cp -R %(release_path)s/deploy/ %(path)s' % env)
+    sudo('cp -R %(release_path)s/deploy/ %(path)s' % env)
 
 
 def symlink_release():
