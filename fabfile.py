@@ -83,10 +83,8 @@ def staging():
     env.hosts = [PRODUCTION]
     env.path = '/var/www/stage.hawksworx.com'
     env.user = 'ubuntu'
-    env.apache = ['stage.hawksworx.com',]
     env.key_filename  = '/Users/phil.hawksworth/.ssh/philhawksworth-aws.pem'
-    # env.release_name = '%(project)s_%(time)s' % env
-    # env.origin_path =  env.path + "/var/releases/hawksworx.com"
+    env.apache = ['stage.hawksworx.com',]
     env.release_path = "/var/releases/hawksworx.com"
 
 def production():
@@ -97,15 +95,12 @@ def production():
     env.user = 'ubuntu'
     env.key_filename  = '/Users/phil.hawksworth/.ssh/philhawksworth-aws.pem'
     env.apache = ['hawksworx.com', ]
-    # env.release_name = '%(project)s_%(time)s' % env
-    # env.origin_path =  env.path + "/releases/hawksworx.com"
     env.release_path = "/var/releases/hawksworx.com"
 
 
 def deploy():
     """Deployment actions"""
     export_release()
-    # symlink_release()
     # copy_settings_local()
 
 def export_release():

@@ -7,7 +7,7 @@
         <link href="/"/>
     
         
-    <updated>2011-09-09T11:01:44Z</updated>
+    <updated>2011-09-12T09:25:18Z</updated>
 
     <id>/blog/atom.xml/</id>
 
@@ -33,10 +33,10 @@
 &lt;p class=&#34;excerpt&#34;&gt;
     Recently I was involved in an very short bit of consultancy for an e-commerce company. We were focussing on the performance of their site in the browser, and they were more than a little surprised at the software engineering rigour that we exhibited given that we are &lt;i&gt;just&lt;/i&gt; an agency. Perhaps we&amp;#8217;re thought of us web development production lines who churn out web sites. That&amp;#8217;s not my&amp;nbsp;view.
 &lt;/p&gt;&lt;p&gt;
-    This isn&amp;#8217;t the first time that I&amp;#8217;ve encountered that attitude towards agencies. It seems that there is a perception from companies whose bread and butter is developing their product on for the Web, that an agency would never go to the same lengths as them to ensure quality and&amp;nbsp;performance.
+    This isn&amp;#8217;t the first time that I&amp;#8217;ve encountered that attitude towards agencies. It seems that there is a perception from companies whose bread and butter is developing their product for the Web, that an agency would never go to the same lengths as them to ensure quality and&amp;nbsp;performance.
 &lt;/p&gt;
 &lt;p&gt;
-    There is a kernel of truth in that. Realistically a product company or e-commerce company can labor over fine-tuning and optimising their web site over long periods of time, making many, often constant iterations to drive up the quality. Long term engagements in projects is often a luxury that agencies are not afforded, and so it is more difficult to agonise over finessing the performance and all that&amp;nbsp;entails.
+    There is a kernel of truth in that. Realistically a product company or e-commerce company can labor over fine-tuning and optimising their web site over long periods of time, making many, often constant, iterations to drive up the quality. Long term engagements in projects is often a luxury that agencies are not afforded, and so it is more difficult to agonise over finessing the performance and all that&amp;nbsp;entails.
 &lt;/p&gt;
 &lt;p&gt;
     But hang on. Agencies should be experts in their field.  Web development practitioners have a responsibility to their clients to craft and deliver amazing results. That doesn&amp;#8217;t end with the branding or the design, but should, nay &lt;i&gt;must&lt;/i&gt; extend through to the development and delivery of the &amp;#8216;product&amp;#8217; on the web. Otherwise everything that came before delivery is for&amp;nbsp;naught.
@@ -152,20 +152,38 @@
             <content type="html">
                                 &lt;p&gt;&lt;img src=&#34;/media/images/include_beer.jpeg&#34; alt=&#34;Include Beer&#34; /&gt;
 &lt;p class=&#34;excerpt&#34;&gt;
-    One of the nice things about being a web developer today, is that thanks to the incredibly low cost of resilient, scalable hosting infrastructure, and the abundance of free tools and technologies, you&amp;#8217;re empowered to create things and release them to the a huge audience. You can experiment with much less risk than ever before. We&amp;#8217;re seeing evidence of this with so many entrepreneurs and startups entering the market. Some more successfully than&amp;nbsp;others. 
+    One of the nice things about being a web developer today, is that thanks to the incredibly low cost of resilient, scalable hosting infrastructure, and the abundance of free tools and technologies, you are empowered to create things and release them to the a huge audience. You can experiment with much less risk than ever before. We are seeing evidence of this with so many entrepreneurs and startups entering the market. Some more successfully than&amp;nbsp;others. 
 &lt;/p&gt;
-&lt;p&gt;Thanks to this low cost of innovation, conversations in pubs between friends who have the right set of skills can quickly flourish into exciting and viable products (or indeed, display the inner madness of their creators and become curiosities or simply be&amp;nbsp;overlooked.)&lt;/p&gt;
-&lt;p&gt;One such pub-based conversation for me has lead to my working on something with a few friends to build something that we each felt would scratch our common itch. Funnily enough it was around the subject of pubs and bars (we do think about other things, honestly) that we felt there was a missing resource. I&amp;#8217;ll come back to what we felt that was in a moment, but there was a more essential point to our discussions. That was that we all felt a similar frustration in not being able to exert our skills to pursue so many of the ideas that we each had.  We&amp;#8217;re all familiar with the maxim that ideas are cheap, and that the value lies in the execution.  I&amp;#8217;m a strong believer in that and indeed many of us are brimming with ideas for things that we&amp;#8217;d like to make if only we had more time, money, development skills, design skills or what have&amp;nbsp;you.&lt;/p&gt;
-&lt;p&gt;The most common missing commodity in this situation seems to be time. We all have busy day jobs which are not conducive to the pursuit of the vast majority of out &amp;#8220;big ideas&amp;#8221;. Individually, we may not have the requisite skills to realise many of these fanciful ambitions. Together, we can take it&amp;nbsp;on.&lt;/p&gt;
-&lt;p&gt;Our view was that a small, &lt;a href=&#34;http://weavemadethis.com&#34; title=&#34;Weave&#34;&gt;carefully assembled group&lt;/a&gt; with the right motivation and ambition, could coalesce around their ideas and do a pretty good job of going off to simply create things. Freed from the constraints of supporting an existing business with ambitions in different direction, and servicing clients, we decided that as an experiment, for our own satisfaction, and mostly to simply satisfy a need that we felt, we would work together in our spare time to &amp;#8216;make&amp;nbsp;stuff&amp;#8217;.&lt;/p&gt;
-&lt;p&gt;So that is what we are doing. We are just making things that we wish existed already. For now, it&amp;#8217;s just for fun. And boy, is it&amp;nbsp;ever!&lt;/p&gt;
-&lt;p&gt;Our first project, which I promised, I&amp;#8217;d return to, is very much in its infancy but starting to shape up nicely.  We&amp;#8217;re entering an already crowded space, that of finding and reviewing pubs and bars, where we think we can do a better job. The &lt;span class=&#34;caps&#34;&gt;UK&lt;/span&gt;, where we are based has many pub review websites and indeed Google have recently started to make it easier to find pubs and bars by the reviews of patrons, but we just don&amp;#8217;t think the experience of using them, or the quality of the data is good&amp;nbsp;enough.&lt;/p&gt;
-&lt;p&gt;And so, we&amp;#8217;ve begun work on a project which makes use of mobile devices, geolocation, carefully designed user-generated content and lots of other fun (and occasionally buzzword-heavy)&amp;nbsp;things.&lt;/p&gt;
-&lt;p&gt;I&amp;#8217;ll be talking about this more as it progresses, but for now, I&amp;#8217;m just loving getting my hands dirty with building something for the Web. I don&amp;#8217;t do as much hands on development these days as I used to, so it feels good. Working with &lt;a href=&#34;http://djangoproject.com/&#34;&gt;Django&lt;/a&gt;, &lt;a href=&#34;http://jquerymobile.com/&#34;&gt;JQuerymobile&lt;/a&gt;, &lt;a href=&#34;http://docs.fabfile.org/&#34;&gt;Fabric&lt;/a&gt;, &lt;a href=&#34;http://vagrantup.com/&#34;&gt;Vagrant&lt;/a&gt;, &lt;a href=&#34;http://aws.amazon.com/&#34;&gt;Amazon &lt;span class=&#34;caps&#34;&gt;AWS&lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;http://www.pivotaltracker.com&#34;&gt;PivotalTracker&lt;/a&gt;, &lt;a href=&#34;http://github.com&#34;&gt;Github&lt;/a&gt; and other things on our own terms, and to satisfy goals that we ourselves have set, is fun and&amp;nbsp;exciting.&lt;/p&gt;
-&lt;p&gt;I hope to be able to share more details as we approach a usable beta. Things can move along quickly when you are your own customer. Even if you only have evenings and weekends to work towards you&amp;nbsp;target.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;
+    Thanks to this low cost of innovation, conversations in pubs between friends who have the right set of skills can quickly flourish into exciting and viable products (or indeed, display the inner madness of their creators and become curiosities or simply be&amp;nbsp;overlooked.)
+    &lt;/p&gt;
+&lt;p&gt;
+    One such pub-based conversation for me has lead to my working on something with a few friends to build something that we each felt would scratch our common itch. Funnily enough it was around the subject of pubs and bars (we do think about other things, honestly) that we felt there was a missing resource. I&amp;#8217;ll come back to what we felt that was in a moment, but there was a more essential point to our discussions. That was that we all felt a similar frustration in not being able to exert our skills to pursue so many of the ideas that we each had.  We&amp;#8217;re all familiar with the maxim that ideas are cheap, and that the value lies in the execution.  I&amp;#8217;m a strong believer in that and indeed many of us are brimming with ideas for things that we&amp;#8217;d like to make if only we had more time, money, development skills, design skills or what have&amp;nbsp;you.
+&lt;/p&gt;
+&lt;p&gt;
+    The most common missing commodity in this situation seems to be time. We all have busy day jobs which are not conducive to the pursuit of the vast majority of out &amp;#8220;big ideas&amp;#8221;. Individually, we may not have the requisite skills to realise many of these fanciful ambitions. Together, we can take it&amp;nbsp;on.
+&lt;/p&gt;
+&lt;p&gt;
+    Our view was that a small, &lt;a href=&#34;http://weavemadethis.com&#34; title=&#34;Weave&#34;&gt;carefully assembled group&lt;/a&gt; with the right motivation and ambition, could coalesce around their ideas and do a pretty good job of going off to simply create things. Freed from the constraints of supporting an existing business with ambitions in different direction, and servicing clients, we decided that as an experiment, for our own satisfaction, and mostly to simply satisfy a need that we felt, we would work together in our spare time to &amp;#8216;make&amp;nbsp;stuff&amp;#8217;.
+&lt;/p&gt;
+&lt;p&gt;
+    So that is what we are doing. We are just making things that we wish existed already. For now, it&amp;#8217;s just for fun. And boy, is it&amp;nbsp;ever!
+&lt;/p&gt;
+&lt;p&gt;
+    Our first project, which I promised, I&amp;#8217;d return to, is very much in its infancy but starting to shape up nicely.  We&amp;#8217;re entering an already crowded space, that of finding and reviewing pubs and bars, where we think we can do a better job. The &lt;span class=&#34;caps&#34;&gt;UK&lt;/span&gt;, where we are based has many pub review websites and indeed Google have recently started to make it easier to find pubs and bars by the reviews of patrons, but we just don&amp;#8217;t think the experience of using them, or the quality of the data is good&amp;nbsp;enough.
+&lt;/p&gt;
+&lt;p&gt;
+    And so, we&amp;#8217;ve begun work on a project which makes use of mobile devices, geolocation, carefully designed user-generated content and lots of other fun (and occasionally buzzword-heavy)&amp;nbsp;things.
+&lt;/p&gt;
+&lt;p&gt;
+    I&amp;#8217;ll be talking about this more as it progresses, but for now, I&amp;#8217;m just loving getting my hands dirty with building something for the Web. I don&amp;#8217;t do as much hands on development these days as I used to, so it feels good. Working with &lt;a href=&#34;http://djangoproject.com/&#34;&gt;Django&lt;/a&gt;, &lt;a href=&#34;http://jquerymobile.com/&#34;&gt;JQuerymobile&lt;/a&gt;, &lt;a href=&#34;http://docs.fabfile.org/&#34;&gt;Fabric&lt;/a&gt;, &lt;a href=&#34;http://vagrantup.com/&#34;&gt;Vagrant&lt;/a&gt;, &lt;a href=&#34;http://aws.amazon.com/&#34;&gt;Amazon &lt;span class=&#34;caps&#34;&gt;AWS&lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;http://www.pivotaltracker.com&#34;&gt;PivotalTracker&lt;/a&gt;, &lt;a href=&#34;http://github.com&#34;&gt;Github&lt;/a&gt; and other things on our own terms, and to satisfy goals that we ourselves have set, is fun and&amp;nbsp;exciting.
+&lt;/p&gt;
+&lt;p&gt;
+    I hope to be able to share more details as we approach a usable beta. Things can move along quickly when you are your own customer. Even if you only have evenings and weekends to work towards you&amp;nbsp;target.
+&lt;/p&gt;
 &lt;p class=&#34;meta&#34;&gt;
     Photo credit: &lt;a href=&#34;http://www.flickr.com/photos/crashmaster/3733005619/in/photostream/&#34;&gt;Mike&amp;nbsp;Hoff&lt;/a&gt;
-&lt;/p&gt;            </content>
+&lt;/p&gt;&lt;/p&gt;            </content>
         </entry>
             <entry>
             <title type="html">The next generation stack. Is NodeJS ready to go mainstream?</title>
