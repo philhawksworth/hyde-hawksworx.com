@@ -2,16 +2,6 @@
 
 from fabric.api import *
 import os
-import fabric.contrib.project as project
-import datetime
-import ConfigParser
-from fabric.colors import yellow
-
-# from __future__ import with_statement
-from fabric.contrib import console, django
-from fabric.context_managers import cd
-
-
 
 PROD = 'hawksworx.com'
 DEST_PATH = '/var/www/hawksworx.com'
@@ -101,7 +91,7 @@ def production():
 def deploy():
     """Deployment actions"""
     export_release()
-    # copy_settings_local()
+    
 
 def export_release():
     """Exports a release with the current time and date"""
@@ -109,12 +99,6 @@ def export_release():
     run('cp -R %(release_path)s/deploy/* %(path)s' % env)
 
 
-def symlink_release():
-    """Removes the old release and symlinks latest release to current"""
-    # remove current deployment
-    run('rm %(path)s/current' % env)
-    # symlink deployment
-    run('ln -s %(path)s/releases/%(release_name)s/ %(path)s/current' % env)
 
 def copy_apache():
     """Copies the apache file to the appropriate location."""
@@ -127,20 +111,33 @@ def restart():
     copy_apache()
     sudo('/etc/init.d/apache2 restart')
 
-    # 
-    # def uploadattachments():
-    #     """Update the local copy of the attachment dir
-    #     using alias since it is having issues with
-    #     full username / server
-    #     """
-    #     if env.alias == 'staging':
-    #         local('rsync -avz --rsh=\'ssh -p%(port)s\' %(media_root)s/ %(user)s@%(host)s:%(path)s/attachments/' % env)
-    #     else:
-    #         print 'Server %(alias)s is not allowed to upload attachments' % env
 
-    # def clean():
-    #     """Remove pyc files from the server."""
-    #     run('find %s/current -iname \*pyc -delete' % env.path)
+from boto.s3.connection import S3Connection 
+from boto.s3.key import Key
+from stat import *
+import time   
+
+def deploy_media(): 
+    """Deploy the media files to S3 """ 
+    conn = S3Connection('ACCESS KEY ID', 'SECRET ACCESS KEY') 
+    bucket = conn.get_bucket('bucketname')   
+    #upload files 
+    for root, dirs, files in os.walk('media'):
+        for f in files: 
+            if f.endswith('.swp') or f.startswith('.') :
+                continue 
+            filename = root + '/' + f
+            modify_time = os.stat(filename)[ST_MTIME]
+            key = bucket.get_key(filename)
+            if key is None: 
+                key = Key(bucket) 
+                key.key = filename 
+            if key.last_modified is None or time.localtime(modify_time) > time.strptime(key.last_modified, '%a, %d %b %Y %H:%M:%S %Z'):
+                print filename 
+                fid = file(filename, 'r')
+                key.set_contents_from_file(fid)
+                key.set_acl('public-read')
+                print 'file uploaded'
 
 
 
@@ -151,14 +148,4 @@ def restart():
 
 
 
-
-# 
-# def deploy(version=None):
-#     """Deployment actions into S3 using s3put"""
-#     local('mkdir -p %(clone_path)s' % env)
-#     local('git clone %(git_url)s  %(clone_path)s' % env)
-#     if version:
-#         env.version = version
-#         local('cd %(clone_path)s && git checkout %(version)s' % env)
-#     local('./s3put.py -a %(access_key)s -s %(secret_key)s -b %(bucket)s -p %(htdocs)s -g public-read %(htdocs)s' % env)
-#     print yellow("Done?")
+    # Read more: http://www.halotis.com/2011/03/04/django-media-on-amazon-s3-fabric-deploy-script/#ixzz1XkvzoZ3O 
