@@ -115,7 +115,7 @@ def restart():
 from boto.s3.connection import S3Connection 
 from boto.s3.key import Key
 from stat import *
-import time   
+import time
 
 def deploy_media(): 
     """Deploy the media files to S3 """ 
