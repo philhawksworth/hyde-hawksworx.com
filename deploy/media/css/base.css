@@ -309,7 +309,7 @@ h1.title {
     font-size:0.9em;
     background:#f6f6f6;
     overflow:auto;
-
+    font-family: 'Monaco', 'Andale Mono', 'Courier New';
 }
 .codebox figcaption {
     display:none;
