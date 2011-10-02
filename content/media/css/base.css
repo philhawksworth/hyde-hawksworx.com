@@ -199,8 +199,9 @@ a:hover, a:focus {
         text-align:justify;                
     }
     .post img {
-        width:680px;
-        margin-bottom:10px;
+        width:100%;
+        margin-bottom:1em;
+        height:auto;
     }
     .post img.free {
         width:auto;
@@ -212,9 +213,9 @@ a:hover, a:focus {
         font-size:0.7em;
         color:#666;
         margin:0 0 1.5em;
-        padding:8px 8px 10px;
+        padding:4px 8px 4px;
         background:#eee;
-        line-height:1;
+        line-height:1.5;
         font-style:italic;
         border-top:solid 1px #ddd;
     }
@@ -226,10 +227,13 @@ a:hover, a:focus {
                 list-style:none;
                 display:inline;
                 margin:0 0 0 2px;
+                white-space:nowrap;
             }
 
     .permalink {
         float:right;
+        line-height:1em;
+        display:inline;
     }
         .permalink span {
             border-top: solid 3px #258DFF;
@@ -316,3 +320,29 @@ h1.title {
 }
 
 
+
+
+@media all and (max-width: 760px) {
+
+    .content {
+        width:90%;
+    }
+    .permalink {
+      margin-top:3em;
+      margin-bottom:1em;
+    }
+}
+
+@media all and (max-width: 500px) {
+	
+    .header .nav,
+    .footer .nav {
+        position:static;
+        margin: 0.5em;
+        text-align:right;
+        white-space:nowrap;
+    }
+        .permalink {
+            display:none;
+        }
+}

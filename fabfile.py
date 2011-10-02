@@ -18,23 +18,6 @@ env.project = "hawksworx"
 # SERVER
 PRODUCTION = '46.51.184.117'
 
-# PROJECT_ROOT = os.path.dirname(os.path.realpath(__file__))
-# here = lambda *x: os.path.join(PROJECT_ROOT, *x)
-# 
-# config = ConfigParser.ConfigParser()
-# config.readfp(open('fabric.cfg'))
-# 
-# env.bucket = config.get('production', 'bucket')
-# env.git_url = config.get('production', 'git_url')
-# env.access_key = config.get('production', 'access_key')
-# env.secret_key = config.get('production', 'secret_key')
-# 
-# tmp_time = datetime.datetime.now()
-# env.time = tmp_time.strftime("%Y%m%d_%H%M%S")
-# env.clone_path = here('tmp', env.time )
-# env.htdocs = here('tmp', env.time, 'www')
-
-
 
 # Hyde utilities
 
@@ -112,32 +95,32 @@ def restart():
     sudo('/etc/init.d/apache2 restart')
 
 
-from boto.s3.connection import S3Connection 
-from boto.s3.key import Key
-from stat import *
-import time
+# from boto.s3.connection import S3Connection 
+# from boto.s3.key import Key
+# from stat import *
+# import time
 
-def deploy_media(): 
-    """Deploy the media files to S3 """ 
-    conn = S3Connection('ACCESS KEY ID', 'SECRET ACCESS KEY') 
-    bucket = conn.get_bucket('bucketname')   
-    #upload files 
-    for root, dirs, files in os.walk('media'):
-        for f in files: 
-            if f.endswith('.swp') or f.startswith('.') :
-                continue 
-            filename = root + '/' + f
-            modify_time = os.stat(filename)[ST_MTIME]
-            key = bucket.get_key(filename)
-            if key is None: 
-                key = Key(bucket) 
-                key.key = filename 
-            if key.last_modified is None or time.localtime(modify_time) > time.strptime(key.last_modified, '%a, %d %b %Y %H:%M:%S %Z'):
-                print filename 
-                fid = file(filename, 'r')
-                key.set_contents_from_file(fid)
-                key.set_acl('public-read')
-                print 'file uploaded'
+# def deploy_media(): 
+#     """Deploy the media files to S3 """ 
+#     conn = S3Connection('ACCESS KEY ID', 'SECRET ACCESS KEY') 
+#     bucket = conn.get_bucket('bucketname')   
+#     #upload files 
+#     for root, dirs, files in os.walk('media'):
+#         for f in files: 
+#             if f.endswith('.swp') or f.startswith('.') :
+#                 continue 
+#             filename = root + '/' + f
+#             modify_time = os.stat(filename)[ST_MTIME]
+#             key = bucket.get_key(filename)
+#             if key is None: 
+#                 key = Key(bucket) 
+#                 key.key = filename 
+#             if key.last_modified is None or time.localtime(modify_time) > time.strptime(key.last_modified, '%a, %d %b %Y %H:%M:%S %Z'):
+#                 print filename 
+#                 fid = file(filename, 'r')
+#                 key.set_contents_from_file(fid)
+#                 key.set_acl('public-read')
+#                 print 'file uploaded'
 
 
 
