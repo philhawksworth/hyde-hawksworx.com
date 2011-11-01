@@ -7,10 +7,30 @@
         <link href="/"/>
     
         
-    <updated>2011-10-02T19:01:02Z</updated>
+    <updated>2011-11-01T08:08:55Z</updated>
 
     <id>/blog/excerpts.xml/</id>
 
+            <entry>
+            <title type="html">Time to move on from The Team</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/time-to-move-on-from-the-team"/>
+            <updated>2011-11-02T10:00:00Z</updated>
+            <published>2011-11-02T10:00:00Z</published>
+            <id>/blog/time-to-move-on-from-the-team</id>
+                        <category   scheme="/blog/tags"
+                        term="announcements"
+                        label="Announcements" />
+                        <category   scheme="/blog/tags"
+                        term="theteam"
+                        label="Theteam" />
+            
+            <content type="html">
+                &lt;img src=&#34;/media/images/theteam-pub.jpg&#34; alt=&#34;Cheers from The Team&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    After a few great years at &lt;a href=&#34;http://theteam.co.uk&#34; title=&#34;The Team&#34;&gt;The Team&lt;/a&gt;, the time has come to move to new pastures. Leaving a job is always, I find, an exciting but difficult experience and this feels particularly true in this&amp;nbsp;case.
+&lt;/p&gt;            </content>
+        </entry>
             <entry>
             <title type="html">Value in a happy hack day</title>
             <author><name>Phil Hawksworth</name></author>
