@@ -7,48 +7,16 @@
         <link href="/"/>
     
         
-    <updated>2011-11-01T14:19:37Z</updated>
+    <updated>2011-11-02T09:36:57Z</updated>
 
     <id>/blog/atom.xml/</id>
 
             <entry>
-            <title type="html">Joining R/GA</title>
-            <author><name>Phil Hawksworth</name></author>
-            <link href="/blog/joining-rga-london"/>
-            <updated>2011-11-02T10:00:00Z</updated>
-            <published>2011-11-02T10:00:00Z</published>
-            <id>/blog/joining-rga-london</id>
-                        <category   scheme="/blog/tags"
-                        term="announcements"
-                        label="Announcements" />
-                        <category   scheme="/blog/tags"
-                        term="rga"
-                        label="Rga" />
-            
-            <content type="html">
-                                &lt;p&gt;&lt;img src=&#34;/media/images/rga.png&#34; alt=&#34;R/GA&#34; /&gt;
-&lt;p class=&#34;excerpt&#34;&gt;
-    While I was sad in my previous post to share that I was &lt;a href=&#34;/blog/time-to-move-on-from-the-team&#34; title=&#34;From the Hawksworx blog: Time to move on from The Team&#34;&gt;leaving The Team&lt;/a&gt;, I can now share with some excitement that I&amp;#8217;ll be moving on to join the considerable talent present at &lt;a href=&#34;http://rga.com&#34; title=&#34;R/GA&#34;&gt;R/&lt;span class=&#34;caps&#34;&gt;GA&lt;/span&gt;&lt;/a&gt;. 
-&lt;/p&gt;
-&lt;p&gt;
-    As I mentioned before, the decision to leave was a difficult one, but the potential at R/&lt;span class=&#34;caps&#34;&gt;GA&lt;/span&gt; provides a substantial pull and I can&amp;#8217;t wait to get stuck in. I&amp;#8217;ll be joining in the role of Technical Director, the same role that I have enjoyed so much at The Team, but the outlook is somewhat different. The organisation is digital to its core and has real momentum in attracting high profile, engaging clients who seem to have a real appetite for R/&lt;span class=&#34;caps&#34;&gt;GA&lt;/span&gt; to push the boundaries of creativity and innovation in the work that they do for&amp;nbsp;them.
-&lt;/p&gt;
-&lt;p&gt;
-    Since this is a bigger company, the development team is also rather larger than at The Team. This is sure to present a new set of challenges and opportunities which will be great to take on.  I&amp;#8217;m hoping to apply many of the things I&amp;#8217;ve learned along the way but do expect to be regularly surprised (and hopefully delighted) by fresh&amp;nbsp;obstacles.
-&lt;/p&gt;
-&lt;p&gt;
-    There is a buzz at R/&lt;span class=&#34;caps&#34;&gt;GA&lt;/span&gt; London at the moment. A real feeling that the agency is on the brink of unleashing some recently harnessed potential to deliver ever more awesome work.  Their steady move away from purely Flash-heavy sites into a more considered and future-proof approach to web technologies is also rather&amp;nbsp;exciting.
-&lt;/p&gt;
-&lt;p&gt;
-    I can&amp;#8217;t wait to be a part of&amp;nbsp;it.
-&lt;/p&gt;&lt;/p&gt;            </content>
-        </entry>
-            <entry>
             <title type="html">Time to move on from The Team</title>
             <author><name>Phil Hawksworth</name></author>
             <link href="/blog/time-to-move-on-from-the-team"/>
-            <updated>2011-11-02T10:00:00Z</updated>
-            <published>2011-11-02T10:00:00Z</published>
+            <updated>2011-11-01T10:00:00Z</updated>
+            <published>2011-11-01T10:00:00Z</published>
             <id>/blog/time-to-move-on-from-the-team</id>
                         <category   scheme="/blog/tags"
                         term="announcements"
