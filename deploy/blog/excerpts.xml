@@ -7,10 +7,36 @@
         <link href="/"/>
     
         
-    <updated>2011-11-02T13:54:12Z</updated>
+    <updated>2011-11-03T17:02:02Z</updated>
 
     <id>/blog/excerpts.xml/</id>
 
+            <entry>
+            <title type="html">Excessive Enhancement at Full Frontal</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/excessive-enhancement-at-full-frontal"/>
+            <updated>2011-11-03T10:00:00Z</updated>
+            <published>2011-11-03T10:00:00Z</published>
+            <id>/blog/excessive-enhancement-at-full-frontal</id>
+                        <category   scheme="/blog/tags"
+                        term="conferences"
+                        label="Conferences" />
+                        <category   scheme="/blog/tags"
+                        term="talks"
+                        label="Talks" />
+                        <category   scheme="/blog/tags"
+                        term="development"
+                        label="Development" />
+                        <category   scheme="/blog/tags"
+                        term="fullfrontalconf"
+                        label="Fullfrontalconf" />
+            
+            <content type="html">
+                &lt;img src=&#34;/media/images/full-frontal-conf.png&#34; alt=&#34;FullFrontal - Javascript conference&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    In a few days I will be speaking at &lt;a href=&#34;http://2011.full-frontal.org&#34; title=&#34;FullFrontal 2011&#34;&gt;Full Frontal&lt;/a&gt; in Brighton. This conference, now in its third year, has done a great job of capturing so much of what is important and exciting to many front-end web&amp;nbsp;developers. 
+&lt;/p&gt;            </content>
+        </entry>
             <entry>
             <title type="html">Joining R/GA</title>
             <author><name>Phil Hawksworth</name></author>
