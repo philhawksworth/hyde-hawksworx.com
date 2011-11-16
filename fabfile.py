@@ -59,7 +59,7 @@ def staging():
     env.hosts = [PRODUCTION]
     env.path = '/var/www/stage.hawksworx.com'
     env.user = 'ubuntu'
-    env.key_filename = '/Users/phil.hawksworth/.ssh/philhawksworth-aws.pem'
+    env.key_filename = '/Users/philha/.ssh/philhawksworth-aws.pem'
     env.apache = ['stage.hawksworx.com', ]
     env.release_path = "/var/releases/hawksworx.com"
 
@@ -70,7 +70,7 @@ def production():
     env.hosts = [PRODUCTION]
     env.path = '/var/www/hawksworx.com'
     env.user = 'ubuntu'
-    env.key_filename = '/Users/phil.hawksworth/.ssh/philhawksworth-aws.pem'
+    env.key_filename = '/Users/philha/.ssh/philhawksworth-aws.pem'
     env.apache = ['hawksworx.com', ]
     env.release_path = "/var/releases/hawksworx.com"
 
