@@ -31,9 +31,98 @@ blog/opening-a-finder-window-from-the-terminal.html: [blog.j2, base.j2]
 blog/osmosoft-return-from-leweb3-intact.html: [blog.j2, base.j2]
 blog/preparing-for-full-frontal.html: [blog.j2, base.j2]
 blog/profiting-from-a-happy-hackday.html: [blog.j2, base.j2]
+!!python/unicode 'blog/reflecting-on-fullfrontal-2011.html': [blog.j2, base.j2]
 blog/sad-post.html: [blog.j2, base.j2, analytics.j2]
 blog/social-media-did-not-cause-the-london-riots.html: [blog.j2, base.j2]
 blog/social-media.html: [blog.j2, base.j2, analytics.j2]
+!!python/unicode 'blog/tags/announcements.html': [!!python/unicode 'blog/hitched.html',
+  blog.j2, !!python/unicode 'blog/time-to-move-on-from-the-team.html', !!python/unicode 'blog/joining-rga-london.html',
+  base.j2, tagged_posts.j2, macros.j2, !!python/unicode 'blog/moving-on-from-osmosoft.html']
+!!python/unicode 'blog/tags/conferences.html': [blog.j2, base.j2, tagged_posts.j2,
+  !!python/unicode 'blog/excessive-enhancement-at-full-frontal.html', !!python/unicode 'blog/reflecting-on-fullfrontal-2011.html',
+  macros.j2]
+!!python/unicode 'blog/tags/development.html': [!!python/unicode 'blog/value-in-a-happy-hackday.html',
+  blog.j2, !!python/unicode 'blog/jsspec-bundle-for-textmate-helps-with-writing.html',
+  !!python/unicode 'blog/unobtrusify-your-javascript.html', !!python/unicode 'blog/expectations-of-web-development-at-agencies.html',
+  base.j2, tagged_posts.j2, !!python/unicode 'blog/excessive-enhancement-at-full-frontal.html',
+  !!python/unicode 'blog/mashing-up-flickr-in-the-client-with-jquery.html', !!python/unicode 'blog/profiting-from-a-happy-hackday.html',
+  macros.j2, !!python/unicode 'blog/in-defense-of-ie6.html', !!python/unicode 'blog/flash-v-web-behind-enemy-lines.html']
+!!python/unicode 'blog/tags/discussions.html': [blog.j2, base.j2, tagged_posts.j2,
+  macros.j2, !!python/unicode 'blog/in-defense-of-ie6.html']
+!!python/unicode 'blog/tags/events.html': [blog.j2, !!python/unicode 'blog/enthusiasm-and-good-food-at-tiddlyparis.html',
+  !!python/unicode 'blog/osmosoft-return-from-leweb3-intact.html', base.j2, tagged_posts.j2,
+  macros.j2]
+!!python/unicode 'blog/tags/fullfrontalconf.html': [blog.j2, base.j2, tagged_posts.j2,
+  !!python/unicode 'blog/excessive-enhancement-at-full-frontal.html', !!python/unicode 'blog/reflecting-on-fullfrontal-2011.html',
+  macros.j2]
+!!python/unicode 'blog/tags/javascript.html': [!!python/unicode 'blog/leveraging-jquery-and-jquery-plugins-in-tiddlyWiki.html',
+  blog.j2, !!python/unicode 'blog/jsspec-bundle-for-textmate-helps-with-writing.html',
+  !!python/unicode 'blog/unobtrusify-your-javascript.html', !!python/unicode 'blog/getting-started-with-node-at-asyncjs.html',
+  !!python/unicode 'blog/announcing-jigglywiki-a-tiddlywiki-experiment.html', !!python/unicode 'blog/nodejs-i-just-have-to-use-it-for-something.html',
+  !!python/unicode 'blog/get-your-task-management-wiki.html', base.j2, tagged_posts.j2,
+  !!python/unicode 'blog/mashing-up-flickr-in-the-client-with-jquery.html', macros.j2,
+  !!python/unicode 'blog/the-next-generation-stack-is-nodejs-ready-to-go-mainstream.html',
+  !!python/unicode 'blog/flash-v-web-behind-enemy-lines.html']
+!!python/unicode 'blog/tags/jquery.html': [!!python/unicode 'blog/leveraging-jquery-and-jquery-plugins-in-tiddlyWiki.html',
+  blog.j2, !!python/unicode 'blog/unobtrusify-your-javascript.html', !!python/unicode 'blog/announcing-jigglywiki-a-tiddlywiki-experiment.html',
+  !!python/unicode 'blog/nodejs-i-just-have-to-use-it-for-something.html', base.j2,
+  tagged_posts.j2, !!python/unicode 'blog/mashing-up-flickr-in-the-client-with-jquery.html',
+  macros.j2]
+!!python/unicode 'blog/tags/london.html': [blog.j2, !!python/unicode 'blog/social-media-did-not-cause-the-london-riots.html',
+  base.j2, tagged_posts.j2, macros.j2]
+!!python/unicode 'blog/tags/mash-ups.html': [macros.j2, base.j2, tagged_posts.j2]
+!!python/unicode 'blog/tags/mashups.html': [blog.j2, !!python/unicode 'blog/nba-updates-on-twitter.html',
+  !!python/unicode 'blog/nodejs-i-just-have-to-use-it-for-something.html', base.j2,
+  tagged_posts.j2, !!python/unicode 'blog/mashing-up-flickr-in-the-client-with-jquery.html',
+  macros.j2]
+!!python/unicode 'blog/tags/news.html': [!!python/unicode 'blog/hitched.html', blog.j2,
+  !!python/unicode 'blog/osmosoft-return-from-leweb3-intact.html', base.j2, tagged_posts.j2,
+  !!python/unicode 'blog/developing-a-side-project.html', macros.j2]
+!!python/unicode 'blog/tags/nodejs.html': [blog.j2, !!python/unicode 'blog/getting-started-with-node-at-asyncjs.html',
+  !!python/unicode 'blog/nodejs-i-just-have-to-use-it-for-something.html', base.j2,
+  tagged_posts.j2, macros.j2, !!python/unicode 'blog/the-next-generation-stack-is-nodejs-ready-to-go-mainstream.html']
+!!python/unicode 'blog/tags/observations.html': [blog.j2, !!python/unicode 'blog/expectations-of-web-development-at-agencies.html',
+  !!python/unicode 'blog/social-media-did-not-cause-the-london-riots.html', base.j2,
+  tagged_posts.j2, !!python/unicode 'blog/observing-twitter-behaviours.html', !!python/unicode 'blog/developing-a-side-project.html',
+  !!python/unicode 'blog/in-defense-of-ie6.html', macros.j2]
+!!python/unicode 'blog/tags/osmosoft.html': [!!python/unicode 'blog/get-your-task-management-wiki.html',
+  blog.j2, !!python/unicode 'blog/jsspec-bundle-for-textmate-helps-with-writing.html',
+  !!python/unicode 'blog/enthusiasm-and-good-food-at-tiddlyparis.html', !!python/unicode 'blog/osmosoft-return-from-leweb3-intact.html',
+  base.j2, tagged_posts.j2, macros.j2, !!python/unicode 'blog/moving-on-from-osmosoft.html']
+!!python/unicode 'blog/tags/osx.html': [blog.j2, !!python/unicode 'blog/using-quicksilver-to-control-lastfm.html',
+  !!python/unicode 'blog/how-to-create-and-distribute-lovely-screencasts.html', !!python/unicode 'blog/opening-a-finder-window-from-the-terminal.html',
+  base.j2, tagged_posts.j2, macros.j2]
+!!python/unicode 'blog/tags/personal.html': [!!python/unicode 'blog/hitched.html',
+  blog.j2, base.j2, tagged_posts.j2, macros.j2]
+!!python/unicode 'blog/tags/projects.html': [!!python/unicode 'blog/value-in-a-happy-hackday.html',
+  blog.j2, !!python/unicode 'blog/nba-updates-on-twitter.html', !!python/unicode 'blog/profiting-from-a-happy-hackday.html',
+  tagged_posts.j2, base.j2, !!python/unicode 'blog/developing-a-side-project.html',
+  macros.j2]
+!!python/unicode 'blog/tags/python.html': [blog.j2, !!python/unicode 'blog/nba-updates-on-twitter.html',
+  base.j2, tagged_posts.j2, macros.j2]
+!!python/unicode 'blog/tags/rga.html': [blog.j2, !!python/unicode 'blog/joining-rga-london.html',
+  base.j2, tagged_posts.j2, macros.j2]
+!!python/unicode 'blog/tags/talks.html': [blog.j2, !!python/unicode 'blog/getting-started-with-node-at-asyncjs.html',
+  base.j2, tagged_posts.j2, !!python/unicode 'blog/excessive-enhancement-at-full-frontal.html',
+  !!python/unicode 'blog/reflecting-on-fullfrontal-2011.html', macros.j2]
+!!python/unicode 'blog/tags/theteam.html': [!!python/unicode 'blog/value-in-a-happy-hackday.html',
+  blog.j2, !!python/unicode 'blog/time-to-move-on-from-the-team.html', base.j2, tagged_posts.j2,
+  !!python/unicode 'blog/profiting-from-a-happy-hackday.html', macros.j2, !!python/unicode 'blog/moving-on-from-osmosoft.html']
+!!python/unicode 'blog/tags/tiddlywiki.html': [!!python/unicode 'blog/leveraging-jquery-and-jquery-plugins-in-tiddlyWiki.html',
+  blog.j2, !!python/unicode 'blog/jsspec-bundle-for-textmate-helps-with-writing.html',
+  !!python/unicode 'blog/enthusiasm-and-good-food-at-tiddlyparis.html', !!python/unicode 'blog/announcing-jigglywiki-a-tiddlywiki-experiment.html',
+  !!python/unicode 'blog/get-your-task-management-wiki.html', base.j2, tagged_posts.j2,
+  macros.j2]
+!!python/unicode 'blog/tags/tips.html': [blog.j2, !!python/unicode 'blog/using-quicksilver-to-control-lastfm.html',
+  !!python/unicode 'blog/how-to-create-and-distribute-lovely-screencasts.html', !!python/unicode 'blog/opening-a-finder-window-from-the-terminal.html',
+  base.j2, tagged_posts.j2, macros.j2]
+!!python/unicode 'blog/tags/tools.html': [blog.j2, !!python/unicode 'blog/jsspec-bundle-for-textmate-helps-with-writing.html',
+  base.j2, tagged_posts.j2, macros.j2]
+!!python/unicode 'blog/tags/twitter.html': [blog.j2, !!python/unicode 'blog/nba-updates-on-twitter.html',
+  base.j2, tagged_posts.j2, !!python/unicode 'blog/observing-twitter-behaviours.html',
+  macros.j2]
+!!python/unicode 'blog/tags/web.html': [blog.j2, !!python/unicode 'blog/expectations-of-web-development-at-agencies.html',
+  base.j2, tagged_posts.j2, macros.j2, !!python/unicode 'blog/flash-v-web-behind-enemy-lines.html']
 blog/the-next-generation-stack-is-nodejs-ready-to-go-mainstream.html: [blog.j2, base.j2]
 blog/time-to-move-on-from-the-team.html: [blog.j2, base.j2]
 blog/unobtrusify-your-javascript.html: [blog.j2, base.j2]
