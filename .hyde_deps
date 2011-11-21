@@ -38,6 +38,10 @@ blog/social-media.html: [blog.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/tags/announcements.html': [!!python/unicode 'blog/hitched.html',
   blog.j2, !!python/unicode 'blog/time-to-move-on-from-the-team.html', !!python/unicode 'blog/joining-rga-london.html',
   base.j2, tagged_posts.j2, macros.j2, !!python/unicode 'blog/moving-on-from-osmosoft.html']
+!!python/unicode 'blog/tags/bbc.html': [blog.j2, base.j2, tagged_posts.j2, !!python/unicode 'blog/visiting-bbc-online-at-salford.html',
+  macros.j2]
+!!python/unicode 'blog/tags/bbconline.html': [blog.j2, base.j2, tagged_posts.j2, !!python/unicode 'blog/visiting-bbc-online-at-salford.html',
+  macros.j2]
 !!python/unicode 'blog/tags/conferences.html': [blog.j2, base.j2, tagged_posts.j2,
   !!python/unicode 'blog/excessive-enhancement-at-full-frontal.html', !!python/unicode 'blog/reflecting-on-fullfrontal-2011.html',
   macros.j2]
@@ -51,7 +55,7 @@ blog/social-media.html: [blog.j2, base.j2, analytics.j2]
   macros.j2, !!python/unicode 'blog/in-defense-of-ie6.html']
 !!python/unicode 'blog/tags/events.html': [blog.j2, !!python/unicode 'blog/enthusiasm-and-good-food-at-tiddlyparis.html',
   !!python/unicode 'blog/osmosoft-return-from-leweb3-intact.html', base.j2, tagged_posts.j2,
-  macros.j2]
+  !!python/unicode 'blog/visiting-bbc-online-at-salford.html', macros.j2]
 !!python/unicode 'blog/tags/fullfrontalconf.html': [blog.j2, base.j2, tagged_posts.j2,
   !!python/unicode 'blog/excessive-enhancement-at-full-frontal.html', !!python/unicode 'blog/reflecting-on-fullfrontal-2011.html',
   macros.j2]
@@ -128,6 +132,7 @@ blog/time-to-move-on-from-the-team.html: [blog.j2, base.j2]
 blog/unobtrusify-your-javascript.html: [blog.j2, base.j2]
 blog/using-quicksilver-to-control-lastfm.html: [blog.j2, base.j2]
 blog/value-in-a-happy-hackday.html: [blog.j2, base.j2]
+!!python/unicode 'blog/visiting-bbc-online-at-salford.html': [blog.j2, base.j2]
 index.html: [macros.j2, base.j2]
 media/css/base.css: []
 media/css/site.css: []

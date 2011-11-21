@@ -7,10 +7,71 @@
         <link href="/"/>
     
         
-    <updated>2011-11-17T13:35:14Z</updated>
+    <updated>2011-11-21T11:54:24Z</updated>
 
     <id>/blog/atom.xml/</id>
 
+            <entry>
+            <title type="html">Visiting BBC Online at Salford</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/visiting-bbc-online-at-salford"/>
+            <updated>2011-11-18T10:00:00Z</updated>
+            <published>2011-11-18T10:00:00Z</published>
+            <id>/blog/visiting-bbc-online-at-salford</id>
+                        <category   scheme="/blog/tags"
+                        term="bbc"
+                        label="Bbc" />
+                        <category   scheme="/blog/tags"
+                        term="events"
+                        label="Events" />
+                        <category   scheme="/blog/tags"
+                        term="bbconline"
+                        label="Bbconline" />
+            
+            <content type="html">
+                                &lt;p&gt;&lt;img src=&#34;/media/images/media_city.jpg&#34; alt=&#34;Media City - Salford&#34; /&gt;
+&lt;p class=&#34;excerpt&#34;&gt;
+    Last week I travelled with some of my &lt;a href=&#34;/blog/joining-rga.html&#34;&gt;new R/&lt;span class=&#34;caps&#34;&gt;GA&lt;/span&gt; colleagues&lt;/a&gt; to Salford near Manchester to visit the &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt;&amp;#8217;s new Media City development and talk to The Beeb about their continuing efforts to engage more openly and effectively with the online community. The &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt; are keen to share their thinking and product plans for this and the event was kicked off by &lt;a href=&#34;http://www.bbc.co.uk/blogs/bbcinternet/ralph_rivera/&#34;&gt;Ralph Rivera&lt;/a&gt;, Director, Future&amp;nbsp;Media.
+&lt;/p&gt;&lt;p&gt;
+    Rivera began the afternoon by talking about the ambition to unify the existing silos around the &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt; into a cohesive online experience. The ten core online products of Home page, Search, News, Sport, Weather, Knowledge and Learning, &lt;span class=&#34;caps&#34;&gt;TV&lt;/span&gt;, Radio, cBBC and Cbeebies are set to form the backbone of the online offering accross the various &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt;&amp;nbsp;estates.
+&lt;/p&gt;
+&lt;p&gt;
+    The common theme throughout the day, was that of how best to deliver a simple, intuitive and accessible experience on &amp;#8220;the four&amp;nbsp;screens&amp;#8221;:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span class=&#34;caps&#34;&gt;TV&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;Computer&lt;/li&gt;
+    &lt;li&gt;Tablets&lt;/li&gt;
+    &lt;li&gt;Smart&amp;nbsp;phones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Also a hot topic was how we can leverage &lt;i&gt;the red button&lt;/i&gt; as a bridge to a more connected and engaged experience with the content that the &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt; has to offer. &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Many parts of the &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt; have been steadily rolling out all manor of innovations, not only through the &lt;a href=&#34;http://www.bbc.co.uk/rd/&#34; title=&#34;BBC R &amp;amp; D&#34;&gt;R &lt;span class=&#34;amp&#34;&gt;&amp;amp;&lt;/span&gt; D team&lt;/a&gt;, but also through steady iterations and evolutions of existing products across the &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt; offering.  The News offering was a good example of that, where the recently released news application for Android rapidly achieved half a million downloads and served to redress the balance of a slight perceived skew towards Apple products and&amp;nbsp;platforms.
+&lt;/p&gt;
+&lt;p&gt;
+    It was interesting that Rivera observed that there was a gap between the official R &lt;span class=&#34;amp&#34;&gt;&amp;amp;&lt;/span&gt; D activities, and the innovation that happens within the product streams, and described that there is a push to close that gap over the next year. This effort will include bother internal and external initiatives including many events and a significant financial&amp;nbsp;investment.
+&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;
+    Holly Goodier, Head of Audiences &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt; Future Media then gave an excellent presentation describing the audiences and contexts that people consume &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt; products. This built further on the theme of the four screens and nicely illustrated how the vast majority of the audience is capable of multi-screen consumption in some form or other. I was impressed at how considered much of this was and at how the &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt; were clearly looking to fulfill that desire in their&amp;nbsp;audience.
+&lt;/p&gt;
+&lt;p&gt;
+    A breakdown of the type of content which is popular on different screens, and so in different contexts was interesting to learn, as was the statistic that between 40-48% of TVs are now &lt;span class=&#34;caps&#34;&gt;IPTV&lt;/span&gt; capable. Personally, I have doubts about whether that is a good indicator of what capabilities that same audience has given how little of my &lt;span class=&#34;caps&#34;&gt;TV&lt;/span&gt;&amp;#8217;s capabilities I, as a techie, geeky bloke,&amp;nbsp;exploit.
+&lt;/p&gt;
+&lt;p&gt;
+    The BBCs focus on content for children yielded some interesting conversations. Of particular interest to me was the observation that significant knowledge transfer occurs through games and rich interactions. Given that many of these games are developed in Flash, I was curious to find out how the &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt; was planning to make the most of this across the four screens when Flash is experiencing ever diminishing support on mobile platforms.  The future of &lt;span class=&#34;caps&#34;&gt;HTML5&lt;/span&gt;, and other web technologies for delivering game content seems, quite rightly, high on the radar for the producers of children&amp;#8217;s content on &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt;&amp;nbsp;on-line.
+&lt;/p&gt;
+&lt;p&gt;
+    Ben Gollop, Head of F1, and Ciat O&amp;#8217;Riordan, Head of Product for Sport and 2012 gave us some interesting insights into the scale of the undertaking to keep systems running during periods of massive demand. With events such as the 2012 Olympics on the horizon, there is clearly a great many design and engineering challenges ahead to ensure that online sevices and the provision of live video content is invisibly simple and flawlessly effective for the consumers. No small tasks at these&amp;nbsp;scales.
+&lt;/p&gt;
+&lt;p&gt;
+    Finally, Daniel Danker, General Manager, Programmes &lt;span class=&#34;amp&#34;&gt;&amp;amp;&lt;/span&gt; On Demand spoke about the drive to simplify the experience and more effectively meet the needs of the audience. Danker, quite rightly observed how far the experience needs to evolve before it can truly be successful.  I found his comments to be right on the money. Personally I&amp;#8217;ve found that my &lt;span class=&#34;caps&#34;&gt;TV&lt;/span&gt; watching methods, even in the living room, have grown to include a &amp;#8216;workflow&amp;#8217; rather than just being utterly intuitive. Certainly something that needs addressing.  The panel discussion that this lead on to with a number of different television set manufacturers was interesting, but took an alarmingly long time to include the word &amp;#8216;standardisation&amp;#8217;.  Like many others, I&amp;#8217;d prefer manufacturers to compete on things like price, size, picture quality, sound and energy consumption. Not how many apps are built in and which &amp;#8216;app store silo&amp;#8217; does the &lt;span class=&#34;caps&#34;&gt;TV&lt;/span&gt; support.  Give me a capable, but dumb display any&amp;nbsp;day.
+&lt;/p&gt;
+&lt;p class=&#34;meta&#34;&gt;
+    Photo credit: &lt;a href=&#34;http://www.flickr.com/photos/vidyo/5670030676/&#34;&gt;Ray&amp;nbsp;Morris&lt;/a&gt;
+&lt;/p&gt;            </content>
+        </entry>
             <entry>
             <title type="html">Reflecting on Full Frontal 2011</title>
             <author><name>Phil Hawksworth</name></author>
@@ -628,6 +689,28 @@
             <updated>2010-01-01T00:00:00Z</updated>
             <published>2010-01-01T00:00:00Z</published>
             <id>/blog/tags/announcements</id>
+            
+            <content type="html">
+                                            </content>
+        </entry>
+            <entry>
+            <title type="html"></title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/tags/bbc"/>
+            <updated>2010-01-01T00:00:00Z</updated>
+            <published>2010-01-01T00:00:00Z</published>
+            <id>/blog/tags/bbc</id>
+            
+            <content type="html">
+                                            </content>
+        </entry>
+            <entry>
+            <title type="html"></title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/tags/bbconline"/>
+            <updated>2010-01-01T00:00:00Z</updated>
+            <published>2010-01-01T00:00:00Z</published>
+            <id>/blog/tags/bbconline</id>
             
             <content type="html">
                                             </content>

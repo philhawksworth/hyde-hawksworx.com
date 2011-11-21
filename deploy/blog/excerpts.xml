@@ -7,10 +7,33 @@
         <link href="/"/>
     
         
-    <updated>2011-11-17T13:35:18Z</updated>
+    <updated>2011-11-21T11:54:29Z</updated>
 
     <id>/blog/excerpts.xml/</id>
 
+            <entry>
+            <title type="html">Visiting BBC Online at Salford</title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/visiting-bbc-online-at-salford"/>
+            <updated>2011-11-18T10:00:00Z</updated>
+            <published>2011-11-18T10:00:00Z</published>
+            <id>/blog/visiting-bbc-online-at-salford</id>
+                        <category   scheme="/blog/tags"
+                        term="bbc"
+                        label="Bbc" />
+                        <category   scheme="/blog/tags"
+                        term="events"
+                        label="Events" />
+                        <category   scheme="/blog/tags"
+                        term="bbconline"
+                        label="Bbconline" />
+            
+            <content type="html">
+                &lt;img src=&#34;/media/images/media_city.jpg&#34; alt=&#34;Media City - Salford&#34; /&gt;
+                &lt;p class=&#34;excerpt&#34;&gt;
+    Last week I travelled with some of my &lt;a href=&#34;/blog/joining-rga.html&#34;&gt;new R/&lt;span class=&#34;caps&#34;&gt;GA&lt;/span&gt; colleagues&lt;/a&gt; to Salford near Manchester to visit the &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt;&amp;#8217;s new Media City development and talk to The Beeb about their continuing efforts to engage more openly and effectively with the online community. The &lt;span class=&#34;caps&#34;&gt;BBC&lt;/span&gt; are keen to share their thinking and product plans for this and the event was kicked off by &lt;a href=&#34;http://www.bbc.co.uk/blogs/bbcinternet/ralph_rivera/&#34;&gt;Ralph Rivera&lt;/a&gt;, Director, Future&amp;nbsp;Media.
+&lt;/p&gt;            </content>
+        </entry>
             <entry>
             <title type="html">Reflecting on Full Frontal 2011</title>
             <author><name>Phil Hawksworth</name></author>
@@ -311,6 +334,30 @@
             <updated>2010-01-01T00:00:00Z</updated>
             <published>2010-01-01T00:00:00Z</published>
             <id>/blog/tags/announcements</id>
+            
+            <content type="html">
+                
+                            </content>
+        </entry>
+            <entry>
+            <title type="html"></title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/tags/bbc"/>
+            <updated>2010-01-01T00:00:00Z</updated>
+            <published>2010-01-01T00:00:00Z</published>
+            <id>/blog/tags/bbc</id>
+            
+            <content type="html">
+                
+                            </content>
+        </entry>
+            <entry>
+            <title type="html"></title>
+            <author><name>Phil Hawksworth</name></author>
+            <link href="/blog/tags/bbconline"/>
+            <updated>2010-01-01T00:00:00Z</updated>
+            <published>2010-01-01T00:00:00Z</published>
+            <id>/blog/tags/bbconline</id>
             
             <content type="html">
                 
